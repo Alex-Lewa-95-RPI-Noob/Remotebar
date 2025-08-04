@@ -26,7 +26,7 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
 
 LOCAL_PROGUARD_ENABLED := disabled
 
-LOCAL_PACKAGE_NAME := Taskbar
+LOCAL_PACKAGE_NAME := Remotebar
 
 LOCAL_JAVA_LANGUAGE_VERSION := 1.8
 
@@ -40,7 +40,7 @@ endif
 
 LOCAL_AAPT_FLAGS := \
         --auto-add-overlay \
-        --rename-manifest-package com.farmerbb.taskbar.androidx86 \
+        --rename-manifest-package com.Alex-Lewa-95-RPI-Noob.remotebar.androidx86 \
         --extra-packages androidx.appcompat \
         --extra-packages com.google.android.material
 
