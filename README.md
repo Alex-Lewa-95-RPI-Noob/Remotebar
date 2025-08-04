@@ -53,7 +53,7 @@ For more information on including Remotebar inside your application, see the [li
 #### Icon Pack Support
 Taskbar includes support for ADW-style icon packs.  If you are an icon pack developer and would like to include support for applying the icon pack from within your app, simply use the following code:
 
-    Intent intent = new Intent("com.farmerbb.taskbar.APPLY_ICON_PACK");
+    Intent intent = new Intent("Alex-Lewa-95-RPI-Noob.remotebar.APPLY_ICON_PACK");
     intent.putExtra("android.intent.extra.PACKAGE_NAME", "com.iconpack.name");
     startActivity(intent);
 
