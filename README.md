@@ -1,4 +1,4 @@
-![Remotebar](images/remotebar_banner.jpg) Remotebar puts a start menu and recent apps tray on top of your screen that's accessible at any time, increasing your productivity and turning your Android tablet (or phone) into a real multitasking machine!
+![Remotebar](images/remotebar_banner.jpg) Remotebar puts a start menu and recent apps tray on top of your screen that's accessible at any time, increasing your way to use apps with your Android remote.
 
 Remotebar supports Android 10's Desktop Mode, allowing you to connect your compatible device to an external display and run apps in resizable windows, for a PC-like experience!  On devices running Android 7.0+, Remotebar can also launch apps in freeform windows without an external display.  No root required!  (see below for instructions)
 
