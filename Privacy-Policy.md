@@ -1,4 +1,4 @@
-## Taskbar Privacy Policy
+## Remotebar Privacy Policy
 
 This is an open source Android app and its entire [source code](https://github.com/farmerbb/Taskbar) is available on GitHub under the [Apache 2.0](https://github.com/farmerbb/Taskbar/blob/master/LICENSE) license.
 
