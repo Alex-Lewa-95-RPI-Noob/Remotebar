@@ -1,16 +1,14 @@
-![Remotebar](http://i.imgur.com/gttRian.png)
+![Remotebar](images/remotebar_banner.jpg) Remotebar puts a start menu and recent apps tray on top of your screen that's accessible at any time, increasing your productivity and turning your Android tablet (or phone) into a real multitasking machine!
 
-Remotebar puts a start menu and recent apps tray on top of your screen that's accessible at any time, increasing your productivity and turning your Android tablet (or phone) into a real multitasking machine!
+Remotebar supports Android 10's Desktop Mode, allowing you to connect your compatible device to an external display and run apps in resizable windows, for a PC-like experience!  On devices running Android 7.0+, Remotebar can also launch apps in freeform windows without an external display.  No root required!  (see below for instructions)
 
-Remotebar supports Android 10's Desktop Mode, allowing you to connect your compatible device to an external display and run apps in resizable windows, for a PC-like experience!  On devices running Android 7.0+, Taskbar can also launch apps in freeform windows without an external display.  No root required!  (see below for instructions)
-
-Remotebar is also supported on Android TV (sideloaded) and Chrome OS - use Taskbar as a secondary Android app launcher on your Chromebook, or turn your Nvidia Shield into an Android-powered PC!
+Remotebar is also supported on Android TV (sideloaded) and Chrome OS - use Remotebar as a secondary Android app launcher on your Chromebook, or turn your Nvidia Shield into an Android-powered PC!
 
 ## Features
 * Start menu - shows you all applications installed on the device, configurable as a list or as a grid
 * Recent apps tray - shows your most recently used apps and lets you easily switch between them
 * Collapsible and hideable - show it when you need it, hide it when you don't
-* Many different configuration options - customize Taskbar however you want
+* Many different configuration options - customize Remotebar however you want
 * Pin favorite apps or block the ones you don't want to see
 * Designed with keyboard and mouse in mind
 * 100% free, open source, and no ads
