@@ -18,7 +18,7 @@
 <string name="tb_accessibility_service_description">"Geri, ana ekran, son kullanılan, güç menüsü tıklama eylemini gerçekleştirmektedir için erişilebilirlik aktif edilmesi gerekir.
 
 Bu izin sadece düğme basma eylemlerini gerçekleştirmek için kullanılır ve başka bir amaç için kullanılmaz."</string>
-<string name="tb_accessibility_service_summary">Taskbar tuşa basma eylemlerini gerçekleştirmesine izin verir</string>
+<string name="tb_accessibility_service_summary">Remotebar tuşa basma eylemlerini gerçekleştirmesine izin verir</string>
 <string name="tb_action_activate">Aktif et</string>
 <string name="tb_action_cancel">İptal</string>
 <string name="tb_action_close">Kapat</string>
@@ -26,7 +26,7 @@ Bu izin sadece düğme basma eylemlerini gerçekleştirmek için kullanılır ve
 <string name="tb_action_developer_options">Geliştirici ayarlarını aç</string>
 <string name="tb_action_dont_show_again">Tekrar gösterme</string>
 <string name="tb_action_grant_permission">İzin ver</string>
-<string name="tb_action_hide">Taskbar gizle</string>
+<string name="tb_action_hide">Remotebar gizle</string>
 <string name="tb_action_hide_alt">Gizle</string>
 <string name="tb_action_i_understand">Anladım</string>
 <string name="tb_action_no_thanks">Hayır teşekkürler</string>
@@ -34,7 +34,7 @@ Bu izin sadece düğme basma eylemlerini gerçekleştirmek için kullanılır ve
 <string name="tb_action_open_settings">@string/tb_action_grant_permission</string>
 <string name="tb_action_quit">Kapat</string>
 <string name="tb_action_reset">Sıfırla</string>
-<string name="tb_action_show">Taskbar göster</string>
+<string name="tb_action_show">Remotebar göster</string>
 <string name="tb_action_show_alt">Göster</string>
 <string name="tb_action_uninstall">Kaldır</string>
 <string name="tb_add_shortcut">Ana ekrana kısayol ekle</string>
@@ -43,15 +43,15 @@ Bu izin sadece düğme basma eylemlerini gerçekleştirmek için kullanılır ve
 <string name="tb_alt_button_config">Daralt düğmesi için alternatif konum</string>
 <string name="tb_app_hidden">1 uygulama gizli</string>
 <string name="tb_app_info">Uygulama bilgisi</string>
-<string name="tb_app_name">Taskbar</string>
-<string name="tb_app_name_debug">Taskbar (Debug)</string>
+<string name="tb_app_name">Remotebar</string>
+<string name="tb_app_name_debug">Remotebar (Debug)</string>
 <string name="tb_app_shortcuts">Daha fazla eylem…</string>
 <string name="tb_apply_icon_pack">Simge paketi uygula</string>
-<string name="tb_apply_icon_pack_description">\"%1$s\" Taskbar uygulamasından uygulansın mı?</string>
+<string name="tb_apply_icon_pack_description">\"%1$s\" Remotebar uygulamasından uygulansın mı?</string>
 <string name="tb_apps_hidden">%1$d uygulama gizli</string>
 <string name="tb_are_you_sure">Emin misin ?</string>
 <string name="tb_auto_hide_navbar">Sistem gezinme çubuğunu otomatik olarak denetle</string>
-<string name="tb_auto_hide_navbar_description">Taskbar aktif olduğunda gezinme çubuğunu gizle ve Taskbar etkin değilken göster</string>
+<string name="tb_auto_hide_navbar_description">Remotebar aktif olduğunda gezinme çubuğunu gizle ve Remotebar etkin değilken göster</string>
 <string name="tb_blacklist_dialog_title">Gizli</string>
 <string name="tb_block_app">Son kullanılan engelle</string>
 <string name="tb_button_back">Geri</string>
@@ -71,14 +71,14 @@ Bu izin sadece düğme basma eylemlerini gerçekleştirmek için kullanılır ve
 <string name="tb_color_picker_green">Yeşil</string>
 <string name="tb_color_picker_red">Kırmızı</string>
 <string name="tb_dashboard">Widget desteğini aktif et</string>
-<string name="tb_dashboard_description">Taskbar widget için buton ekle</string>
+<string name="tb_dashboard_description">Remotebar widget için buton ekle</string>
 <string name="tb_dashboard_grid_size">Widget gösterge tablosu ızgarası boyutu</string>
 <string name="tb_dashboard_tutorial">Gösterge tablosuna bir widget eklemek için ekranda herhangi bir yeri tıkla</string>
-<string name="tb_dialog_donate_message">"Taskbar gelişimini desteklemek için %1$s!
+<string name="tb_dialog_donate_message">"Remotebar gelişimini desteklemek için %1$s!
 
 Bağış sürümü ücretsiz sürümle aynıdır ve tercihleriniz otomatik olarak aktarılacaktır.
 
-Taskbar, kesinlikle hiçbir reklam olmadan 100%% ücretsiz, açık kaynak. Ancak desteğiniz büyük beğeni topluyor!"</string>
+Remotebar, kesinlikle hiçbir reklam olmadan 100%% ücretsiz, açık kaynak. Ancak desteğiniz büyük beğeni topluyor!"</string>
 <string name="tb_disable_scrolling_list">Listeyi kaydırmayı devredışı bırak</string>
 <string name="tb_double_tap_to_sleep">Çift tıkla uyku</string>
 <string name="tb_enable_accessibility">@string/tb_accessibility_service_description</string>
@@ -89,7 +89,7 @@ Taskbar, kesinlikle hiçbir reklam olmadan 100%% ücretsiz, açık kaynak. Ancak
 
 "</string>
 <string name="tb_enable_recent_apps_instructions_phone">Son kullanılan uygulamalar için desteği etkinleştirilsin mi?</string>
-<string name="tb_enable_recent_apps_instructions_tv">To enable support for recent apps, press \"Open Settings\" to open the Android TV app settings menu. Select \"Special app access\", then select \"Usage access\" and ensure that Taskbar is enabled.</string>
+<string name="tb_enable_recent_apps_instructions_tv">To enable support for recent apps, press \"Open Settings\" to open the Android TV app settings menu. Select \"Special app access\", then select \"Usage access\" and ensure that Remotebar is enabled.</string>
 <string name="tb_error_dialog_message">"Ne yazık ki, OEM kısıtlamaları nedeniyle, bu özellik cihazınızda etkinleştirilemiyor.
 
 Bu adb shell komutunu kullanarak bunu yine de etkinleştirebilirsiniz:
@@ -97,14 +97,14 @@ Bu adb shell komutunu kullanarak bunu yine de etkinleştirebilirsiniz:
 appops set %1$s %2$s allow"</string>
 <string name="tb_error_dialog_title">Hata</string>
 <string name="tb_file_manager">Dosya yöneticisi</string>
-<string name="tb_freeform_dialog_message">"Taskbar serbest biçimli pencere modunda uygulama başlatması için lütfen şu adımları izleyin:
+<string name="tb_freeform_dialog_message">"Remotebar serbest biçimli pencere modunda uygulama başlatması için lütfen şu adımları izleyin:
 
 • Geliştirici seçeneklerine gidin
 
 • Aşağı kaydırın ve \"%s\" yı açın.
 
 • Cihazı kapatıp açın"</string>
-<string name="tb_freeform_dialog_message_alt">"Taskbar serbest biçimli pencere modunda uygulama başlatması için lütfen şu adımları izleyin:
+<string name="tb_freeform_dialog_message_alt">"Remotebar serbest biçimli pencere modunda uygulama başlatması için lütfen şu adımları izleyin:
 
 • Geliştirici seçeneklerine gidin ve USB hata ayıklamasını etkinleştirin
 
@@ -116,25 +116,25 @@ adb shell settings put global enable_freeform_support 1
 <string name="tb_freeform_dialog_title">Serbestlik desteğini aktif et</string>
 <string name="tb_freeform_help_dialog_message">"Serbest biçim modu hakkında
 
-Taskbar, Android 7.0+ (Nougat) da serbest biçimli yüzer pencerelerde uygulamaları başlatmanızı sağlar. Kök erişimi gerekli değildir. Android 8.0+ (Oreo) ayrıca bir adb kabuk komutuyla desteklenir.
+Remotebar, Android 7.0+ (Nougat) da serbest biçimli yüzer pencerelerde uygulamaları başlatmanızı sağlar. Kök erişimi gerekli değildir. Android 8.0+ (Oreo) ayrıca bir adb kabuk komutuyla desteklenir.
 
 Cihazınızı serbest biçimli modda başlatmak için yapılandırmak için aşağıdaki adımları uygulamanız yeterlidir:
 
-1. Taskbar uygulamasında \"Serbest biçimli pencere desteği\" kutusunu işaretleyin.
+1. Remotebar uygulamasında \"Serbest biçimli pencere desteği\" kutusunu işaretleyin.
 
 2. Cihazınızda uygun ayarları etkinleştirmek için açılır pencerede görünen talimatları izleyin (tek seferlik kurulum)
 
 3. Cihazınızın son uygulamalar sayfasına gidin ve tüm son uygulamaları temizleyin *
 
-4. Serbest biçimli bir pencerede başlatmak için Taskbar kullanarak bir uygulama seçin
+4. Serbest biçimli bir pencerede başlatmak için Remotebar kullanarak bir uygulama seçin
 
 * En iyi sonuçlar için, özellikle Android 8.0+ sürümünde, serbest biçimli modu kullanmadan önce cihazınızı yeniden başlatın.
 
 Pencere boyutu hazır ayarları
 
-Taskbar çeşitli hazır boyutlarda uygulama pencereleri başlatabilir. Bir uygulama simgesine uzun basarak veya sağ tıklayıp \"Yeni pencere\" yi seçerek bir pencere boyutu seçebilirsiniz.
+Remotebar çeşitli hazır boyutlarda uygulama pencereleri başlatabilir. Bir uygulama simgesine uzun basarak veya sağ tıklayıp \"Yeni pencere\" yi seçerek bir pencere boyutu seçebilirsiniz.
 
-Belirli bir uygulama için pencere boyutu ön ayarını kaydetmek için, önayarı uzun süre basılı tutun ve varsayılan olarak ayarlandığını gösteren bir onay işareti görünecektir. Taskbar, sonraki başlatılan lansmanlarda bu seçilen boyutu kullanarak uygulamayı başlatır.
+Belirli bir uygulama için pencere boyutu ön ayarını kaydetmek için, önayarı uzun süre basılı tutun ve varsayılan olarak ayarlandığını gösteren bir onay işareti görünecektir. Remotebar, sonraki başlatılan lansmanlarda bu seçilen boyutu kullanarak uygulamayı başlatır.
 
 Pencere boyutları Android 8.0+ üzerinde düzgün çalışmıyor. Ancak, uygulamayı başlatarak, hemen kapatarak ve Android in genel bakış menüsünden tekrar başlatarak bu konuda çalışabilirsiniz.
 
@@ -142,13 +142,13 @@ Sorun giderme
 
 • Uygulamalar hala tam ekran başlatıyor
 
-Zaten belleğe yüklenmiş bir uygulama başlatılırsa, Taskbar ön plana getirecektir. Uygulamayı serbest biçime çevirmek için yeni bir durumdan başlatılmalıdır.
+Zaten belleğe yüklenmiş bir uygulama başlatılırsa, Remotebar ön plana getirecektir. Uygulamayı serbest biçime çevirmek için yeni bir durumdan başlatılmalıdır.
 
-Uygulamayı tekrarlardan hızlıca kaydırın ve ardından Taskbar kullanarak son uygulamalar sayfasından yeniden başlatın. Bu işe yaramazsa, uygulama simgesine uzun basın, \"Uygulama bilgisi\" ni seçin ve ardından uygulamayı durdurmaya zorlayın. Alternatif olarak, cihazınızı yeniden başlatabilirsiniz.
+Uygulamayı tekrarlardan hızlıca kaydırın ve ardından Remotebar kullanarak son uygulamalar sayfasından yeniden başlatın. Bu işe yaramazsa, uygulama simgesine uzun basın, \"Uygulama bilgisi\" ni seçin ve ardından uygulamayı durdurmaya zorlayın. Alternatif olarak, cihazınızı yeniden başlatabilirsiniz.
 
 • En iyileştirilen uygulamalar bir pencereye geri yüklenemez
 
-Bir uygulamanın başlık çubuğunda Büyüt düğmesine basarsanız, Android uygulamayı serbest biçimli moddan ve tam ekran moduna geçirir. Yukarıda belirtildiği gibi, Taskbar, yeni bir durumdan başlatılırsa, uygulamaları yalnızca serbest biçimli pencerelere açabilir.
+Bir uygulamanın başlık çubuğunda Büyüt düğmesine basarsanız, Android uygulamayı serbest biçimli moddan ve tam ekran moduna geçirir. Yukarıda belirtildiği gibi, Remotebar, yeni bir durumdan başlatılırsa, uygulamaları yalnızca serbest biçimli pencerelere açabilir.
 
 Bunu düzeltmek için, uygulamanın pencere çerçevesinin hemen dışına hafifçe dokunarak veya tıklayarak pencereleri en üst düzeye çıkarabilirsiniz. Bu, boş alanı, boş alan penceresi içinde saklarken tüm boş alanı dolduracak şekilde genişletecektir.
 
@@ -166,7 +166,7 @@ Yukarıdaki komutu çalıştırdıktan sonra cihazınızı yeniden başlatın ve
 <string name="tb_hide_taskbar_disclaimer">Serbest biçim modundaki uygulamalar için geçerli değildir</string>
 <string name="tb_icon_pack">Simge paketi</string>
 <string name="tb_icon_pack_none">Yok</string>
-<string name="tb_import_dialog_message">"Taskbar bağış sürümünü satın aldığınız için teşekkür ederiz!
+<string name="tb_import_dialog_message">"Remotebar bağış sürümünü satın aldığınız için teşekkür ederiz!
 
 Ayarlarınız başarıyla içe aktarıldı ve şimdi uygulamanın ücretsiz sürümünü kaldırabilirsiniz."</string>
 <string name="tb_importing_settings">Ayarlar alınıyor… Bekleyin.</string>
@@ -182,8 +182,8 @@ Ayarlarınız başarıyla içe aktarıldı ve şimdi uygulamanın ücretsiz sür
 <string name="tb_max_num_of_recents_unlimited">Sınırsız</string>
 <string name="tb_must_specify_extra">Intent.EXTRA_PACKAGE_NAME belirtilmeli</string>
 <string name="tb_navigation_bar_buttons">Gezinti çubuğu butonları</string>
-<string name="tb_navigation_bar_buttons_description">Gezinme çubuğu eylemlerini gerçekleştiren Taskbar a ek düğmeler ekleyin</string>
-<string name="tb_no_freeform_support">Serbest modu cihazınızda etkin değil - Taskbar açın ve önce etkinleştirin</string>
+<string name="tb_navigation_bar_buttons_description">Gezinme çubuğu eylemlerini gerçekleştiren Remotebar a ek düğmeler ekleyin</string>
+<string name="tb_no_freeform_support">Serbest modu cihazınızda etkin değil - Remotebar açın ve önce etkinleştirin</string>
 <string name="tb_no_icon_packs_installed">Simge paketi yüklenmemiş</string>
 <string name="tb_nothing_to_see_here">Burada görülecek hiçbir şey yok...</string>
 <string name="tb_notification_settings">Sistem bildirim ayarları</string>
@@ -194,7 +194,7 @@ Daha yüksek değerler performansı düşürebilir."</string>
 <string name="tb_on">Açık</string>
 <string name="tb_open_taskbar_settings">Ayarları aç</string>
 <string name="tb_permission_dialog_instructions_phone">Lütfen \"İzin Ver\" e basın ve \"Diğer uygulamaların üzerine çizim izni verme\" özelliğinin etkinleştirildiğinden emin olun.</string>
-<string name="tb_permission_dialog_instructions_tv">Please press \"Open Settings\" to open the Android TV app settings menu. Select \"Special app access\", then select \"Display over other apps\" and ensure that Taskbar is enabled.</string>
+<string name="tb_permission_dialog_instructions_tv">Please press \"Open Settings\" to open the Android TV app settings menu. Select \"Special app access\", then select \"Display over other apps\" and ensure that Remotebar is enabled.</string>
 <string name="tb_permission_dialog_message">"%1$s, başlamadan önce diğer uygulamaların üzerine çizim izni gerektirir.
 
 "</string>
@@ -208,7 +208,7 @@ Lütfen el ile uygulamanızın \"Widgetlar\" menüsünden kısayolu ekleyin."</s
 Lütfen güç düğmenizi şimdi test edin. Çalışmıyorsa, ekran zaman aşımına uğradığında cihazı uykudan uyandırma yeteneğini kaybedebileceğinden serbest biçimli modu kullanırken dikkatli olun."</string>
 <string name="tb_power_button_warning_title">Dikkat</string>
 <string name="tb_power_menu">Güç menüsü</string>
-<string name="tb_pref_about_description">"Taskbar: Android için PC görünümü
+<string name="tb_pref_about_description">"Remotebar: Android için PC görünümü
 
 © %1$d Braden Farmer
 Uygulama simgesi: Mark Morilla
@@ -216,33 +216,33 @@ Uygulama simgesi: Mark Morilla
 Güncellemeleri kontrol etmek veya derecelendirme bırakmak için buraya tıklayın! %2$s
 
 Türkçe: Mesut Aktaş - MaxiCep"</string>
-<string name="tb_pref_about_description_alt">"Taskbar: Android için PC görünümü
+<string name="tb_pref_about_description_alt">"Remotebar: Android için PC görünümü
 
 © %1$d Braden Farmer
 Uygulama simgesi: Mark Morilla
 
 Türkçe: Mesut Aktaş - MaxiCep"</string>
-<string name="tb_pref_description_chrome_os_context_menu_fix">Chrome OS ile Taskbar kullanılıyorsa aktif edebilirsin</string>
+<string name="tb_pref_description_chrome_os_context_menu_fix">Chrome OS ile Remotebar kullanılıyorsa aktif edebilirsin</string>
 <string name="tb_pref_description_force_new_window">Bir uygulamayı, başlangıç menüsünden veya son uygulamalardan her seçildiğinde yeni bir pencere açmaya zorlar (bir uygulama birden çok pencereye izin veriyorsa)</string>
-<string name="tb_pref_description_freeform_hack">"Daha fazla masaüstü benzeri bir deneyim için Taskbar ın serbest biçimli pencere modunda uygulama başlatmasını sağlar.
+<string name="tb_pref_description_freeform_hack">"Daha fazla masaüstü benzeri bir deneyim için Remotebar ın serbest biçimli pencere modunda uygulama başlatmasını sağlar.
 
 Bu özellik deneyseldir ve standart bölünmüş ekran çoklu göreviyle ilgili sorunlara neden olabilir."</string>
 <string name="tb_pref_description_hide_when_keyboard_shown">Ekran klavyesi gösterildiğinde</string>
-<string name="tb_pref_description_keyboard_shortcut">"Taskbar başlat/durdur:   {fou_social-windows} + M   {fou_magnifying-glass} + M
+<string name="tb_pref_description_keyboard_shortcut">"Remotebar başlat/durdur:   {fou_social-windows} + M   {fou_magnifying-glass} + M
 
 Başlat menüsünü gösterme:   {fou_social-windows}   {fou_magnifying-glass}
-(ayarlarda Taskbar yardımcı uygulaması olarak ayarlanmasını gerektirir)"</string>
-<string name="tb_pref_description_keyboard_shortcut_alt">"Taskbar başlat/durdur
+(ayarlarda Remotebar yardımcı uygulaması olarak ayarlanmasını gerektirir)"</string>
+<string name="tb_pref_description_keyboard_shortcut_alt">"Remotebar başlat/durdur
 • WinKey+M / Search+M
 
 Başlat menüsü gösterme
 • WinKey / Search
-(ayarlarda Taskbar yardımcı uygulaması olarak ayarlanmasını gerektirir)"</string>
-<string name="tb_pref_description_launcher">Ana ekranı değiştirerek Taskbar kullan</string>
+(ayarlarda Remotebar yardımcı uygulaması olarak ayarlanmasını gerektirir)"</string>
+<string name="tb_pref_description_launcher">Ana ekranı değiştirerek Remotebar kullan</string>
 <string name="tb_pref_description_save_window_sizes">İçerik menüsü yeni pencere açma</string>
 <string name="tb_pref_description_use_mask">Bir simge paketi ayarlandığında performansı düşürebilir</string>
 <string name="tb_pref_disable_animations">Daha hızlı uygulama değiştirme</string>
-<string name="tb_pref_header_about">Taskbar hakkında</string>
+<string name="tb_pref_header_about">Remotebar hakkında</string>
 <string name="tb_pref_header_advanced">Gelişmiş ayarlar</string>
 <string name="tb_pref_header_appearance">Görünüm</string>
 <string name="tb_pref_header_freeform">Serbest mod</string>
@@ -253,12 +253,12 @@ Başlat menüsü gösterme
 <string name="tb_pref_secondscreen_description_alt">@string/tb_pref_secondscreen_description</string>
 <string name="tb_pref_secondscreen_title_install">İkincil ekran yükle</string>
 <string name="tb_pref_secondscreen_title_open">İkincil ekranı aç</string>
-<string name="tb_pref_summary_donate">Taskbar gelişimini, bağış sürümüne yükselterek küçük bir bağışla destekleyin</string>
+<string name="tb_pref_summary_donate">Remotebar gelişimini, bağış sürümüne yükselterek küçük bir bağışla destekleyin</string>
 <string name="tb_pref_summary_hide_foreground">Performansı azaltabilir</string>
 <string name="tb_pref_title_accent_color">Vurgu rengi</string>
 <string name="tb_pref_title_amount_of_recents">Son kullanılan uygulamaları görüntüle</string>
-<string name="tb_pref_title_anchor">Ekran döndürmede Taskbar tut</string>
-<string name="tb_pref_title_app_drawer_icon">Başlat menüsü simgesi olarak Taskbar logosunu kullan</string>
+<string name="tb_pref_title_anchor">Ekran döndürmede Remotebar tut</string>
+<string name="tb_pref_title_app_drawer_icon">Başlat menüsü simgesi olarak Remotebar logosunu kullan</string>
 <string name="tb_pref_title_app_drawer_icon_ag">%s logo</string>
 <string name="tb_pref_title_background_tint">Arkaplan tonu</string>
 <string name="tb_pref_title_blacklist">Uygulamaları başlangıç menüsünde yapılandır</string>
@@ -269,9 +269,9 @@ Başlat menüsü gösterme
 <string name="tb_pref_title_freeform_hack">Serbest pencere desteği</string>
 <string name="tb_pref_title_freeform_mode_help">Serbest biçimli mod için yardım ve talimatlar</string>
 <string name="tb_pref_title_hide_foreground">Ön plan uygulaması için simgeyi gizle</string>
-<string name="tb_pref_title_hide_taskbar">Öğeleri seçerken Taskbar daralt</string>
-<string name="tb_pref_title_hide_when_keyboard_shown">Taskbar otomatik olarak daralt</string>
-<string name="tb_pref_title_invisible_button">Taskbar daraltılırken düğmeyi gizle</string>
+<string name="tb_pref_title_hide_taskbar">Öğeleri seçerken Remotebar daralt</string>
+<string name="tb_pref_title_hide_when_keyboard_shown">Remotebar otomatik olarak daralt</string>
+<string name="tb_pref_title_invisible_button">Remotebar daraltılırken düğmeyi gizle</string>
 <string name="tb_pref_title_keyboard_shortcut">Klavye kısayollarını etkinleştir</string>
 <string name="tb_pref_title_launcher">Ana ekranı değiştir</string>
 <string name="tb_pref_title_position">Ekrandaki pozisyonu</string>
@@ -302,24 +302,24 @@ Düşük değerler CPU kullanımını artıracak ve pil ömrünü azaltacaktır.
 <string name="tb_remove_widget">Widget kaldır</string>
 <string name="tb_reset_colors">Renkleri varsayılana geri al</string>
 <string name="tb_restore_widget">Widget geri al</string>
-<string name="tb_samsung_freeform_message">"Taskbar, çok pencereli modda yapılan sistem değişiklikleri nedeniyle, bazı Samsung aygıtlarında serbest biçimli uygulama açma sorunları olabilir.
+<string name="tb_samsung_freeform_message">"Remotebar, çok pencereli modda yapılan sistem değişiklikleri nedeniyle, bazı Samsung aygıtlarında serbest biçimli uygulama açma sorunları olabilir.
 
 Bu durumda, bu cihazdaki serbest biçimli modu kullanmak için özel bir ROM flaş etmeniz gerekebilir."</string>
 <string name="tb_samsung_freeform_title">Not</string>
-<string name="tb_set_as_default_home">Taskbar varsayılan başlatıcınız olarak ayarlamak için \"Her zaman\" a basın</string>
+<string name="tb_set_as_default_home">Remotebar varsayılan başlatıcınız olarak ayarlamak için \"Her zaman\" a basın</string>
 <string name="tb_set_wallpaper">Duvar kağıdını kullanılan ayarla…</string>
 <string name="tb_settings_imported_successfully">Ayarları alma başarılı</string>
 <string name="tb_shortcut_created">Serbest mod kısayolu oluşturuldu</string>
 <string name="tb_show_search_bar">Arama çubuğu görünürlüğü</string>
 <string name="tb_show_window_sizes">Yeni pencere…</string>
 <string name="tb_start_menu_apps">Başlat menüsü uygulamaları</string>
-<string name="tb_start_taskbar">Taskbar başlat/durdur</string>
+<string name="tb_start_remotebar">Remotebar başlat/durdur</string>
 <string name="tb_system_settings">Sistem ayarları</string>
-<string name="tb_taskbar_is_active">Taskbar aktif</string>
+<string name="tb_taskbar_is_active">Remotebar aktif</string>
 <string name="tb_tasker_action_title">Eylem seç</string>
 <string name="tb_tasker_condition_title">Koşul seç</string>
-<string name="tb_tasker_off">Taskbar kapalı</string>
-<string name="tb_tasker_on">Taskbar açık</string>
+<string name="tb_tasker_off">Remotebar kapalı</string>
+<string name="tb_tasker_on">Remotebar açık</string>
 <string name="tb_tools">Araçlar</string>
 <string name="tb_top_app">1 en iyi uygulama</string>
 <string name="tb_top_apps">%1$d en iyi uygulamalar</string>
@@ -344,8 +344,8 @@ Bu durumda, bu cihazdaki serbest biçimli modu kullanmak için özel bir ROM fla
 <string name="tb_window_sizes_not_available">Pencere boyutları bu Android sürümünde düzgün çalışmıyor - bir geçici çözüm için bkz. \"Yardım ve talimatlar\"</string>
 
 <string-array name="tb_pref_position_list"><item>Alt sol (yatay)</item><item>Alt sol (dikey)</item><item>Alt sağ (yatay)</item><item>Alt sağ (dikey)</item><item>Sol üst (yatay)</item><item>Sol üst (dikey)</item><item>Sağ üst (yatay)</item><item>Sağ üst (dikey)</item></string-array>
-<string-array name="tb_pref_recents_amount"><item>Geçtiğimiz gün içinde kullanılan uygulamalar</item><item>Taskbar başladıktan sonra kullanılan uygulamalar</item><item>Tüm uygulamalar (performansı düşürebilir)</item></string-array>
-<string-array name="tb_pref_recents_amount_alt"><item>Geçtiğimiz gün içinde kullanılan uygulamalar</item><item>Taskbar başladıktan sonra kullanılan uygulamalar</item><item>Tüm uygulamalar (performansı düşürebilir)</item><item>Yalnızca çalışan uygulamalar</item></string-array>
+<string-array name="tb_pref_recents_amount"><item>Geçtiğimiz gün içinde kullanılan uygulamalar</item><item>Remotebar başladıktan sonra kullanılan uygulamalar</item><item>Tüm uygulamalar (performansı düşürebilir)</item></string-array>
+<string-array name="tb_pref_recents_amount_alt"><item>Geçtiğimiz gün içinde kullanılan uygulamalar</item><item>Remotebar başladıktan sonra kullanılan uygulamalar</item><item>Tüm uygulamalar (performansı düşürebilir)</item><item>Yalnızca çalışan uygulamalar</item></string-array>
 <string-array name="tb_pref_show_search_bar_list"><item>Donanım veya yazılım klavyesi</item><item>Sadece donanım klavyesi</item><item>Arama çubuğunu hiçbir zaman göstermer</item></string-array>
 <string-array name="tb_pref_sort_order"><item>Son zamanlarda kullanılan (azalan)</item><item>Son kullanılan (artan)</item><item>En çok zaman kullanılan (azalan)</item><item>En çok zaman kullanılan (artan)</item></string-array>
 <string-array name="tb_pref_sort_order_alt"><item>Yakın zamanda başlatılan (azalan)</item><item>Yakın zamanda başlatılan (artan)</item></string-array>
@@ -355,7 +355,7 @@ Bu durumda, bu cihazdaki serbest biçimli modu kullanmak için özel bir ROM fla
     <string name="tb_pref_title_tasker_enabled">Allow third-party app integration</string>
     <string name="tb_pref_summary_tasker_enabled">Disable for improved security</string>
 
-    <string name="tb_essential_phone_grip_rejection">On the Essential Phone, disable grip rejection (in developer options) to assist with opening/closing Taskbar</string>
+    <string name="tb_essential_phone_grip_rejection">On the Essential Phone, disable grip rejection (in developer options) to assist with opening/closing Remotebar</string>
 
     <string name="tb_toggle_start_menu">Toggle Start Menu</string>
     <string name="tb_toggle_dashboard">Toggle Dashboard</string>
@@ -383,10 +383,10 @@ Bu durumda, bu cihazdaki serbest biçimli modu kullanmak için özel bir ROM fla
 
     <string name="tb_pref_centered_icons">Centered app icons</string>
     <string name="tb_pref_title_sys_tray">Show status icons and clock</string>
-    <string name="tb_pref_description_sys_tray">Only visible when Taskbar is horizontal</string>
+    <string name="tb_pref_description_sys_tray">Only visible when Remotebar is horizontal</string>
 
     <string name="tb_settings">Settings</string>
-    <string name="tb_powered_by_taskbar">Powered by Taskbar</string>
+    <string name="tb_powered_by_taskbar">Powered by Remotebar</string>
 
     <string name="tb_manage_app_data">Manage app data</string>
     <string name="tb_manage_app_data_description">@string/tb_clear_pinned_apps</string>
@@ -409,7 +409,7 @@ Bu durumda, bu cihazdaki serbest biçimli modu kullanmak için özel bir ROM fla
 
     <string name="tb_pref_header_desktop_mode">Desktop mode</string>
     <string name="tb_primary_launcher">Primary launcher</string>
-    <string name="tb_set_launcher_default_title">Set Taskbar as default home app</string>
+    <string name="tb_set_launcher_default_title">Set Remotebar as default home app</string>
     <string name="tb_set_launcher_default_summary">Required for desktop mode to work</string>
     <string name="tb_unable_to_set_default_home">Unable to set default home app. Please do so manually via system settings.</string>
     <string name="tb_display_density">Display density</string>
@@ -418,7 +418,7 @@ Bu durumda, bu cihazdaki serbest biçimli modu kullanmak için özel bir ROM fla
 
     <string name="tb_hsl_no_launchers_found">No primary launchers were found. Please download and install one, then try again.</string>
     <string name="tb_hsl_launcher_uninstalled">%1$s was uninstalled. Please select a different launcher from the list.</string>
-    <string name="tb_hsl_main_activity_text">Select your primary launcher from the list below. You can change this selection at any time from within Taskbar\'s desktop mode settings.</string>
+    <string name="tb_hsl_main_activity_text">Select your primary launcher from the list below. You can change this selection at any time from within Remotebar\'s desktop mode settings.</string>
 
     <string-array name="tb_pref_display_density_list">
         <item>Default</item>
@@ -442,7 +442,7 @@ Bu durumda, bu cihazdaki serbest biçimli modu kullanmak için özel bir ROM fla
     <string name="tb_pref_description_enable_recents">Required for recent apps to appear</string>
 
     <string name="tb_disable_home_setting">Please disable the \"Replace home screen\" setting under \"Advanced features\" in order to use desktop mode.</string>
-    <string name="tb_desktop_mode_setup_complete">Launch Taskbar by clicking the home button on your external display.</string>
+    <string name="tb_desktop_mode_setup_complete">Launch Remotebar by clicking the home button on your external display.</string>
 
     <string name="tb_hide_icon_labels">Hide app icon labels</string>
 
@@ -463,14 +463,14 @@ Bu durumda, bu cihazdaki serbest biçimli modu kullanmak için özel bir ROM fla
     <string name="tb_pref_notification_count_description">Requires notification access</string>
 
     <string name="tb_desktop_mode_dialog_title">Enable desktop mode support</string>
-    <string name="tb_desktop_mode_dialog_message">To configure your device for desktop mode, please follow these steps:\n\n&#8226; Go to Developer Options\n\n&#8226; Scroll to the bottom and turn on \"Enable freeform windows\" and \"Force desktop mode\"\n\n&#8226; Set Taskbar as your default home app\n\n&#8226; Reboot your device\n\nFor more information and troubleshooting steps, click the (?) icon in the upper-right hand corner of the screen.</string>
+    <string name="tb_desktop_mode_dialog_message">To configure your device for desktop mode, please follow these steps:\n\n&#8226; Go to Developer Options\n\n&#8226; Scroll to the bottom and turn on \"Enable freeform windows\" and \"Force desktop mode\"\n\n&#8226; Set Remotebar as your default home app\n\n&#8226; Reboot your device\n\nFor more information and troubleshooting steps, click the (?) icon in the upper-right hand corner of the screen.</string>
     <string name="tb_reboot_required_alt">Reboot your device to complete desktop mode setup</string>
-    <string name="tb_enable_additional_settings_message_1">Taskbar can optionally use elevated permissions to improve your desktop mode experience. These permissions are granted by running an adb shell command.\n\nIf you wish to continue, connect your device to a computer with the Android SDK installed, and run the following command (one line):</string>
+    <string name="tb_enable_additional_settings_message_1">Remotebar can optionally use elevated permissions to improve your desktop mode experience. These permissions are granted by running an adb shell command.\n\nIf you wish to continue, connect your device to a computer with the Android SDK installed, and run the following command (one line):</string>
     <string name="tb_enable_additional_settings_message_2">Once granted, the additional settings will be enabled when a display is connected.</string>
-    <string name="tb_desktop_mode_pref_description">Use Taskbar to launch windowed apps on an external display, similar to Samsung DeX and other solutions.\n\nRequires either a USB-to-HDMI adapter, or a lapdock, and a device that supports video output.</string>
+    <string name="tb_desktop_mode_pref_description">Use Remotebar to launch windowed apps on an external display, similar to Samsung DeX and other solutions.\n\nRequires either a USB-to-HDMI adapter, or a lapdock, and a device that supports video output.</string>
     <string name="tb_enable_additional_settings_pref_description">Click here for info on how to enable</string>
 
-    <string name="tb_desktop_mode_help"><b>About desktop mode</b>\n\nTaskbar supports Android 10\'s built-in desktop mode functionality. You can connect your compatible Android 10+ device to an external display and run apps in resizable windows, with Taskbar\'s interface running on your external display and your existing launcher still running on your phone.\n\nDesktop mode requires a USB-to-HDMI adapter (or a lapdock), and a compatible device that supports video output. Additionally, certain settings require granting a special permission via adb.\n\nTo get started, tick the checkbox for \"Desktop mode.\" The app will guide you through the one-time setup process, which involves:\n\n&#8226; Enabling the \"Enable freeform windows\" and \"Force desktop mode\" developer options\n\n&#8226; Setting Taskbar as your default home app\n\n&#8226; Rebooting your device\n\n<b>Why does Taskbar need to be set as my default home app for desktop mode to work?</b>\n\nBy design, Android will only allow the default home app to act as the launcher for desktop mode on external displays.  If the currently set home app does not specifically declare support for desktop mode, then Android will fall back to using a predefined desktop mode interface.\n\nTaskbar is able to work around this limitation by acting as a shim between the system and your preferred launcher.  When Taskbar is set as your home app, when the home button is pressed it will immediately start the launcher you prefer to use on your phone, then quit.  This launcher is set within Taskbar\'s desktop mode preferences by clicking on the \"Primary launcher\" setting.\n\nThere are a couple of caveats to keep in mind when Taskbar is set as your home app:\n\n&#8226; Most app shortcuts (seen when long-pressing an app icon) will no longer be available to your primary launcher.  This is due to an Android system limitation where only the default home app has access to app shortcuts that are dynamically created.\n\n&#8226; Certain animations that occur when pressing the home button may look incorrect.  This is due to the aforementioned behavior where Taskbar acts as a shim when the home button is pressed.\n\n<b>How do I know if my device supports video output to external displays?</b>\n\nThe folks over at NexDock maintain a list of Android 10+ smartphones that are compatible with USB-to-HDMI video output (this list excludes Samsung and Huawei devices).  You can view this list here: http://nexdock.com/lapdock-for-smartphones\n\nGoogle Pixel devices, notably, do not include support for video output.  However, you can still use Taskbar with standard screen mirroring on these devices, either via Chromecast or by using a DisplayLink dock coupled with the DisplayLink Presenter app.\n\n<b>Should I use Taskbar\'s desktop mode over my device\'s built-in desktop mode solution, such as Samsung DeX?</b>\n\nSome OEMs, such as Samsung and Huawei, have implemented their own version of desktop mode, building on top of Google\'s implementation in Android 10.  These solutions have better integration with the rest of the system and are generally more polished overall.  There is no need to switch over to Taskbar if you\'re happy with your device\'s existing desktop mode solution.\n\nTaskbar\'s desktop mode support is geared towards devices that don\'t offer a built-in desktop mode solution beyond what Google ships as stock with Android 10.\n\n<b>I can\'t find the \"Force desktop mode\" toggle in developer options &#8211; can I still use desktop mode?</b>\n\nSome devices (such as the ASUS ROG Phone 2) do not have the \"Force desktop mode\" toggle in developer options. You will need to enable that option manually via adb. To do so, connect your device to a computer with the Android SDK installed, and run the following command (one-line):\n\nadb shell settings put global force_desktop_mode_on_external_displays 1\n\n<b>What should I do if something goes wrong or my launcher / apps behave funky when desktop mode is enabled?</b>\n\nPlease follow these steps to disable desktop mode in case anything goes wrong:\n\n&#8226; Pull down the quick settings drawer, then enter system settings via the gear icon\n\n&#8226; Navigate to developer options and disable \"Enable freeform support\" and \"Force desktop mode\"\n\n&#8226; Reboot your device</string>
+    <string name="tb_desktop_mode_help"><b>About desktop mode</b>\n\nRemotebar supports Android 10\'s built-in desktop mode functionality. You can connect your compatible Android 10+ device to an external display and run apps in resizable windows, with Remotebar\'s interface running on your external display and your existing launcher still running on your phone.\n\nDesktop mode requires a USB-to-HDMI adapter (or a lapdock), and a compatible device that supports video output. Additionally, certain settings require granting a special permission via adb.\n\nTo get started, tick the checkbox for \"Desktop mode.\" The app will guide you through the one-time setup process, which involves:\n\n&#8226; Enabling the \"Enable freeform windows\" and \"Force desktop mode\" developer options\n\n&#8226; Setting Remotebar as your default home app\n\n&#8226; Rebooting your device\n\n<b>Why does Remotebar need to be set as my default home app for desktop mode to work?</b>\n\nBy design, Android will only allow the default home app to act as the launcher for desktop mode on external displays.  If the currently set home app does not specifically declare support for desktop mode, then Android will fall back to using a predefined desktop mode interface.\n\nRemotebar is able to work around this limitation by acting as a shim between the system and your preferred launcher.  When Remotebar is set as your home app, when the home button is pressed it will immediately start the launcher you prefer to use on your phone, then quit.  This launcher is set within Remotebar\'s desktop mode preferences by clicking on the \"Primary launcher\" setting.\n\nThere are a couple of caveats to keep in mind when Remotebar is set as your home app:\n\n&#8226; Most app shortcuts (seen when long-pressing an app icon) will no longer be available to your primary launcher.  This is due to an Android system limitation where only the default home app has access to app shortcuts that are dynamically created.\n\n&#8226; Certain animations that occur when pressing the home button may look incorrect.  This is due to the aforementioned behavior where Remotebar acts as a shim when the home button is pressed.\n\n<b>How do I know if my device supports video output to external displays?</b>\n\nThe folks over at NexDock maintain a list of Android 10+ smartphones that are compatible with USB-to-HDMI video output (this list excludes Samsung and Huawei devices).  You can view this list here: http://nexdock.com/lapdock-for-smartphones\n\nGoogle Pixel devices, notably, do not include support for video output.  However, you can still use Remotebar with standard screen mirroring on these devices, either via Chromecast or by using a DisplayLink dock coupled with the DisplayLink Presenter app.\n\n<b>Should I use Remotebar\'s desktop mode over my device\'s built-in desktop mode solution, such as Samsung DeX?</b>\n\nSome OEMs, such as Samsung and Huawei, have implemented their own version of desktop mode, building on top of Google\'s implementation in Android 10.  These solutions have better integration with the rest of the system and are generally more polished overall.  There is no need to switch over to Remotebar if you\'re happy with your device\'s existing desktop mode solution.\n\nRemotebar\'s desktop mode support is geared towards devices that don\'t offer a built-in desktop mode solution beyond what Google ships as stock with Android 10.\n\n<b>I can\'t find the \"Force desktop mode\" toggle in developer options &#8211; can I still use desktop mode?</b>\n\nSome devices (such as the ASUS ROG Phone 2) do not have the \"Force desktop mode\" toggle in developer options. You will need to enable that option manually via adb. To do so, connect your device to a computer with the Android SDK installed, and run the following command (one-line):\n\nadb shell settings put global force_desktop_mode_on_external_displays 1\n\n<b>What should I do if something goes wrong or my launcher / apps behave funky when desktop mode is enabled?</b>\n\nPlease follow these steps to disable desktop mode in case anything goes wrong:\n\n&#8226; Pull down the quick settings drawer, then enter system settings via the gear icon\n\n&#8226; Navigate to developer options and disable \"Enable freeform support\" and \"Force desktop mode\"\n\n&#8226; Reboot your device</string>
 
     <string name="tb_see_whats_new">See what\'s new in this release</string>
     <string name="tb_action_view">View</string>
@@ -479,7 +479,7 @@ Bu durumda, bu cihazdaki serbest biçimli modu kullanmak için özel bir ROM fla
 
     <string name="tb_desktop_mode_ime_fix">Desktop mode input method fix</string>
     <string name="tb_desktop_mode_ime_fix_title">Enable input method fix</string>
-    <string name="tb_desktop_mode_ime_fix_summary">Fixes visual glitches caused by input methods on Android 11+. Requires you to temporarily set Taskbar as your input method each time desktop mode starts.</string>
+    <string name="tb_desktop_mode_ime_fix_summary">Fixes visual glitches caused by input methods on Android 11+. Requires you to temporarily set Remotebar as your input method each time desktop mode starts.</string>
     <string name="tb_desktop_mode_ime_fix_toast">Open desktop mode settings to enable a fix for visual glitches caused by input methods</string>
     <string name="tb_desktop_mode_ime_fix_toast_alt">Start desktop mode first before enabling the input method fix</string>
 

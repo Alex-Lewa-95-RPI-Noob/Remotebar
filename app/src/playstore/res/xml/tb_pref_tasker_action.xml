@@ -20,7 +20,7 @@
 
     <Preference android:key="tasker_off" android:title="@string/tb_tasker_off" />
 
-    <Preference android:key="show_taskbar" android:title="@string/tb_action_show" />
+    <Preference android:key="show_remotebar" android:title="@string/tb_action_show" />
 
     <Preference android:key="hide_taskbar" android:title="@string/tb_action_hide" />
 

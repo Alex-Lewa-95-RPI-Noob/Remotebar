@@ -33,10 +33,10 @@ spotless {
 
 android {
     compileSdk COMPILE_SDK_VERSION
-    namespace "com.farmerbb.taskbar"
+    namespace "com.openlewa.remotebar"
 
     defaultConfig {
-        applicationId "com.farmerbb.taskbar"
+        applicationId "com.openlewa.remotebar"
 
         minSdkVersion MIN_SDK_VERSION
         targetSdkVersion TARGET_SDK_VERSION
@@ -46,10 +46,10 @@ android {
         resConfigs "en", "es", "ja", "ru", "de", "zh-rCN", "tr", "nl", "pl"
         vectorDrawables.generatedDensities = []
 
-        buildConfigField "String", "BASE_APPLICATION_ID", "\"com.farmerbb.taskbar\""
-        buildConfigField "String", "PAID_APPLICATION_ID", "\"com.farmerbb.taskbar.paid\""
-        buildConfigField "String", "SUPPORT_APPLICATION_ID", "\"com.farmerbb.taskbar.support\""
-        buildConfigField "String", "ANDROIDX86_APPLICATION_ID", "\"com.farmerbb.taskbar.androidx86\""
+        buildConfigField "String", "BASE_APPLICATION_ID", "\"com.openlewa.remotebar\""
+        buildConfigField "String", "PAID_APPLICATION_ID", "\"com.openlewa.remotebar.paid\""
+        buildConfigField "String", "SUPPORT_APPLICATION_ID", "\"com.openlewa.remotebar.support\""
+        buildConfigField "String", "ANDROIDX86_APPLICATION_ID", "\"com.openlewa.remotebar.androidx86\""
 
         buildConfigField "long", "TIMESTAMP", "${System.currentTimeMillis()}L"
     }
@@ -104,8 +104,8 @@ android {
     flavorDimensions "default"
 
     productFlavors {
-        paid { applicationId "com.farmerbb.taskbar.paid" }
-        free { applicationId "com.farmerbb.taskbar" }
+        paid { applicationId "com.openlewa.remotebar.paid" }
+        free { applicationId "com.openlewa.remotebar" }
     }
 
     sourceSets {

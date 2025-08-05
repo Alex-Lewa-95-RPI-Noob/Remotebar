@@ -12,7 +12,7 @@ Feel free to add new translations, or update an existing one!  The following app
 
 ### AOSP compatibility
 
-Taskbar must retain the ability to be built completely from AOSP source.  This is due to its inclusion as part of Android-x86.  Due to this:
+Remotebar must retain the ability to be built completely from AOSP source.  This is due to its inclusion as part of Android-x86.  Due to this:
 
 * Please try to refrain from adding any new third-party libraries.  If third-party libraries are added, please confine all code that references this library to the `app/src/playstore` directory, and add an alternative (stub?) implementation in the corresponding `app/src/nonplaystore` directory. 
 * Please use the Java programming language for your contributions.  PRs written in Kotlin are allowed ONLY if the corresponding logic to allow Kotlin code to be built with AOSP is also added.  PRs written in other programming languages will not be accepted.

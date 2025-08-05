@@ -55,10 +55,12 @@
     <string-array name="tb_pref_position_list_values">
         <item>bottom_left</item>
         <item>bottom_vertical_left</item>
+        <item>bottom_center</item>
         <item>bottom_right</item>
         <item>bottom_vertical_right</item>
         <item>top_left</item>
         <item>top_vertical_left</item>
+        <item>top_center</item>
         <item>top_right</item>
         <item>top_vertical_right</item>
     </string-array>
@@ -96,13 +98,11 @@
 
     <string-array name="tb_pref_start_button_image_list">
         <item>@string/tb_start_button_image_default</item>
-        <item>@string/tb_pref_title_app_drawer_icon</item>
         <item>@string/tb_start_button_image_custom</item>
     </string-array>
 
     <string-array name="tb_pref_start_button_image_list_values">
         <item>default</item>
-        <item>app_logo</item>
         <item>custom</item>
     </string-array>
 
