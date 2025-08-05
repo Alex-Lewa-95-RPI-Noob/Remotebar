@@ -24,7 +24,7 @@
         android:layout_height="24dp"
         android:layout_gravity="center_horizontal"
         android:clickable="true"
-        android:id="@+id/hide_taskbar_button_layout" >
+        android:id="@+id/hide_remotebar_button_layout" >
 
             <Button
                 android:layout_width="24dp"
@@ -33,7 +33,7 @@
                 android:textSize="20dp"
                 android:background="@null"
                 android:rotation="-90"
-                android:id="@+id/hide_taskbar_button" />
+                android:id="@+id/hide_remotebar_button" />
 
     </LinearLayout>
 
@@ -49,7 +49,7 @@
         android:visibility="gone"/>
 
     <ScrollView
-        android:id="@+id/taskbar_scrollview"
+        android:id="@+id/remotebar_scrollview"
         android:layout_width="@dimen/tb_icon_size"
         android:layout_height="wrap_content"
         android:scrollbars="none"
@@ -68,7 +68,7 @@
                 android:layout_height="0dp" />
 
             <LinearLayout
-                android:id="@+id/taskbar"
+                android:id="@+id/remotebar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
@@ -206,7 +206,7 @@
                   android:layout_height="24dp"
                   android:layout_gravity="center_horizontal"
                   android:clickable="true"
-                  android:id="@+id/hide_taskbar_button_layout_alt" >
+                  android:id="@+id/hide_remotebar_button_layout_alt" >
 
         <Button
             android:layout_width="24dp"
@@ -215,7 +215,7 @@
             android:textSize="20dp"
             android:background="@null"
             android:rotation="-90"
-            android:id="@+id/hide_taskbar_button_alt" />
+            android:id="@+id/hide_remotebar_button_alt" />
 
     </LinearLayout>
 

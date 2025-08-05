@@ -85,14 +85,14 @@ public class NotificationService extends Service {
         super.onCreate();
 
         SharedPreferences pref = U.getSharedPreferences(this);
-        if(pref.getBoolean(PREF_TASKBAR_ACTIVE, false)) {
+        if(pref.getBoolean(PREF_REMOTEBAR_ACTIVE, false)) {
             if(U.canDrawOverlays(this)) {
                 isHidden = U.getSharedPreferences(this).getBoolean(PREF_IS_HIDDEN, false);
 
                 Intent intent = new Intent(this, MainActivity.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
 
-                Intent receiverIntent = new Intent(ACTION_SHOW_HIDE_TASKBAR);
+                Intent receiverIntent = new Intent(ACTION_SHOW_HIDE_REMOTEBAR);
                 receiverIntent.setPackage(getPackageName());
 
                 Intent receiverIntent2 = new Intent(ACTION_QUIT);
@@ -155,7 +155,7 @@ public class NotificationService extends Service {
                     registerReceiver(userBackgroundReceiver, new IntentFilter(Intent.ACTION_USER_BACKGROUND));
                 }
             } else {
-                pref.edit().putBoolean(PREF_TASKBAR_ACTIVE, false).apply();
+                pref.edit().putBoolean(PREF_REMOTEBAR_ACTIVE, false).apply();
 
                 stopSelf();
             }

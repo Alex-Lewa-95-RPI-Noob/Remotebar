@@ -519,7 +519,7 @@ class UTest {
         val isSystemTrayEnabledAnswer = BooleanAnswer()
         PowerMockito.`when`(U.isSystemTrayEnabled(context)).thenAnswer(isSystemTrayEnabledAnswer)
         isSystemTrayEnabledAnswer.answer = false
-        // The only difference of the different screen size, is the initial taskbar size.
+        // The only difference of the different screen size, is the initial remotebar size.
         // So we only test the different in this test method.
         var initialSize = context.resources.getDimension(R.dimen.tb_base_size_start_plus_divider)
         initialSize += context.resources.getDimension(R.dimen.tb_base_size_collapse_button)

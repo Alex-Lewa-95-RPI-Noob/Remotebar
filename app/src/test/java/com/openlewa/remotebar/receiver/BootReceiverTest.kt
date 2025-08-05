@@ -90,14 +90,14 @@ class BootReceiverTest {
     fun testStartOnBootInit() {
         prefs.edit().putBoolean(Constants.PREF_START_ON_BOOT, true).apply()
         bootReceiver.onReceive(context, intent)
-        Assert.assertTrue(prefs.getBoolean(Constants.PREF_TASKBAR_ACTIVE, false))
+        Assert.assertTrue(prefs.getBoolean(Constants.PREF_REMOTEBAR_ACTIVE, false))
         prefs.edit().putBoolean(Constants.PREF_START_ON_BOOT, false).apply()
-        prefs.edit().putBoolean(Constants.PREF_TASKBAR_ACTIVE, true).apply()
+        prefs.edit().putBoolean(Constants.PREF_REMOTEBAR_ACTIVE, true).apply()
         PowerMockito.mockStatic(U::class.java)
         PowerMockito.`when`(U.getSharedPreferences(context)).thenReturn(prefs)
         PowerMockito.`when`(U.isServiceRunning(context, NotificationService::class.java))
                 .thenReturn(false)
         bootReceiver.onReceive(context, intent)
-        Assert.assertFalse(prefs.getBoolean(Constants.PREF_TASKBAR_ACTIVE, false))
+        Assert.assertFalse(prefs.getBoolean(Constants.PREF_REMOTEBAR_ACTIVE, false))
     }
 }

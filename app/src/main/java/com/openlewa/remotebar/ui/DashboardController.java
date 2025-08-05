@@ -424,7 +424,7 @@ public class DashboardController extends UIController {
             if(U.canDrawOverlays(context))
                 drawDashboard(host);
             else {
-                pref.edit().putBoolean(PREF_TASKBAR_ACTIVE, false).apply();
+                pref.edit().putBoolean(PREF_REMOTEBAR_ACTIVE, false).apply();
 
                 host.terminate();
             }

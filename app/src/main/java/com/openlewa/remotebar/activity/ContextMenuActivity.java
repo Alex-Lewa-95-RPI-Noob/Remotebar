@@ -771,7 +771,7 @@ public class ContextMenuActivity extends PreferenceActivity implements Preferenc
                 U.sendBroadcast(this, ACTION_RESET_START_MENU);
 
                 if(shouldHideRemotebar && U.shouldCollapse(this, true)) {
-                    U.sendBroadcast(this, ACTION_HIDE_TASKBAR);
+                    U.sendBroadcast(this, ACTION_HIDE_REMOTEBAR);
                 }
             }
         }
@@ -845,7 +845,7 @@ public class ContextMenuActivity extends PreferenceActivity implements Preferenc
 
     private void changeWallpaper() {
         if(LauncherHelper.getInstance().isOnHomeScreen(this))
-            U.sendBroadcast(this, ACTION_TEMP_HIDE_TASKBAR);
+            U.sendBroadcast(this, ACTION_TEMP_HIDE_REMOTEBAR);
 
         Intent intent = Intent.createChooser(new Intent(Intent.ACTION_SET_WALLPAPER), getString(R.string.tb_set_wallpaper));
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);

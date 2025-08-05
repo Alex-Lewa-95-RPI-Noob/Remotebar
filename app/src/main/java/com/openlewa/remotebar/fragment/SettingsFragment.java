@@ -155,7 +155,7 @@ public abstract class SettingsFragment extends PreferenceFragment implements Pre
                         U.sendBroadcast(getActivity(), ACTION_FINISH_FREEFORM_ACTIVITY);
 
                         SharedPreferences pref = U.getSharedPreferences(getActivity());
-                        if(pref.getBoolean(PREF_TASKBAR_ACTIVE, false) && !pref.getBoolean(PREF_IS_HIDDEN, false))
+                        if(pref.getBoolean(PREF_REMOTEBAR_ACTIVE, false) && !pref.getBoolean(PREF_IS_HIDDEN, false))
                             U.newHandler().post(() -> U.startFreeformHack(getActivity()));
                         break;
                     case PREF_START_BUTTON_IMAGE:

@@ -106,8 +106,8 @@ public class MainActivity extends AppCompatActivity {
                 setTheme(theme);
         }
 
-        if(pref.getBoolean(PREF_TASKBAR_ACTIVE, false) && !U.isServiceRunning(this, NotificationService.class))
-            editor.putBoolean(PREF_TASKBAR_ACTIVE, false);
+        if(pref.getBoolean(PREF_REMOTEBAR_ACTIVE, false) && !U.isServiceRunning(this, NotificationService.class))
+            editor.putBoolean(PREF_REMOTEBAR_ACTIVE, false);
 
         // Ensure that components that should be enabled are enabled properly
         boolean launcherEnabled = (pref.getBoolean(PREF_LAUNCHER, false) && U.canDrawOverlays(this))
@@ -201,7 +201,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(theSwitch != null) {
             final SharedPreferences pref = U.getSharedPreferences(this);
-            theSwitch.setChecked(pref.getBoolean(PREF_TASKBAR_ACTIVE, false));
+            theSwitch.setChecked(pref.getBoolean(PREF_REMOTEBAR_ACTIVE, false));
 
             theSwitch.setOnCheckedChangeListener((compoundButton, b) -> {
                 if(b) {
@@ -387,7 +387,7 @@ public class MainActivity extends AppCompatActivity {
             editor.putBoolean(PREF_COLLAPSED, true);
         }
 
-        editor.putBoolean(PREF_TASKBAR_ACTIVE, true);
+        editor.putBoolean(PREF_REMOTEBAR_ACTIVE, true);
         editor.putLong(PREF_TIME_OF_SERVICE_START, System.currentTimeMillis());
         editor.apply();
 
@@ -406,7 +406,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void stopRemotebarService() {
         SharedPreferences pref = U.getSharedPreferences(this);
-        pref.edit().putBoolean(PREF_TASKBAR_ACTIVE, false).apply();
+        pref.edit().putBoolean(PREF_REMOTEBAR_ACTIVE, false).apply();
 
         if(!LauncherHelper.getInstance().isOnHomeScreen(this)) {
             stopService(new Intent(this, RemotebarService.class));
@@ -423,7 +423,7 @@ public class MainActivity extends AppCompatActivity {
     private void updateSwitch() {
         if(theSwitch != null) {
             SharedPreferences pref = U.getSharedPreferences(this);
-            theSwitch.setChecked(pref.getBoolean(PREF_TASKBAR_ACTIVE, false));
+            theSwitch.setChecked(pref.getBoolean(PREF_REMOTEBAR_ACTIVE, false));
         }
     }
 

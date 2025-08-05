@@ -32,11 +32,11 @@ import static com.openlewa.remotebar.util.Constants.*;
 public class ShowHideRemotebarReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
-        if (intent == null || !ACTION_SHOW_HIDE_TASKBAR.equals(intent.getAction())) {
+        if (intent == null || !ACTION_SHOW_HIDE_REMOTEBAR.equals(intent.getAction())) {
             return;
         }
         SharedPreferences pref = U.getSharedPreferences(context);
-        if(!pref.getBoolean(PREF_TASKBAR_ACTIVE, false))
+        if(!pref.getBoolean(PREF_REMOTEBAR_ACTIVE, false))
             return;
 
         Intent taskbarIntent = new Intent(context, RemotebarService.class);

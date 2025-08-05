@@ -62,7 +62,7 @@ public class StartReceiver extends BroadcastReceiver {
                     }, 250);
                 }
 
-                editor.putBoolean(PREF_TASKBAR_ACTIVE, true);
+                editor.putBoolean(PREF_REMOTEBAR_ACTIVE, true);
                 editor.putLong(PREF_TIME_OF_SERVICE_START, System.currentTimeMillis());
             }
 

@@ -419,7 +419,7 @@ public class HomeActivityDelegate extends AppCompatActivity implements UIHost {
         updateWindowFlags();
 
         U.registerReceiver(this, killReceiver, ACTION_KILL_HOME_ACTIVITY);
-        U.registerReceiver(this, forceRemotebarStartReceiver, ACTION_FORCE_TASKBAR_RESTART);
+        U.registerReceiver(this, forceRemotebarStartReceiver, ACTION_FORCE_REMOTEBAR_RESTART);
 
         U.registerReceiver(this, freeformToggleReceiver,
                 ACTION_UPDATE_FREEFORM_CHECKBOX,
@@ -448,7 +448,7 @@ public class HomeActivityDelegate extends AppCompatActivity implements UIHost {
     }
 
     private void setWallpaper() {
-        U.sendBroadcast(this, ACTION_TEMP_HIDE_TASKBAR);
+        U.sendBroadcast(this, ACTION_TEMP_HIDE_REMOTEBAR);
 
         try {
             startActivity(Intent.createChooser(new Intent(Intent.ACTION_SET_WALLPAPER), getString(R.string.tb_set_wallpaper)));
@@ -550,12 +550,12 @@ public class HomeActivityDelegate extends AppCompatActivity implements UIHost {
             } catch (IllegalStateException ignored) {}
         }
 
-        if(pref.getBoolean(PREF_TASKBAR_ACTIVE, false) && !U.isServiceRunning(this, NotificationService.class))
-            pref.edit().putBoolean(PREF_TASKBAR_ACTIVE, false).apply();
+        if(pref.getBoolean(PREF_REMOTEBAR_ACTIVE, false) && !U.isServiceRunning(this, NotificationService.class))
+            pref.edit().putBoolean(PREF_REMOTEBAR_ACTIVE, false).apply();
 
         // Show the Remotebar temporarily, as nothing else will be visible on screen
         U.newHandler().postDelayed(() ->
-                U.sendBroadcast(this, ACTION_TEMP_SHOW_TASKBAR), 100);
+                U.sendBroadcast(this, ACTION_TEMP_SHOW_REMOTEBAR), 100);
     }
 
     private void startFreeformHack() {
@@ -572,7 +572,7 @@ public class HomeActivityDelegate extends AppCompatActivity implements UIHost {
         SharedPreferences pref = U.getSharedPreferences(this);
         if(!U.canBootToFreeform(this)) {
             if(U.shouldCollapse(this, false)) {
-                U.sendBroadcast(this, ACTION_TEMP_HIDE_TASKBAR);
+                U.sendBroadcast(this, ACTION_TEMP_HIDE_REMOTEBAR);
             }
 
             if(isSecondaryHome) {
@@ -583,14 +583,14 @@ public class HomeActivityDelegate extends AppCompatActivity implements UIHost {
                 U.clearCaches(this);
 
                 // Stop using HomeActivityDelegate as UI host and restart services if needed
-                if(pref.getBoolean(PREF_TASKBAR_ACTIVE, false) && !pref.getBoolean(PREF_IS_HIDDEN, false)) {
+                if(pref.getBoolean(PREF_REMOTEBAR_ACTIVE, false) && !pref.getBoolean(PREF_IS_HIDDEN, false)) {
                     startService(new Intent(this, RemotebarService.class));
                     startService(new Intent(this, StartMenuService.class));
                     startService(new Intent(this, DashboardService.class));
                 }
             } else {
                 // Stop the Remotebar and Start Menu services if they should normally not be active
-                if(!pref.getBoolean(PREF_TASKBAR_ACTIVE, false) || pref.getBoolean(PREF_IS_HIDDEN, false)) {
+                if(!pref.getBoolean(PREF_REMOTEBAR_ACTIVE, false) || pref.getBoolean(PREF_IS_HIDDEN, false)) {
                     stopService(new Intent(this, RemotebarService.class));
                     stopService(new Intent(this, StartMenuService.class));
 
@@ -662,7 +662,7 @@ public class HomeActivityDelegate extends AppCompatActivity implements UIHost {
 
             // Stop using HomeActivityDelegate as UI host and restart services if needed
             SharedPreferences pref = U.getSharedPreferences(this);
-            if(pref.getBoolean(PREF_TASKBAR_ACTIVE, false) && !pref.getBoolean(PREF_IS_HIDDEN, false)) {
+            if(pref.getBoolean(PREF_REMOTEBAR_ACTIVE, false) && !pref.getBoolean(PREF_IS_HIDDEN, false)) {
                 startService(new Intent(this, RemotebarService.class));
                 startService(new Intent(this, StartMenuService.class));
                 startService(new Intent(this, DashboardService.class));
@@ -670,7 +670,7 @@ public class HomeActivityDelegate extends AppCompatActivity implements UIHost {
         } else {
             // Stop the Remotebar and Start Menu services if they should normally not be active
             SharedPreferences pref = U.getSharedPreferences(this);
-            if(!pref.getBoolean(PREF_TASKBAR_ACTIVE, false) || pref.getBoolean(PREF_IS_HIDDEN, false)) {
+            if(!pref.getBoolean(PREF_REMOTEBAR_ACTIVE, false) || pref.getBoolean(PREF_IS_HIDDEN, false)) {
                 stopService(new Intent(this, RemotebarService.class));
                 stopService(new Intent(this, StartMenuService.class));
                 stopService(new Intent(this, DashboardService.class));
@@ -1123,7 +1123,7 @@ public class HomeActivityDelegate extends AppCompatActivity implements UIHost {
         }
 
         overridePendingTransition(0, R.anim.close_anim);
-        U.sendBroadcast(this, ACTION_TEMP_SHOW_TASKBAR);
+        U.sendBroadcast(this, ACTION_TEMP_SHOW_REMOTEBAR);
     }
 
     @Override

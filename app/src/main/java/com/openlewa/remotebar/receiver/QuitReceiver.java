@@ -41,7 +41,7 @@ public class QuitReceiver extends BroadcastReceiver {
             Intent dashboardIntent = new Intent(context, DashboardService.class);
             Intent notificationIntent = new Intent(context, NotificationService.class);
 
-            pref.edit().putBoolean(PREF_TASKBAR_ACTIVE, false).apply();
+            pref.edit().putBoolean(PREF_REMOTEBAR_ACTIVE, false).apply();
 
             if(!LauncherHelper.getInstance().isOnHomeScreen(context)) {
                 context.stopService(taskbarIntent);

@@ -38,19 +38,19 @@ class ShowHideRemotebarReceiverTest {
     fun testSkipShowHideRemotebar() {
         ShadowSettings.setCanDrawOverlays(true)
         Shadows.shadowOf(application).clearStartedServices()
-        prefs.edit().putBoolean(Constants.PREF_TASKBAR_ACTIVE, false).apply()
+        prefs.edit().putBoolean(Constants.PREF_REMOTEBAR_ACTIVE, false).apply()
         showHideRemotebarReceiver.onReceive(context, null)
         Assert.assertNull(Shadows.shadowOf(application).peekNextStartedService())
         val intent = Intent()
         showHideRemotebarReceiver.onReceive(context, intent)
         Assert.assertNull(Shadows.shadowOf(application).peekNextStartedService())
-        intent.action = Constants.ACTION_SHOW_HIDE_TASKBAR + UNSUPPORTED
+        intent.action = Constants.ACTION_SHOW_HIDE_REMOTEBAR + UNSUPPORTED
         showHideRemotebarReceiver.onReceive(context, intent)
         Assert.assertNull(Shadows.shadowOf(application).peekNextStartedService())
-        intent.action = Constants.ACTION_SHOW_HIDE_TASKBAR
+        intent.action = Constants.ACTION_SHOW_HIDE_REMOTEBAR
         showHideRemotebarReceiver.onReceive(context, intent)
         Assert.assertNull(Shadows.shadowOf(application).peekNextStartedService())
-        prefs.edit().putBoolean(Constants.PREF_TASKBAR_ACTIVE, true).apply()
+        prefs.edit().putBoolean(Constants.PREF_REMOTEBAR_ACTIVE, true).apply()
         showHideRemotebarReceiver.onReceive(context, intent)
         val startedServiceIntent = Shadows.shadowOf(application).peekNextStartedService()
         Assert.assertNotNull(startedServiceIntent)
@@ -59,9 +59,9 @@ class ShowHideRemotebarReceiverTest {
 
     @Test
     fun testShowHideRemotebar() {
-        val intent = Intent(Constants.ACTION_SHOW_HIDE_TASKBAR)
+        val intent = Intent(Constants.ACTION_SHOW_HIDE_REMOTEBAR)
         ShadowSettings.setCanDrawOverlays(true)
-        prefs.edit().putBoolean(Constants.PREF_TASKBAR_ACTIVE, true).apply()
+        prefs.edit().putBoolean(Constants.PREF_REMOTEBAR_ACTIVE, true).apply()
         Shadows.shadowOf(application).clearStartedServices()
         prefs.edit().putBoolean(Constants.PREF_IS_HIDDEN, true).apply()
         showHideRemotebarReceiver.onReceive(context, intent)

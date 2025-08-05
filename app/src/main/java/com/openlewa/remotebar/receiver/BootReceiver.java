@@ -42,7 +42,7 @@ public class BootReceiver extends BroadcastReceiver {
                 editor.putBoolean(PREF_FREEFORM_HACK, false);
 
             if(pref.getBoolean(PREF_START_ON_BOOT, false)) {
-                editor.putBoolean(PREF_TASKBAR_ACTIVE, true);
+                editor.putBoolean(PREF_REMOTEBAR_ACTIVE, true);
                 editor.putLong(PREF_TIME_OF_SERVICE_START, System.currentTimeMillis());
                 editor.apply();
 
@@ -65,7 +65,7 @@ public class BootReceiver extends BroadcastReceiver {
 
                 U.startForegroundService(context, notificationIntent);
             } else {
-                editor.putBoolean(PREF_TASKBAR_ACTIVE, U.isServiceRunning(context, NotificationService.class));
+                editor.putBoolean(PREF_REMOTEBAR_ACTIVE, U.isServiceRunning(context, NotificationService.class));
                 editor.apply();
             }
 

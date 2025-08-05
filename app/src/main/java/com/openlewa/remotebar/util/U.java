@@ -481,7 +481,7 @@ public class U {
         });
 
         if(shouldCollapse(context, true)) {
-            sendBroadcast(context, ACTION_HIDE_TASKBAR);
+            sendBroadcast(context, ACTION_HIDE_REMOTEBAR);
         } else {
             sendBroadcast(context, ACTION_HIDE_START_MENU);
         }
@@ -1251,7 +1251,7 @@ public class U {
 
     public static void restartRemotebar(Context context) {
         SharedPreferences pref = getSharedPreferences(context);
-        if(pref.getBoolean(PREF_TASKBAR_ACTIVE, false)
+        if(pref.getBoolean(PREF_REMOTEBAR_ACTIVE, false)
                 && !pref.getBoolean(PREF_IS_HIDDEN, false)) {
             pref.edit()
                     .putBoolean(PREF_IS_RESTARTING, true)
@@ -1500,7 +1500,7 @@ public class U {
 
     public static boolean shouldCollapse(Context context, boolean pendingAppLaunch) {
         SharedPreferences pref = getSharedPreferences(context);
-        if(pref.getBoolean(PREF_HIDE_TASKBAR, true)) {
+        if(pref.getBoolean(PREF_HIDE_REMOTEBAR, true)) {
             if(!isFreeformModeEnabled(context)
                     || isOverridingFreeformHack(context, false))
                 return !LauncherHelper.getInstance().isOnHomeScreen(context);

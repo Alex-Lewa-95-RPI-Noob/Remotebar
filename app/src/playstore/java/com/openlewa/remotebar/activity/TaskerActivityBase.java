@@ -46,7 +46,7 @@ public abstract class TaskerActivityBase extends PreferenceActivity implements P
 
             addPreferencesFromResource(R.xml.tb_pref_tasker_action);
             findPreference("show_taskbar").setOnPreferenceClickListener(this);
-            findPreference(PREF_HIDE_TASKBAR).setOnPreferenceClickListener(this);
+            findPreference(PREF_HIDE_REMOTEBAR).setOnPreferenceClickListener(this);
             findPreference("toggle_start_menu").setOnPreferenceClickListener(this);
             findPreference("toggle_dashboard").setOnPreferenceClickListener(this);
         }

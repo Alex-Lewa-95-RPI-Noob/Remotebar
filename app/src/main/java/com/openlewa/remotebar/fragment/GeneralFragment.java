@@ -54,7 +54,7 @@ public class GeneralFragment extends SettingsFragment {
         if(U.canEnableFreeform(getActivity())
                 && !U.isChromeOs(getActivity())
                 && !U.isOverridingFreeformHack(getActivity(), false))
-            findPreference(PREF_HIDE_TASKBAR).setSummary(R.string.tb_hide_taskbar_disclaimer);
+            findPreference(PREF_HIDE_REMOTEBAR).setSummary(R.string.tb_hide_taskbar_disclaimer);
 
         bindPreferenceSummaryToValue(findPreference(PREF_START_MENU_LAYOUT));
         bindPreferenceSummaryToValue(findPreference(PREF_SCROLLBAR));

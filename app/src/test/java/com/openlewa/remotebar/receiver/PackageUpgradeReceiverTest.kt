@@ -51,7 +51,7 @@ class PackageUpgradeReceiverTest {
         PowerMockito.`when`(U.isFreeformModeEnabled(context)).thenAnswer(answer)
         val application = context as Application?
         Shadows.shadowOf(application).clearNextStartedActivities()
-        prefs.edit().putBoolean(Constants.PREF_TASKBAR_ACTIVE, true).apply()
+        prefs.edit().putBoolean(Constants.PREF_REMOTEBAR_ACTIVE, true).apply()
         prefs.edit().putBoolean(Constants.PREF_IS_HIDDEN, false).apply()
         answer.answer = true
         packageUpgradeReceiver.onReceive(context, intent)
@@ -72,7 +72,7 @@ class PackageUpgradeReceiverTest {
         packageUpgradeReceiver.onReceive(context, intent)
         Assert.assertNull(Shadows.shadowOf(application).peekNextStartedActivity())
         Shadows.shadowOf(application).clearNextStartedActivities()
-        prefs.edit().putBoolean(Constants.PREF_TASKBAR_ACTIVE, false).apply()
+        prefs.edit().putBoolean(Constants.PREF_REMOTEBAR_ACTIVE, false).apply()
         prefs.edit().putBoolean(Constants.PREF_IS_HIDDEN, false).apply()
         packageUpgradeReceiver.onReceive(context, intent)
         Assert.assertNull(Shadows.shadowOf(application).peekNextStartedActivity())
@@ -83,7 +83,7 @@ class PackageUpgradeReceiverTest {
         val application = context as Application?
         Shadows.shadowOf(application).clearStartedServices()
         ShadowSettings.setCanDrawOverlays(true)
-        prefs.edit().putBoolean(Constants.PREF_TASKBAR_ACTIVE, true).apply()
+        prefs.edit().putBoolean(Constants.PREF_REMOTEBAR_ACTIVE, true).apply()
         prefs.edit().putBoolean(Constants.PREF_IS_HIDDEN, false).apply()
         packageUpgradeReceiver.onReceive(context, intent)
         var startedIntent = Shadows.shadowOf(application).peekNextStartedService()
@@ -96,14 +96,14 @@ class PackageUpgradeReceiverTest {
         )
         Shadows.shadowOf(application).clearStartedServices()
         ShadowSettings.setCanDrawOverlays(false)
-        prefs.edit().putBoolean(Constants.PREF_TASKBAR_ACTIVE, true).apply()
+        prefs.edit().putBoolean(Constants.PREF_REMOTEBAR_ACTIVE, true).apply()
         prefs.edit().putBoolean(Constants.PREF_IS_HIDDEN, false).apply()
         packageUpgradeReceiver.onReceive(context, intent)
         startedIntent = Shadows.shadowOf(application).peekNextStartedService()
         Assert.assertNull(startedIntent)
         Shadows.shadowOf(application).clearStartedServices()
         ShadowSettings.setCanDrawOverlays(true)
-        prefs.edit().putBoolean(Constants.PREF_TASKBAR_ACTIVE, true).apply()
+        prefs.edit().putBoolean(Constants.PREF_REMOTEBAR_ACTIVE, true).apply()
         prefs.edit().putBoolean(Constants.PREF_IS_HIDDEN, true).apply()
         packageUpgradeReceiver.onReceive(context, intent)
         startedIntent = Shadows.shadowOf(application).peekNextStartedService()
@@ -115,7 +115,7 @@ class PackageUpgradeReceiverTest {
                 startedIntent.component!!.className
         )
         Shadows.shadowOf(application).clearStartedServices()
-        prefs.edit().putBoolean(Constants.PREF_TASKBAR_ACTIVE, false).apply()
+        prefs.edit().putBoolean(Constants.PREF_REMOTEBAR_ACTIVE, false).apply()
         packageUpgradeReceiver.onReceive(context, intent)
         Assert.assertNull(Shadows.shadowOf(application).peekNextStartedService())
     }

@@ -52,12 +52,12 @@ public abstract class UIController {
         else
             shouldProceed = true;
 
-        if(shouldProceed && (pref.getBoolean(PREF_TASKBAR_ACTIVE, false)
+        if(shouldProceed && (pref.getBoolean(PREF_REMOTEBAR_ACTIVE, false)
                 || helper.isOnHomeScreen(context))) {
             if(U.canDrawOverlays(context))
                 runnable.run();
             else {
-                pref.edit().putBoolean(PREF_TASKBAR_ACTIVE, false).apply();
+                pref.edit().putBoolean(PREF_REMOTEBAR_ACTIVE, false).apply();
                 host.terminate();
             }
         } else

@@ -162,31 +162,31 @@ class RemotebarControllerTest {
     @Test
     fun testGetRemotebarLayoutId() {
         Assert.assertEquals(
-                R.layout.tb_taskbar_left.toLong(),
+                R.layout.tb_remotebar_left.toLong(),
                 uiController.getRemotebarLayoutId(POSITION_BOTTOM_LEFT).toLong())
         Assert.assertEquals(
-                R.layout.tb_taskbar_vertical.toLong(),
+                R.layout.tb_remotebar_vertical.toLong(),
                 uiController.getRemotebarLayoutId(POSITION_BOTTOM_VERTICAL_LEFT).toLong())
         Assert.assertEquals(
-                R.layout.tb_taskbar_right.toLong(),
+                R.layout.tb_remotebar_right.toLong(),
                 uiController.getRemotebarLayoutId(POSITION_BOTTOM_RIGHT).toLong())
         Assert.assertEquals(
-                R.layout.tb_taskbar_vertical.toLong(),
+                R.layout.tb_remotebar_vertical.toLong(),
                 uiController.getRemotebarLayoutId(POSITION_BOTTOM_VERTICAL_RIGHT).toLong())
         Assert.assertEquals(
-                R.layout.tb_taskbar_left.toLong(),
+                R.layout.tb_remotebar_left.toLong(),
                 uiController.getRemotebarLayoutId(POSITION_TOP_LEFT).toLong())
         Assert.assertEquals(
-                R.layout.tb_taskbar_top_vertical.toLong(),
+                R.layout.tb_remotebar_top_vertical.toLong(),
                 uiController.getRemotebarLayoutId(POSITION_TOP_VERTICAL_LEFT).toLong())
         Assert.assertEquals(
-                R.layout.tb_taskbar_right.toLong(),
+                R.layout.tb_remotebar_right.toLong(),
                 uiController.getRemotebarLayoutId(POSITION_TOP_RIGHT).toLong())
         Assert.assertEquals(
-                R.layout.tb_taskbar_top_vertical.toLong(),
+                R.layout.tb_remotebar_top_vertical.toLong(),
                 uiController.getRemotebarLayoutId(POSITION_TOP_VERTICAL_RIGHT).toLong())
         Assert.assertEquals(
-                R.layout.tb_taskbar_left.toLong(),
+                R.layout.tb_remotebar_left.toLong(),
                 uiController.getRemotebarLayoutId(Constants.UNSUPPORTED).toLong())
     }
 
@@ -384,10 +384,10 @@ class RemotebarControllerTest {
         val layoutId = uiController.getRemotebarLayoutId(POSITION_BOTTOM_LEFT)
         val layout = LayoutInflater.from(context).inflate(layoutId, null) as LinearLayout
         val scrollView = layout.findViewById<FrameLayout>(R.id.taskbar_scrollview)
-        val taskbar = layout.findViewById<LinearLayout>(R.id.taskbar)
-        uiController.scrollRemotebar(scrollView, taskbar, POSITION_BOTTOM_LEFT, "false", false)
+        val remotebar = layout.findViewById<LinearLayout>(R.id.remotebar)
+        uiController.scrollRemotebar(scrollView, remotebar, POSITION_BOTTOM_LEFT, "false", false)
         Assert.assertEquals(View.GONE.toLong(), scrollView.visibility.toLong())
-        uiController.scrollRemotebar(scrollView, taskbar, POSITION_BOTTOM_LEFT, "false", true)
+        uiController.scrollRemotebar(scrollView, remotebar, POSITION_BOTTOM_LEFT, "false", true)
         Assert.assertEquals(View.VISIBLE.toLong(), scrollView.visibility.toLong())
     }
 
@@ -400,31 +400,31 @@ class RemotebarControllerTest {
         val layoutId = uiController.getRemotebarLayoutId(taskbarPosition)
         val layout = LayoutInflater.from(context).inflate(layoutId, null) as LinearLayout
         val scrollView = layout.findViewById<FrameLayout>(R.id.taskbar_scrollview)
-        val taskbar = layout.findViewById<LinearLayout>(R.id.taskbar)
+        val remotebar = layout.findViewById<LinearLayout>(R.id.remotebar)
         val taskbarWidth = 200
         val taskbarHeight = 50
         // Change LayoutParams doesn't work with robolectric, so we should use reflection
         // to change the location directly.
-        ReflectionHelpers.setField(taskbar, "mLeft", 0)
-        ReflectionHelpers.setField(taskbar, "mTop", 0)
-        ReflectionHelpers.setField(taskbar, "mRight", taskbarWidth)
-        ReflectionHelpers.setField(taskbar, "mBottom", taskbarHeight)
+        ReflectionHelpers.setField(remotebar, "mLeft", 0)
+        ReflectionHelpers.setField(remotebar, "mTop", 0)
+        ReflectionHelpers.setField(remotebar, "mRight", taskbarWidth)
+        ReflectionHelpers.setField(remotebar, "mBottom", taskbarHeight)
         val isVerticalAnswer = BooleanAnswer()
         PowerMockito.spy(RemotebarPosition::class.java)
         PowerMockito.`when`(RemotebarPosition.isVertical(taskbarPosition))
                 .thenAnswer(isVerticalAnswer)
         isVerticalAnswer.answer = false
-        uiController.scrollRemotebar(scrollView, taskbar, taskbarPosition, "false", true)
+        uiController.scrollRemotebar(scrollView, remotebar, taskbarPosition, "false", true)
         Assert.assertEquals(0, scrollView.scrollX.toLong())
         Assert.assertEquals(0, scrollView.scrollY.toLong())
-        uiController.scrollRemotebar(scrollView, taskbar, taskbarPosition, "true", true)
+        uiController.scrollRemotebar(scrollView, remotebar, taskbarPosition, "true", true)
         Assert.assertEquals(taskbarWidth.toLong(), scrollView.scrollX.toLong())
         Assert.assertEquals(taskbarHeight.toLong(), scrollView.scrollY.toLong())
         isVerticalAnswer.answer = true
-        uiController.scrollRemotebar(scrollView, taskbar, taskbarPosition, "true", true)
+        uiController.scrollRemotebar(scrollView, remotebar, taskbarPosition, "true", true)
         Assert.assertEquals(0, scrollView.scrollX.toLong())
         Assert.assertEquals(0, scrollView.scrollY.toLong())
-        uiController.scrollRemotebar(scrollView, taskbar, taskbarPosition, "false", true)
+        uiController.scrollRemotebar(scrollView, remotebar, taskbarPosition, "false", true)
         Assert.assertEquals(taskbarWidth.toLong(), scrollView.scrollX.toLong())
         Assert.assertEquals(taskbarHeight.toLong(), scrollView.scrollY.toLong())
     }

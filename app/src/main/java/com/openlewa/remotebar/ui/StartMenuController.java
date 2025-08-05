@@ -253,7 +253,7 @@ public class StartMenuController extends UIController {
                                 layout.performClick();
                             } else {
                                 if(U.shouldCollapse(context, true)) {
-                                    U.sendBroadcast(context, ACTION_HIDE_TASKBAR);
+                                    U.sendBroadcast(context, ACTION_HIDE_REMOTEBAR);
                                 } else {
                                     hideStartMenu(true);
                                 }
@@ -762,7 +762,7 @@ public class StartMenuController extends UIController {
                 drawStartMenu(host);
             else {
                 SharedPreferences pref = U.getSharedPreferences(context);
-                pref.edit().putBoolean(PREF_TASKBAR_ACTIVE, false).apply();
+                pref.edit().putBoolean(PREF_REMOTEBAR_ACTIVE, false).apply();
 
                 host.terminate();
             }

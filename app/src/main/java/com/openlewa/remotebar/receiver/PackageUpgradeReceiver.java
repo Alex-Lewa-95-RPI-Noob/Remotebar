@@ -33,7 +33,7 @@ public class PackageUpgradeReceiver extends BroadcastReceiver {
             SharedPreferences pref = U.getSharedPreferences(context);
             boolean startServices = false;
 
-            if(pref.getBoolean(PREF_TASKBAR_ACTIVE, false) && !pref.getBoolean(PREF_IS_HIDDEN, false)) {
+            if(pref.getBoolean(PREF_REMOTEBAR_ACTIVE, false) && !pref.getBoolean(PREF_IS_HIDDEN, false)) {
                 if(U.hasFreeformSupport(context) && U.isFreeformModeEnabled(context)) {
                     Intent intent2 = new Intent(context, DummyActivity.class);
                     intent2.putExtra(EXTRA_START_FREEFORM_HACK, true);
@@ -45,7 +45,7 @@ public class PackageUpgradeReceiver extends BroadcastReceiver {
                 startServices = true;
             }
 
-            if(pref.getBoolean(PREF_TASKBAR_ACTIVE, false)) {
+            if(pref.getBoolean(PREF_REMOTEBAR_ACTIVE, false)) {
                 Intent notificationIntent = new Intent(context, NotificationService.class);
                 notificationIntent.putExtra(EXTRA_START_SERVICES, startServices);
 

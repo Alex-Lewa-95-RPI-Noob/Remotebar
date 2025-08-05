@@ -70,7 +70,7 @@ public class DashboardActivity extends Activity {
 
             try {
                 startActivityForResult(pickIntent, REQUEST_PICK_APPWIDGET);
-                U.sendBroadcast(DashboardActivity.this, ACTION_TEMP_HIDE_TASKBAR);
+                U.sendBroadcast(DashboardActivity.this, ACTION_TEMP_HIDE_REMOTEBAR);
             } catch (ActivityNotFoundException e) {
                 U.showToast(DashboardActivity.this, R.string.tb_lock_device_not_supported);
                 finish();
@@ -188,7 +188,7 @@ public class DashboardActivity extends Activity {
         if(shouldFinish) {
             if(shouldCollapse) {
                 if(U.shouldCollapse(this, true)) {
-                    U.sendBroadcast(this, ACTION_HIDE_TASKBAR);
+                    U.sendBroadcast(this, ACTION_HIDE_REMOTEBAR);
                 } else {
                     U.sendBroadcast(this, ACTION_HIDE_START_MENU);
                 }
@@ -225,7 +225,7 @@ public class DashboardActivity extends Activity {
             }
 
             U.sendBroadcast(this, ACTION_ADD_WIDGET_COMPLETED);
-            U.sendBroadcast(this, ACTION_TEMP_SHOW_TASKBAR);
+            U.sendBroadcast(this, ACTION_TEMP_SHOW_REMOTEBAR);
 
             shouldFinish = true;
         }
@@ -249,7 +249,7 @@ public class DashboardActivity extends Activity {
 
             SharedPreferences pref = U.getSharedPreferences(this);
             if(LauncherHelper.getInstance().isOnHomeScreen(this)
-                    && (!pref.getBoolean(PREF_TASKBAR_ACTIVE, false)
+                    && (!pref.getBoolean(PREF_REMOTEBAR_ACTIVE, false)
                     || pref.getBoolean(PREF_IS_HIDDEN, false)))
                 pref.edit().putBoolean(PREF_DONT_STOP_DASHBOARD, true).apply();
 
@@ -268,7 +268,7 @@ public class DashboardActivity extends Activity {
         intent.putExtra(EXTRA_CELL_ID, cellId);
 
         U.sendBroadcast(this, intent);
-        U.sendBroadcast(this, ACTION_TEMP_SHOW_TASKBAR);
+        U.sendBroadcast(this, ACTION_TEMP_SHOW_REMOTEBAR);
 
         shouldFinish = true;
     }

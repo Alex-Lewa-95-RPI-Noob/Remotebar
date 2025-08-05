@@ -110,7 +110,7 @@ public class RemotebarController extends UIController {
 
     private LinearLayout layout;
     private ImageView startButton;
-    private LinearLayout taskbar;
+    private LinearLayout remotebar;
     private FrameLayout scrollView;
     private Button button;
     private Space space;
@@ -252,7 +252,7 @@ public class RemotebarController extends UIController {
                 getBottomMargin(context)
         );
 
-        // Determine where to show the taskbar on screen
+        // Determine where to show the remotebar on screen
         String taskbarPosition = RemotebarPosition.getRemotebarPosition(context);
         params.gravity = getRemotebarGravity(taskbarPosition);
         int layoutId = getRemotebarLayoutId(taskbarPosition);
@@ -263,8 +263,8 @@ public class RemotebarController extends UIController {
         boolean altButtonConfig = pref.getBoolean(PREF_ALT_BUTTON_CONFIG, false);
 
         layout = (LinearLayout) LayoutInflater.from(U.wrapContext(context)).inflate(layoutId, null);
-        taskbar = layout.findViewById(R.id.taskbar);
-        scrollView = layout.findViewById(R.id.taskbar_scrollview);
+        remotebar = layout.findViewById(R.id.remotebar);
+        scrollView = layout.findViewById(R.id.remotebar_scrollview);
 
         int backgroundTint = U.getBackgroundTint(context);
         int accentColor = U.getAccentColor(context);
@@ -296,11 +296,11 @@ public class RemotebarController extends UIController {
         U.sendBroadcast(context, ACTION_UPDATE_HOME_SCREEN_MARGINS);
 
         if(altButtonConfig) {
-            button = layout.findViewById(R.id.hide_taskbar_button_alt);
-            layout.findViewById(R.id.hide_taskbar_button).setVisibility(View.GONE);
+            button = layout.findViewById(R.id.hide_remotebar_button_alt);
+            layout.findViewById(R.id.hide_remotebar_button).setVisibility(View.GONE);
         } else {
-            button = layout.findViewById(R.id.hide_taskbar_button);
-            layout.findViewById(R.id.hide_taskbar_button_alt).setVisibility(View.GONE);
+            button = layout.findViewById(R.id.hide_remotebar_button);
+            layout.findViewById(R.id.hide_remotebar_button_alt).setVisibility(View.GONE);
         }
 
         try {
@@ -311,13 +311,13 @@ public class RemotebarController extends UIController {
         button.setOnClickListener(v -> toggleRemotebar(true));
 
         LinearLayout buttonLayout = layout.findViewById(altButtonConfig
-                ? R.id.hide_taskbar_button_layout_alt
-                : R.id.hide_taskbar_button_layout);
+                ? R.id.hide_remotebar_button_layout_alt
+                : R.id.hide_remotebar_button_layout);
         if(buttonLayout != null) buttonLayout.setOnClickListener(v -> toggleRemotebar(true));
 
         LinearLayout buttonLayoutToHide = layout.findViewById(altButtonConfig
-                ? R.id.hide_taskbar_button_layout
-                : R.id.hide_taskbar_button_layout_alt);
+                ? R.id.hide_remotebar_button_layout
+                : R.id.hide_remotebar_button_layout_alt);
         if(buttonLayoutToHide != null) buttonLayoutToHide.setVisibility(View.GONE);
 
         dashboardButton = layout.findViewById(R.id.dashboard_button);
@@ -343,7 +343,7 @@ public class RemotebarController extends UIController {
 
         if(isFirstStart && FreeformHackHelper.getInstance().isInFreeformWorkspace())
             showRemotebar(false);
-        else if(!pref.getBoolean(PREF_COLLAPSED, false) && pref.getBoolean(PREF_TASKBAR_ACTIVE, false))
+        else if(!pref.getBoolean(PREF_COLLAPSED, false) && pref.getBoolean(PREF_REMOTEBAR_ACTIVE, false))
             toggleRemotebar(false);
 
         if(pref.getBoolean(PREF_AUTO_HIDE_NAVBAR, false))
@@ -355,10 +355,10 @@ public class RemotebarController extends UIController {
             U.newHandler().postDelayed(() -> U.startTouchAbsorberActivity(context), 500);
         }
 
-        U.registerReceiver(context, showReceiver, ACTION_SHOW_TASKBAR);
-        U.registerReceiver(context, hideReceiver, ACTION_HIDE_TASKBAR);
-        U.registerReceiver(context, tempShowReceiver, ACTION_TEMP_SHOW_TASKBAR);
-        U.registerReceiver(context, tempHideReceiver, ACTION_TEMP_HIDE_TASKBAR);
+        U.registerReceiver(context, showReceiver, ACTION_SHOW_REMOTEBAR);
+        U.registerReceiver(context, hideReceiver, ACTION_HIDE_REMOTEBAR);
+        U.registerReceiver(context, tempShowReceiver, ACTION_TEMP_SHOW_REMOTEBAR);
+        U.registerReceiver(context, tempHideReceiver, ACTION_TEMP_HIDE_REMOTEBAR);
         U.registerReceiver(context, startMenuAppearReceiver, ACTION_START_MENU_APPEARING);
         U.registerReceiver(context, startMenuDisappearReceiver, ACTION_START_MENU_DISAPPEARING);
 
@@ -428,27 +428,27 @@ public class RemotebarController extends UIController {
 
     @VisibleForTesting
     int getRemotebarLayoutId(String taskbarPosition) {
-        int layoutId = R.layout.tb_taskbar_left;
+        int layoutId = R.layout.tb_remotebar_left;
         switch(taskbarPosition) {
             case POSITION_BOTTOM_LEFT:
             case POSITION_TOP_LEFT:
-                layoutId = R.layout.tb_taskbar_left;
+                layoutId = R.layout.tb_remotebar_left;
                 break;
             case POSITION_BOTTOM_CENTER:
             case POSITION_TOP_CENTER:
-                layoutId = R.layout.tb_taskbar_center;
+                layoutId = R.layout.tb_remotebar_center;
                 break;
             case POSITION_BOTTOM_VERTICAL_LEFT:
             case POSITION_BOTTOM_VERTICAL_RIGHT:
-                layoutId = R.layout.tb_taskbar_vertical;
+                layoutId = R.layout.tb_remotebar_vertical;
                 break;
             case POSITION_BOTTOM_RIGHT:
             case POSITION_TOP_RIGHT:
-                layoutId = R.layout.tb_taskbar_right;
+                layoutId = R.layout.tb_remotebar_right;
                 break;
             case POSITION_TOP_VERTICAL_LEFT:
             case POSITION_TOP_VERTICAL_RIGHT:
-                layoutId = R.layout.tb_taskbar_top_vertical;
+                layoutId = R.layout.tb_remotebar_top_vertical;
                 break;
         }
         return layoutId;
@@ -655,7 +655,7 @@ public class RemotebarController extends UIController {
                 context.getResources().getDimensionPixelSize(R.dimen.tb_icon_size)
         );
 
-        if(layoutId == R.layout.tb_taskbar_right) {
+        if(layoutId == R.layout.tb_remotebar_right) {
             time = sysTrayLayout.findViewById(R.id.time_left);
             sysTrayParams.gravity = Gravity.START;
             sysTrayLayout.findViewById(R.id.space_right).setVisibility(View.VISIBLE);
@@ -948,9 +948,9 @@ public class RemotebarController extends UIController {
                             );
                         }
 
-                        taskbar.removeAllViews();
+                        remotebar.removeAllViews();
                         for(int i = 0; i < entries.size(); i++) {
-                            taskbar.addView(getView(entries, i));
+                            remotebar.addView(getView(entries, i));
                         }
 
                         if(runningAppsOnly)
@@ -968,7 +968,7 @@ public class RemotebarController extends UIController {
                             U.newHandler().post(
                                     () -> scrollRemotebar(
                                             scrollView,
-                                            taskbar,
+                                            remotebar,
                                             RemotebarPosition.getRemotebarPosition(context),
                                             sortOrder,
                                             shouldRefreshRecents
@@ -1105,13 +1105,13 @@ public class RemotebarController extends UIController {
 
     @VisibleForTesting
     void scrollRemotebar(FrameLayout scrollView,
-                       LinearLayout taskbar,
+                       LinearLayout remotebar,
                        String taskbarPosition,
                        String sortOrder,
                        boolean shouldRefreshRecents) {
         if(RemotebarPosition.isVertical(taskbarPosition)) {
             if(sortOrder.contains("false")) {
-                scrollView.scrollTo(taskbar.getWidth(), taskbar.getHeight());
+                scrollView.scrollTo(remotebar.getWidth(), remotebar.getHeight());
             } else if(sortOrder.contains("true")) {
                 scrollView.scrollTo(0, 0);
             }
@@ -1119,7 +1119,7 @@ public class RemotebarController extends UIController {
             if(sortOrder.contains("false")) {
                 scrollView.scrollTo(0, 0);
             } else if(sortOrder.contains("true")) {
-                scrollView.scrollTo(taskbar.getWidth(), taskbar.getHeight());
+                scrollView.scrollTo(remotebar.getWidth(), remotebar.getHeight());
             }
         }
 
@@ -1286,7 +1286,7 @@ public class RemotebarController extends UIController {
     }
 
     private void updateRunningAppIndicators(List<AppEntry> pinnedApps, List<AppEntry> usageStatsList, List<AppEntry> entries) {
-        if(taskbar.getChildCount() != entries.size())
+        if(remotebar.getChildCount() != entries.size())
             return;
 
         List<String> pinnedPackageList = new ArrayList<>();
@@ -1298,8 +1298,8 @@ public class RemotebarController extends UIController {
         for(AppEntry entry : usageStatsList)
             runningPackageList.add(entry.getPackageName());
 
-        for(int i = 0; i < taskbar.getChildCount(); i++) {
-            View convertView = taskbar.getChildAt(i);
+        for(int i = 0; i < remotebar.getChildCount(); i++) {
+            View convertView = remotebar.getChildAt(i);
             String packageName = entries.get(i).getPackageName();
 
             ImageView runningAppIndicator = convertView.findViewById(R.id.running_app_indicator);
@@ -1528,7 +1528,7 @@ public class RemotebarController extends UIController {
         Bundle args = new Bundle();
         args.putBoolean("dont_show_quit",
                 LauncherHelper.getInstance().isOnHomeScreen(context)
-                        && !pref.getBoolean(PREF_TASKBAR_ACTIVE, false));
+                        && !pref.getBoolean(PREF_REMOTEBAR_ACTIVE, false));
         args.putBoolean("is_start_button", true);
 
         U.startContextMenuActivity(context, args);
@@ -1556,7 +1556,7 @@ public class RemotebarController extends UIController {
                 drawRemotebar(host);
             else {
                 SharedPreferences pref = U.getSharedPreferences(context);
-                pref.edit().putBoolean(PREF_TASKBAR_ACTIVE, false).apply();
+                pref.edit().putBoolean(PREF_REMOTEBAR_ACTIVE, false).apply();
 
                 host.terminate();
             }

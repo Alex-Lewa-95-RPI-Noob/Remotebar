@@ -186,13 +186,13 @@ public class FreeformModeFragment extends SettingsFragment {
                         }
                     }
 
-                    if(pref.getBoolean(PREF_TASKBAR_ACTIVE, false)
+                    if(pref.getBoolean(PREF_REMOTEBAR_ACTIVE, false)
                             && !FreeformHackHelper.getInstance().isFreeformHackActive()) {
                         U.startFreeformHack(getActivity(), true);
                     }
                 } else {
                     U.stopFreeformHack(getActivity());
-                    U.sendBroadcast(getActivity(), ACTION_FORCE_TASKBAR_RESTART);
+                    U.sendBroadcast(getActivity(), ACTION_FORCE_REMOTEBAR_RESTART);
                 }
 
                 U.restartNotificationService(getActivity());

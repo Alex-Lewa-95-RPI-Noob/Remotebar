@@ -75,7 +75,7 @@ public abstract class AbstractSelectAppActivity extends AppCompatActivity {
         isCollapsed = !pref.getBoolean(PREF_COLLAPSED, false);
 
         if(!isCollapsed) {
-            U.sendBroadcast(this, ACTION_HIDE_TASKBAR);
+            U.sendBroadcast(this, ACTION_HIDE_REMOTEBAR);
         }
 
         progressBar = findViewById(R.id.progress_bar);
@@ -92,7 +92,7 @@ public abstract class AbstractSelectAppActivity extends AppCompatActivity {
         }
 
         if(!isCollapsed) {
-            U.sendBroadcast(this, ACTION_SHOW_TASKBAR);
+            U.sendBroadcast(this, ACTION_SHOW_REMOTEBAR);
         }
         super.finish();
     }

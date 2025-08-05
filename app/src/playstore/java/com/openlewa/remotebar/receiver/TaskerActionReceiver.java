@@ -61,9 +61,9 @@ public final class TaskerActionReceiver extends BroadcastReceiver {
             case "tasker_off":
                 return ACTION_QUIT;
             case "show_taskbar":
-                return ACTION_SHOW_TASKBAR;
-            case PREF_HIDE_TASKBAR:
-                return ACTION_HIDE_TASKBAR;
+                return ACTION_SHOW_REMOTEBAR;
+            case PREF_HIDE_REMOTEBAR:
+                return ACTION_HIDE_REMOTEBAR;
             case "toggle_start_menu":
                 return ACTION_TOGGLE_START_MENU;
             case "toggle_dashboard":
