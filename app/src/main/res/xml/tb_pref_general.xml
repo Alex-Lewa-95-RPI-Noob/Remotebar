@@ -26,7 +26,7 @@
         android:title="@string/tb_pref_title_start_menu_layout"/>
 
     <ListPreference
-        android:defaultValue="bottom_left"
+        android:defaultValue="bottom_center"
         android:entries="@array/tb_pref_position_list"
         android:entryValues="@array/tb_pref_position_list_values"
         android:key="position"

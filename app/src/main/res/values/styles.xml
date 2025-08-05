@@ -16,7 +16,7 @@
 
 <resources>
 
-    <style name="TaskbarBase" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="RemotebarBase" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/tb_colorPrimary</item>
         <item name="colorPrimaryDark">@color/tb_colorPrimaryDark</item>
         <item name="colorAccent">@color/tb_colorAccent</item>
@@ -26,7 +26,7 @@
         <item name="tb_settings_icon_color">@color/tb_settings_icon_color</item>
     </style>
 
-    <style name="TaskbarBase.Dark" parent="Theme.AppCompat.NoActionBar">
+    <style name="RemotebarBase.Dark" parent="Theme.AppCompat.NoActionBar">
         <item name="colorPrimary">@color/tb_colorPrimary</item>
         <item name="colorPrimaryDark">@color/tb_colorPrimaryDark</item>
         <item name="colorAccent">@color/tb_colorAccent</item>
@@ -36,19 +36,19 @@
         <item name="tb_settings_icon_color">@color/tb_settings_icon_color_dark</item>
     </style>
 
-    <style name="Taskbar" parent="TaskbarBase" />
+    <style name="Remotebar" parent="RemotebarBase" />
 
-    <style name="Taskbar.Dark" parent="TaskbarBase.Dark" />
+    <style name="Remotebar.Dark" parent="RemotebarBase.Dark" />
 
-    <style name="Taskbar.Floating">
+    <style name="Remotebar.Floating">
         <item name="android:windowIsFloating">true</item>
     </style>
 
-    <style name="Taskbar.Dark.Floating">
+    <style name="Remotebar.Dark.Floating">
         <item name="android:windowIsFloating">true</item>
     </style>
 
-    <style name="Taskbar.HomeActivity" parent="Theme.AppCompat.NoActionBar">
+    <style name="Remotebar.HomeActivity" parent="Theme.AppCompat.NoActionBar">
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowShowWallpaper">true</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
@@ -56,64 +56,64 @@
         <item name="android:navigationBarColor">@android:color/transparent</item>
     </style>
 
-    <style name="Taskbar.InvisibleActivity" parent="@android:style/Theme.Material.Dialog.NoActionBar">
+    <style name="Remotebar.InvisibleActivity" parent="@android:style/Theme.Material.Dialog.NoActionBar">
         <item name="android:backgroundDimEnabled">false</item>
     </style>
 
-    <style name="Taskbar.Dialog" parent="@android:style/Theme.Material.Light.Dialog">
+    <style name="Remotebar.Dialog" parent="@android:style/Theme.Material.Light.Dialog">
         <item name="android:windowNoTitle">true</item>
     </style>
 
-    <style name="Taskbar.Dialog.Dark" parent="@android:style/Theme.Material.Dialog">
+    <style name="Remotebar.Dialog.Dark" parent="@android:style/Theme.Material.Dialog">
         <item name="android:windowNoTitle">true</item>
     </style>
 
-    <style name="Taskbar.Dialog.Blacklist" parent="Theme.AppCompat.Light.Dialog">
+    <style name="Remotebar.Dialog.Blacklist" parent="Theme.AppCompat.Light.Dialog">
         <item name="colorPrimary">@color/tb_colorPrimary</item>
         <item name="colorPrimaryDark">@color/tb_colorPrimaryDark</item>
         <item name="colorAccent">@color/tb_colorAccent</item>
     </style>
 
-    <style name="Taskbar.Dialog.Blacklist.Dark" parent="Theme.AppCompat.Dialog">
+    <style name="Remotebar.Dialog.Blacklist.Dark" parent="Theme.AppCompat.Dialog">
         <item name="colorPrimary">@color/tb_colorPrimary</item>
         <item name="colorPrimaryDark">@color/tb_colorPrimaryDark</item>
         <item name="colorAccent">@color/tb_colorAccent</item>
     </style>
 
-    <style name="Taskbar.Incognito" parent="@android:style/Theme.Material.Light">
+    <style name="Remotebar.Incognito" parent="@android:style/Theme.Material.Light">
         <item name="android:windowIsFloating">true</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:backgroundDimAmount">0</item>
         <item name="android:windowBackground">@android:color/transparent</item>
     </style>
 
-    <style name="Taskbar.Incognito.Dark" parent="@android:style/Theme.Material">
+    <style name="Remotebar.Incognito.Dark" parent="@android:style/Theme.Material">
         <item name="android:windowIsFloating">true</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:backgroundDimAmount">0</item>
         <item name="android:windowBackground">@android:color/transparent</item>
     </style>
 
-    <style name="Taskbar.Dialog.Preference" parent="@android:style/Theme.Material.Light.Dialog">
+    <style name="Remotebar.Dialog.Preference" parent="@android:style/Theme.Material.Light.Dialog">
         <item name="android:colorPrimary">@color/tb_colorPrimary</item>
         <item name="android:colorPrimaryDark">@color/tb_colorPrimaryDark</item>
         <item name="android:colorAccent">@color/tb_colorAccent</item>
     </style>
 
-    <style name="Taskbar.Dialog.Preference.Dark" parent="@android:style/Theme.Material.Dialog">
+    <style name="Remotebar.Dialog.Preference.Dark" parent="@android:style/Theme.Material.Dialog">
         <item name="android:colorPrimary">@color/tb_colorPrimary</item>
         <item name="android:colorPrimaryDark">@color/tb_colorPrimaryDark</item>
         <item name="android:colorAccent">@color/tb_colorAccent</item>
     </style>
 
-    <style name="Taskbar.DimScreenActivity" parent="Theme.AppCompat">
+    <style name="Remotebar.DimScreenActivity" parent="Theme.AppCompat">
         <item name="colorPrimary">@android:color/black</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:windowBackground">@android:color/black</item>
         <item name="tb_settings_icon_color">@color/tb_settings_icon_color_dark</item>
     </style>
 
-    <style name="Taskbar.Dialog.FullWidth" parent="Theme.AppCompat.Light.Dialog">
+    <style name="Remotebar.Dialog.FullWidth" parent="Theme.AppCompat.Light.Dialog">
         <item name="colorPrimary">@color/tb_colorPrimary</item>
         <item name="colorPrimaryDark">@color/tb_colorPrimaryDark</item>
         <item name="colorAccent">@color/tb_colorAccent</item>
@@ -122,7 +122,7 @@
         <item name="android:windowMinWidthMinor">95%</item>
     </style>
 
-    <style name="Taskbar.Dialog.FullWidth.Dark" parent="Theme.AppCompat.Dialog">
+    <style name="Remotebar.Dialog.FullWidth.Dark" parent="Theme.AppCompat.Dialog">
         <item name="colorPrimary">@color/tb_colorPrimary</item>
         <item name="colorPrimaryDark">@color/tb_colorPrimaryDark</item>
         <item name="colorAccent">@color/tb_colorAccent</item>

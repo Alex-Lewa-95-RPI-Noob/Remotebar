@@ -16,13 +16,13 @@
 
 <resources>
 
-    <string name="tb_app_name">Taskbar</string>
-    <string name="tb_app_name_debug">Taskbar (Debug)</string>
+    <string name="tb_app_name">Remotebar</string>
+    <string name="tb_app_name_debug">Remotebar (Debug)</string>
 
-    <string name="tb_taskbar_is_active">Taskbar ist aktiv</string>
+    <string name="tb_taskbar_is_active">Remotebar ist aktiv</string>
     <string name="tb_click_to_open_settings">Hier klicken, um die Einstellungen zu öffnen.</string>
-    <string name="tb_action_show">Taskbar anzeigen</string>
-    <string name="tb_action_hide">Taskbar ausblenden</string>
+    <string name="tb_action_show">Remotebar anzeigen</string>
+    <string name="tb_action_hide">Remotebar ausblenden</string>
     <string name="tb_action_show_alt">Anzeigen</string>
     <string name="tb_action_hide_alt">Ausblenden</string>
     <string name="tb_action_quit">Beenden</string>
@@ -32,7 +32,7 @@
     <string name="tb_permission_dialog_title">Berechtigung notwendig</string>
     <string name="tb_permission_dialog_message">%s benötigt die Berechtigung, über anderen Apps einzublenden, um zu starten.\n\n</string>
     <string name="tb_permission_dialog_instructions_phone">Bitte wählen Sie »Berechtigung gewähren« und stellen Sie sicher, dass »Einblendung über anderen Apps zulassen« aktiviert ist.</string>
-    <string name="tb_permission_dialog_instructions_tv">Bitte wählen Sie »Einstellungen öffnen«, um das Android TV-Einstellungsmenü zu öffnen. Wählen Sie »Spezieller App-Zugriff«, dann »Über anderen Apps einblenden« und stellen Sie sicher, dass Taskbar aktiviert ist.</string>
+    <string name="tb_permission_dialog_instructions_tv">Bitte wählen Sie »Einstellungen öffnen«, um das Android TV-Einstellungsmenü zu öffnen. Wählen Sie »Spezieller App-Zugriff«, dann »Über anderen Apps einblenden« und stellen Sie sicher, dass Remotebar aktiviert ist.</string>
 
     <string name="tb_pref_header_general">Allgemeine Einstellungen</string>
     <string name="tb_pref_title_start_menu_layout">Startmenü-Anordnung</string>
@@ -53,12 +53,12 @@
     <string name="tb_pref_title_amount_of_recents">Anzuzeigende letzte Apps</string>
     <string-array name="tb_pref_recents_amount">
         <item>Seit dem letzten Tag genutzte Apps</item>
-        <item>Seit dem Start von Taskbar genutzte Apps</item>
+        <item>Seit dem Start von Remotebar genutzte Apps</item>
         <item>Alle Apps (kann die Leistung beeinträchtigen)</item>
     </string-array>
     <string-array name="tb_pref_recents_amount_alt">
         <item>Seit dem letzten Tag genutzte Apps</item>
-        <item>Seit dem Start von Taskbar genutzte Apps</item>
+        <item>Seit dem Start von Remotebar genutzte Apps</item>
         <item>Alle Apps (kann die Leistung beeinträchtigen)</item>
         <item>Nur laufende Apps</item>
     </string-array>
@@ -78,16 +78,16 @@
     <string name="tb_pref_header_advanced">Erweiterte Optionen</string>
 
     <string name="tb_pref_title_freeform_hack">Unterstützung von Freiform-Fenstern</string>
-    <string name="tb_pref_description_freeform_hack">(Erlaubt Taskbar, Apps für ein Desktop-ähnlicheres Erlebnis im Freiform-Fenstermodus zu öffnen.\n\nDiese Funktion ist experimentell und kann Probleme mit dem üblichen Multitasking mit geteiltem Bildschirm verursachen.)</string>
+    <string name="tb_pref_description_freeform_hack">(Erlaubt Remotebar, Apps für ein Desktop-ähnlicheres Erlebnis im Freiform-Fenstermodus zu öffnen.\n\nDiese Funktion ist experimentell und kann Probleme mit dem üblichen Multitasking mit geteiltem Bildschirm verursachen.)</string>
 
-    <string name="tb_pref_header_about">Über Taskbar</string>
-    <string name="tb_pref_about_description">Taskbar: PC-ähnliche Produktivität für Android\n\n&#169; %1$d Braden Farmer\nApp-Logo von Mark Morilla\n\nKlicken Sie hier, um nach Updates zu suchen oder eine Bewertung abzugeben. %2$s</string>
-    <string name="tb_pref_about_description_alt">Taskbar: PC-ähnliche Produktivität für Android\n\n&#169; %1$d Braden Farmer\nApp-Logo von Mark Morilla</string>
+    <string name="tb_pref_header_about">Über Remotebar</string>
+    <string name="tb_pref_about_description">Remotebar: PC-ähnliche Produktivität für Android\n\n&#169; %1$d Braden Farmer\nApp-Logo von Mark Morilla\n\nKlicken Sie hier, um nach Updates zu suchen oder eine Bewertung abzugeben. %2$s</string>
+    <string name="tb_pref_about_description_alt">Remotebar: PC-ähnliche Produktivität für Android\n\n&#169; %1$d Braden Farmer\nApp-Logo von Mark Morilla</string>
 
-    <string name="tb_pref_title_hide_taskbar">Taskbar nach Auswahl einer App verbergen</string>
+    <string name="tb_pref_title_hide_taskbar">Remotebar nach Auswahl einer App verbergen</string>
 
     <string name="tb_pref_title_launcher">Startbildschirm ersetzen</string>
-    <string name="tb_pref_description_launcher">(Taskbar als Startbildschirm-Ersatz verwenden)</string>
+    <string name="tb_pref_description_launcher">(Remotebar als Startbildschirm-Ersatz verwenden)</string>
 
     <string name="tb_set_wallpaper">Hintergrundbild festlegen mit&#8239;&#8230;</string>
     <string name="tb_pref_disable_animations">Schnellerer App-Wechsel</string>
@@ -110,8 +110,8 @@
     <string name="tb_quit_taskbar">Beenden</string>
 
     <string name="tb_pref_title_keyboard_shortcut">Tastenkombinationen aktivieren</string>
-    <string name="tb_pref_description_keyboard_shortcut">Taskbar starten/beenden: &#160; {fou_social-windows} + M &#160; {fou_magnifying-glass} + M\n\nStartmenü anzeigen: &#160; {fou_social-windows} &#160; {fou_magnifying-glass}\n(Taskbar muss in den Einstellungen die Assistent-App sein)</string>
-    <string name="tb_pref_description_keyboard_shortcut_alt">Taskbar starten/beenden: &#160; Super+M / Suche+M\n\nStartmenü anzeigen: &#160; Super / Suche\n(Taskbar muss in den Einstellungen die Assistent-App sein)</string>
+    <string name="tb_pref_description_keyboard_shortcut">Remotebar starten/beenden: &#160; {fou_social-windows} + M &#160; {fou_magnifying-glass} + M\n\nStartmenü anzeigen: &#160; {fou_social-windows} &#160; {fou_magnifying-glass}\n(Remotebar muss in den Einstellungen die Assistent-App sein)</string>
+    <string name="tb_pref_description_keyboard_shortcut_alt">Remotebar starten/beenden: &#160; Super+M / Suche+M\n\nStartmenü anzeigen: &#160; Super / Suche\n(Remotebar muss in den Einstellungen die Assistent-App sein)</string>
     <string name="tb_loading_apps">Apps werden geladen&#8239;&#8230;</string>
     <string name="tb_press_enter">Keine Apps gefunden\n\nDrücken Sie Enter, um mit Google zu suchen</string>
     <string name="tb_nothing_to_see_here">Hier gibt es nichts zu sehen, machen Sie weiter&#8239;&#8230;</string>
@@ -141,12 +141,12 @@
     <string name="tb_pref_title_shortcut_icon">Angeheftete Apps mit Verknüpfungssymbol anzeigen</string>
 
     <string name="tb_freeform_dialog_title">Freiform-Unterstützung aktivieren</string>
-    <string name="tb_freeform_dialog_message">Um Apps mit Taskbar im Freiform-Fenstermodus zu öffnen, führen Sie bitte die folgenden Schritte aus:\n\n&#8226; Öffnen Sie die Entwickleroptionen\n\n&#8226; Scrollen Sie nach unten und aktivieren Sie »%s«\n\n&#8226; Starten Sie Ihr Gerät neu</string>
+    <string name="tb_freeform_dialog_message">Um Apps mit Remotebar im Freiform-Fenstermodus zu öffnen, führen Sie bitte die folgenden Schritte aus:\n\n&#8226; Öffnen Sie die Entwickleroptionen\n\n&#8226; Scrollen Sie nach unten und aktivieren Sie »%s«\n\n&#8226; Starten Sie Ihr Gerät neu</string>
 
-    <string name="tb_pref_title_invisible_button">Start-Schaltfläche einklappen, wenn Taskbar verborgen ist</string>
+    <string name="tb_pref_title_invisible_button">Start-Schaltfläche einklappen, wenn Remotebar verborgen ist</string>
     <string name="tb_pref_title_freeform_mode_help">Hilfe und Anleitungen zum Freiform-Modus</string>
     <string name="tb_freeform_help_dialog_title">Hilfe und Anleitungen</string>
-    <string name="tb_freeform_help_dialog_message"><b>Über den Freiform-Modus</b>\n\nMit Taskbar können Sie ab Android 7.0 Apps in schwebenden Fenstern öffnen. Root-Zugriff ist nicht erforderlich, obwohl Geräte mit Android 8.0, 8.1 und 9 einen adb-Shell-Befehl erfordern, der während der Ersteinrichtung ausgeführt werden muss.\n\nFolgen Sie einfach den folgenden Anweisungen, um Apps im Freiform-Modus zu öffnen:\n\n<b>1.</b> Aktivieren Sie »Unterstützung von Freiform-Fenstern« in der Taskbar-App\n\n<b>2.</b> Folgen Sie den Anweisungen, die im Popup-Fenster erscheinen, um (einmalig) die passenden Einstellungen auf Ihrem Gerät zu aktivieren\n\n<b>3.</b> Öffnen Sie die Übersicht der kürzlich verwendeten Apps auf Ihrem Gerät und schließen alle\n\n<b>4.</b> Starten Sie Taskbar und wählen eine App, um sie in einem Freiform-Fenster zu öffnen\n\n<i>Für beste Ergebnisse, besonders unter Android 8.0 und 8.1, starten Sie Ihr Gerät neu, bevor Sie den Freiform-Modus verwenden.</i>\n\n<b>Voreinstellungen für die Fenstergröße</b>\n\nTaskbar kann App-Fenster in verschiedenen voreingestellten Größen öffnen. Sie können eine Fenstergröße auswählen, indem Sie lange auf ein App-Icon drücken oder mit der rechten Maustaste darauf klicken und »Neues Fenster« wählen.\n\nUm eine Voreinstellung der Fenstergröße für eine bestimmte App zu speichern, drücken Sie einfach lange auf die gewünschte Größe, woraufhin ein Häkchen erscheint, das anzeigt, dass diese als Standard eingestellt ist. Taskbar startet die Anwendung beim nächsten Start mit der ausgewählten Größe.\n\nBeachten Sie, dass die Fenstergrößen unter Android 8.0 und 8.1 nicht korrekt funktionieren. Sie können dies jedoch umgehen, indem Sie die App öffnen, sie sofort wieder schließen und sie dann über das Übersichtsmenü von Android erneut öffnen.\n\n<b>Fehlerbehebung</b>\n\n<i>&#8226; Apps starten immer noch im Vollbildmodus</i>\n\nWenn eine Anwendung geöffnet wird, die bereits in den Speicher geladen ist, wird sie von Taskbar in den Vordergrund geholt. Um die App im Freiform-Modus zu öffnen, muss sie neu geöffnet werden.\n\nZiehen Sie die App aus der Übersicht weg und öffnen sie dann erneut über Taskbars letzte Apps. Wenn dies nicht funktioniert, drücken Sie lange auf das App-Icon, wählen »Infos zur App« und erzwingen dann das Beenden der App. Alternativ dazu können Sie Ihr Gerät neu starten.\n\n<i>&#8226; Maximierte Anwendungen können nicht in einem Fenster wiederhergestellt werden</i>\n\nWenn Sie die Maximieren-Schaltfläche in der Titelleiste einer App drücken, bringt Android die App aus dem Freiform-Modus in den Vollbild-Modus. Wie bereits erwähnt, kann Taskbar Apps nur dann in Freiform-Fenstern öffnen, wenn sie neu geöffnet werden.\n\nUm dieses Problem zu beheben, können Sie Fenster maximieren, indem Sie außerhalb des Fensterrahmens der App tippen oder klicken. Dadurch wird das Fenster so vergrößert, dass es den gesamten verfügbaren Platz ausfüllt, während es im Arbeitsbereich von Freiform-Fenstern bleibt.\n\n<i>&#8226; Das Maximieren von Fenstern funktioniert unter Android 9 nicht</i>\n\nDiese Funktionalität liegt außerhalb der Kontrolle der Taskbar und ist etwas, das Google seinerseits beheben muss. Wenn Sie ein Fenster unter Android 9 maximieren müssen, verwenden Sie stattdessen die Fenstergröße »Vollbild«.\n\n<i>&#8226; App-Übergänge scheinen besonders unter Android 9 nicht richtig zu funktionieren</i>\n\nDies ist ebenfalls ein Problem, das von Google behoben werden muss. Sie können es jedoch umgehen, indem Sie Übergangsanimationen deaktivieren.\n\nSie können Übergänge beim Öffnen einer App deaktivieren, indem Sie in den Taskbar-Einstellungen unter »Letzte Apps« die Option »Schnellerer App-Wechsel« aktivieren. Alternativ können Sie Übergänge systemweit deaktivieren, indem Sie in den Entwickleroptionen »Maßstab Übergangsanimation« auf »Animation aus« setzen.</string>
+    <string name="tb_freeform_help_dialog_message"><b>Über den Freiform-Modus</b>\n\nMit Remotebar können Sie ab Android 7.0 Apps in schwebenden Fenstern öffnen. Root-Zugriff ist nicht erforderlich, obwohl Geräte mit Android 8.0, 8.1 und 9 einen adb-Shell-Befehl erfordern, der während der Ersteinrichtung ausgeführt werden muss.\n\nFolgen Sie einfach den folgenden Anweisungen, um Apps im Freiform-Modus zu öffnen:\n\n<b>1.</b> Aktivieren Sie »Unterstützung von Freiform-Fenstern« in der Remotebar-App\n\n<b>2.</b> Folgen Sie den Anweisungen, die im Popup-Fenster erscheinen, um (einmalig) die passenden Einstellungen auf Ihrem Gerät zu aktivieren\n\n<b>3.</b> Öffnen Sie die Übersicht der kürzlich verwendeten Apps auf Ihrem Gerät und schließen alle\n\n<b>4.</b> Starten Sie Remotebar und wählen eine App, um sie in einem Freiform-Fenster zu öffnen\n\n<i>Für beste Ergebnisse, besonders unter Android 8.0 und 8.1, starten Sie Ihr Gerät neu, bevor Sie den Freiform-Modus verwenden.</i>\n\n<b>Voreinstellungen für die Fenstergröße</b>\n\nRemotebar kann App-Fenster in verschiedenen voreingestellten Größen öffnen. Sie können eine Fenstergröße auswählen, indem Sie lange auf ein App-Icon drücken oder mit der rechten Maustaste darauf klicken und »Neues Fenster« wählen.\n\nUm eine Voreinstellung der Fenstergröße für eine bestimmte App zu speichern, drücken Sie einfach lange auf die gewünschte Größe, woraufhin ein Häkchen erscheint, das anzeigt, dass diese als Standard eingestellt ist. Remotebar startet die Anwendung beim nächsten Start mit der ausgewählten Größe.\n\nBeachten Sie, dass die Fenstergrößen unter Android 8.0 und 8.1 nicht korrekt funktionieren. Sie können dies jedoch umgehen, indem Sie die App öffnen, sie sofort wieder schließen und sie dann über das Übersichtsmenü von Android erneut öffnen.\n\n<b>Fehlerbehebung</b>\n\n<i>&#8226; Apps starten immer noch im Vollbildmodus</i>\n\nWenn eine Anwendung geöffnet wird, die bereits in den Speicher geladen ist, wird sie von Remotebar in den Vordergrund geholt. Um die App im Freiform-Modus zu öffnen, muss sie neu geöffnet werden.\n\nZiehen Sie die App aus der Übersicht weg und öffnen sie dann erneut über Remotebars letzte Apps. Wenn dies nicht funktioniert, drücken Sie lange auf das App-Icon, wählen »Infos zur App« und erzwingen dann das Beenden der App. Alternativ dazu können Sie Ihr Gerät neu starten.\n\n<i>&#8226; Maximierte Anwendungen können nicht in einem Fenster wiederhergestellt werden</i>\n\nWenn Sie die Maximieren-Schaltfläche in der Titelleiste einer App drücken, bringt Android die App aus dem Freiform-Modus in den Vollbild-Modus. Wie bereits erwähnt, kann Remotebar Apps nur dann in Freiform-Fenstern öffnen, wenn sie neu geöffnet werden.\n\nUm dieses Problem zu beheben, können Sie Fenster maximieren, indem Sie außerhalb des Fensterrahmens der App tippen oder klicken. Dadurch wird das Fenster so vergrößert, dass es den gesamten verfügbaren Platz ausfüllt, während es im Arbeitsbereich von Freiform-Fenstern bleibt.\n\n<i>&#8226; Das Maximieren von Fenstern funktioniert unter Android 9 nicht</i>\n\nDiese Funktionalität liegt außerhalb der Kontrolle der Remotebar und ist etwas, das Google seinerseits beheben muss. Wenn Sie ein Fenster unter Android 9 maximieren müssen, verwenden Sie stattdessen die Fenstergröße »Vollbild«.\n\n<i>&#8226; App-Übergänge scheinen besonders unter Android 9 nicht richtig zu funktionieren</i>\n\nDies ist ebenfalls ein Problem, das von Google behoben werden muss. Sie können es jedoch umgehen, indem Sie Übergangsanimationen deaktivieren.\n\nSie können Übergänge beim Öffnen einer App deaktivieren, indem Sie in den Remotebar-Einstellungen unter »Letzte Apps« die Option »Schnellerer App-Wechsel« aktivieren. Alternativ können Sie Übergänge systemweit deaktivieren, indem Sie in den Entwickleroptionen »Maßstab Übergangsanimation« auf »Animation aus« setzen.</string>
 
     <string name="tb_action_developer_options">Entwickleroptionen öffnen</string>
     <string name="tb_action_close">Schließen</string>
@@ -174,21 +174,21 @@
 
     <string name="tb_reboot_required">Starten Sie Ihr Gerät neu, um die Einrichtung des Freiform-Modus abzuschließen</string>
     <string name="tb_enable_force_activities_resizable">Scrollen Sie zum Ende und aktivieren »%s«</string>
-    <string name="tb_set_as_default_home">Wählen Sie »Immer«, um Taskbar für Ihren Startbildschirm zu verwenden</string>
+    <string name="tb_set_as_default_home">Wählen Sie »Immer«, um Remotebar für Ihren Startbildschirm zu verwenden</string>
     <string name="tb_enable_developer_options">Aktivieren Sie die Entwickleroptionen, indem Sie 7-mal auf die Build-Nummer tippen</string>
 
-    <string name="tb_pref_title_anchor">Taskbar verankern, wenn der Bildschirm gedreht wird</string>
+    <string name="tb_pref_title_anchor">Remotebar verankern, wenn der Bildschirm gedreht wird</string>
     <string name="tb_pref_title_donate">Spenden</string>
-    <string name="tb_pref_summary_donate">Unterstützen Sie die Taskbar-Entwicklung durch eine kleine Spende, indem Sie auf die Spenden-Version upgraden.</string>
-    <string name="tb_dialog_donate_message">Unterstützen Sie die Taskbar-Entwicklung, indem Sie für %1$s auf die Spenden-Version upgraden!\n\nDie Spenden-Version ist identisch zur freien Version und Ihre Einstellungen werden automatisch übernommen.\n\nTaskbar ist und wird immer zu 100%% frei sein, quelloffen und ohne jede Werbung. Ihre Unterstützung wird jedoch dankbar entgegen genommen!</string>
+    <string name="tb_pref_summary_donate">Unterstützen Sie die Remotebar-Entwicklung durch eine kleine Spende, indem Sie auf die Spenden-Version upgraden.</string>
+    <string name="tb_dialog_donate_message">Unterstützen Sie die Remotebar-Entwicklung, indem Sie für %1$s auf die Spenden-Version upgraden!\n\nDie Spenden-Version ist identisch zur freien Version und Ihre Einstellungen werden automatisch übernommen.\n\nRemotebar ist und wird immer zu 100%% frei sein, quelloffen und ohne jede Werbung. Ihre Unterstützung wird jedoch dankbar entgegen genommen!</string>
     <string name="tb_action_no_thanks">Nein, danke</string>
 
     <string name="tb_importing_settings">Einstellungen werden importiert, bitte warten&#8239;&#8230;</string>
     <string name="tb_settings_imported_successfully">Einstellungen wurden erfolgreich importiert</string>
-    <string name="tb_import_dialog_message">Danke für das Upgrade zur Spenden-Version von Taskbar!\n\nIhre Einstellungen wurden importiert und Sie können die freie Version der App jetzt deinstallieren.</string>
+    <string name="tb_import_dialog_message">Danke für das Upgrade zur Spenden-Version von Remotebar!\n\nIhre Einstellungen wurden importiert und Sie können die freie Version der App jetzt deinstallieren.</string>
     <string name="tb_action_uninstall">Deinstallieren</string>
 
-    <string name="tb_pref_title_hide_when_keyboard_shown">Taskbar automatisch verbergen</string>
+    <string name="tb_pref_title_hide_when_keyboard_shown">Remotebar automatisch verbergen</string>
     <string name="tb_pref_description_hide_when_keyboard_shown">(wenn die Bildschirmtastatur angezeigt wird)</string>
 
     <string name="tb_pref_max_num_of_recents">Maximale Anzahl von letzten/angehefteten Apps</string>
@@ -200,14 +200,14 @@
     <string name="tb_no_icon_packs_installed">Keine Icon-Pakete installiert</string>
 
     <string name="tb_apply_icon_pack">Icon-Paket verwenden</string>
-    <string name="tb_apply_icon_pack_description">»%1$s« für Taskbar verwenden?</string>
+    <string name="tb_apply_icon_pack_description">»%1$s« für Remotebar verwenden?</string>
     <string name="tb_must_specify_extra">Intent.EXTRA_PACKAGE_NAME muss angegeben sein</string>
     <string name="tb_invalid_package_name">Ungültiger Paketname</string>
 
     <string name="tb_pref_title_use_mask">Masken für themenlose Icons verwenden</string>
     <string name="tb_pref_description_use_mask">(kann die Leistung verringern, wenn ein Icon-Paket verwendet wird)</string>
 
-    <string name="tb_pref_title_app_drawer_icon">Taskbar-Logo</string>
+    <string name="tb_pref_title_app_drawer_icon">Remotebar-Logo</string>
     <string name="tb_pref_title_app_drawer_icon_ag">%s-Logo</string>
 
     <string name="tb_already_blacklisted">%1$s kann nicht ausgewählt werden, da es auf der Liste der versteckten Apps ist</string>
@@ -220,11 +220,11 @@
     <string name="tb_add_shortcut">Verknüpfung zum Startbildschirm hinzufügen</string>
     <string name="tb_shortcut_created">Freiform-Modus-Verknüpfung wurde erstellt</string>
 
-    <string name="tb_start_taskbar">Taskbar starten/beenden</string>
-    <string name="tb_no_freeform_support">Der Freiform-Modus ist auf Ihrem Gerät nicht aktiviert &#8211; öffnen Sie Taskbar und aktivieren Sie es zuerst</string>
+    <string name="tb_start_remotebar">Remotebar starten/beenden</string>
+    <string name="tb_no_freeform_support">Der Freiform-Modus ist auf Ihrem Gerät nicht aktiviert &#8211; öffnen Sie Remotebar und aktivieren Sie es zuerst</string>
     <string name="tb_enable_recent_apps">%1$s kann optional Icons der letzten Apps am Bildschirmrand anzeigen. Dafür benötigt %1$s Nutzungsdatenzugriff.\n\n</string>
     <string name="tb_enable_recent_apps_instructions_phone">Unterstützung für letzte Apps aktivieren?</string>
-    <string name="tb_enable_recent_apps_instructions_tv">Um die Unterstützung für letzte Apps zu aktivieren, drücken Sie »Einstellungen öffnen«, um das Android TV-Einstellungsmenü zu öffnen. Wählen Sie »Spezieller App-Zugriff«, dann »Nutzungsdatenzugriff« und stellen Sie sicher, dass Taskbar aktiviert ist.</string>
+    <string name="tb_enable_recent_apps_instructions_tv">Um die Unterstützung für letzte Apps zu aktivieren, drücken Sie »Einstellungen öffnen«, um das Android TV-Einstellungsmenü zu öffnen. Wählen Sie »Spezieller App-Zugriff«, dann »Nutzungsdatenzugriff« und stellen Sie sicher, dass Remotebar aktiviert ist.</string>
 
     <string name="tb_disable_scrolling_list">Scrolling in der App-Liste deaktivieren</string>
 
@@ -258,8 +258,8 @@
     <string name="tb_tools">Werkzeuge</string>
 
     <string name="tb_enable_accessibility">@string/tb_accessibility_service_description</string>
-    <string name="tb_accessibility_service_summary">Erlaubt Taskbar die Ausführung von Tastatureingaben</string>
-    <string name="tb_accessibility_service_description">Taskbar muss als Eingabehilfe aktiviert werden, um Tastatureingaben wie »Zurück«, »Startbildschirm«, »Übersicht« und »Energiemenü« ausführen oder die Benachrichtigungsleiste anzeigen zu können.\n\nDiese Berechtigung wird nur zum Ausführen von Tastatureingaben und zu keinem anderen Zweck verwendet.</string>
+    <string name="tb_accessibility_service_summary">Erlaubt Remotebar die Ausführung von Tastatureingaben</string>
+    <string name="tb_accessibility_service_description">Remotebar muss als Eingabehilfe aktiviert werden, um Tastatureingaben wie »Zurück«, »Startbildschirm«, »Übersicht« und »Energiemenü« ausführen oder die Benachrichtigungsleiste anzeigen zu können.\n\nDiese Berechtigung wird nur zum Ausführen von Tastatureingaben und zu keinem anderen Zweck verwendet.</string>
 
     <string name="tb_pref_title_force_new_window">Apps immer in neuen Fenstern öffnen</string>
     <string name="tb_pref_description_force_new_window">(Zwingt eine App, sofern sie mehrere Fenster erlaubt, jedes Mal ein neues Fenster zu öffnen, wenn sie aus dem Startmenü oder den letzten Apps ausgewählt wird.)</string>
@@ -270,7 +270,7 @@
 
     <string name="tb_pref_header_appearance">Erscheinungsbild</string>
     <string name="tb_dashboard">Widget-Unterstützung aktivieren</string>
-    <string name="tb_dashboard_description">(Fügt der Taskbar eine Schaltfläche hinzu, die Widgets anzeigt, wenn sie gedrückt wird.)</string>
+    <string name="tb_dashboard_description">(Fügt der Remotebar eine Schaltfläche hinzu, die Widgets anzeigt, wenn sie gedrückt wird.)</string>
     <string name="tb_dashboard_grid_size">Gittergröße des Widget-Dashboards</string>
 
     <string name="tb_click_to_add_widget">Klicken, um ein Widget hinzuzufügen</string>
@@ -308,7 +308,7 @@
     <string name="tb_window_sizes_not_available">Fenstergrößen funktionieren bei dieser Android-Version nicht richtig - siehe »Hilfe und Anleitungen« für eine Behelfslösung.</string>
 
     <string name="tb_navigation_bar_buttons">Navigations-Schaltflächen</string>
-    <string name="tb_navigation_bar_buttons_description">(Fügt der Taskbar zusätzliche Schaltflächen hinzu, die Navigationsleisten-Aktionen ausführen.)</string>
+    <string name="tb_navigation_bar_buttons_description">(Fügt der Remotebar zusätzliche Schaltflächen hinzu, die Navigationsleisten-Aktionen ausführen.)</string>
     <string name="tb_button_back">Zurück</string>
     <string name="tb_button_home">Startbildschirm</string>
     <string name="tb_button_recents">Übersicht</string>
@@ -318,7 +318,7 @@
     <string name="tb_restore_widget">Widget wiederherstellen</string>
 
     <string name="tb_samsung_freeform_title">Hinweis</string>
-    <string name="tb_samsung_freeform_message">Taskbar kann aufgrund von Systemänderungen, die am Mehrfenster-Modus vorgenommen wurden, Probleme mit dem Öffnen von Apps im Freiform-Modus auf einigen Samsung-Geräten haben.\n\nWenn dies der Fall ist, müssen Sie möglicherweise ein Custom-ROM flashen, um den Freiform-Modus auf diesem Gerät verwenden zu können.</string>
+    <string name="tb_samsung_freeform_message">Remotebar kann aufgrund von Systemänderungen, die am Mehrfenster-Modus vorgenommen wurden, Probleme mit dem Öffnen von Apps im Freiform-Modus auf einigen Samsung-Geräten haben.\n\nWenn dies der Fall ist, müssen Sie möglicherweise ein Custom-ROM flashen, um den Freiform-Modus auf diesem Gerät verwenden zu können.</string>
 
     <string name="tb_widget_restore_toast">Wählen Sie »%1$s«, um dieses Widget wiederherzustellen.</string>
 
@@ -326,11 +326,11 @@
     <string name="tb_freeform_off">Freiform aus</string>
 
     <string name="tb_auto_hide_navbar">Automatische Kontrolle der System-Navigationsleiste</string>
-    <string name="tb_auto_hide_navbar_description">Navigationsleiste ausblenden, wenn Taskbar aktiv ist, und sie anzeigen, wenn Taskbar inaktiv ist</string>
+    <string name="tb_auto_hide_navbar_description">Navigationsleiste ausblenden, wenn Remotebar aktiv ist, und sie anzeigen, wenn Remotebar inaktiv ist</string>
 
     <string name="tb_press_enter_alt">Keine Apps gefunden\n\nEnter zum Öffnen im Browser drücken</string>
 
-    <string name="tb_freeform_dialog_message_alt">Um Apps mit Taskbar im Freiform-Fenstermodus zu öffnen, führen Sie bitte die folgenden Schritte aus:\n\n&#8226; Öffnen Sie die Entwickleroptionen und aktivieren »USB-Debugging«\n\n&#8226; Verbinden Sie Ihr Gerät mit einem Computer, auf dem das Android-SDK installiert ist, und führen Sie den folgenden (einzeiligen) Befehl aus: \n\nadb shell settings put global enable_freeform_support 1\n\n&#8226; Starten Sie Ihr Gerät neu</string>
+    <string name="tb_freeform_dialog_message_alt">Um Apps mit Remotebar im Freiform-Fenstermodus zu öffnen, führen Sie bitte die folgenden Schritte aus:\n\n&#8226; Öffnen Sie die Entwickleroptionen und aktivieren »USB-Debugging«\n\n&#8226; Verbinden Sie Ihr Gerät mit einem Computer, auf dem das Android-SDK installiert ist, und führen Sie den folgenden (einzeiligen) Befehl aus: \n\nadb shell settings put global enable_freeform_support 1\n\n&#8226; Starten Sie Ihr Gerät neu</string>
 
     <string name="tb_color_picker_alpha">Alpha</string>
     <string name="tb_color_picker_red">Rot</string>
@@ -338,7 +338,7 @@
     <string name="tb_color_picker_blue">Blau</string>
 
     <string name="tb_pref_title_chrome_os_context_menu_fix">Chrome OS Dock-Kompatibilitäts-Fix</string>
-    <string name="tb_pref_description_chrome_os_context_menu_fix">Aktivieren Sie dies, wenn Sie Taskbar neben dem Dock von Chrome OS verwenden</string>
+    <string name="tb_pref_description_chrome_os_context_menu_fix">Aktivieren Sie dies, wenn Sie Remotebar neben dem Dock von Chrome OS verwenden</string>
 
     <string name="tb_pin_shortcut_not_supported">Ihr Launcher unterstützt das Hinzufügen von Verknüpfungen aus anderen Apps nicht.\n\nBitte fügen Sie die Verknüpfung manuell aus dem »Widgets«-Menü Ihres Launchers hinzu.</string>
 
@@ -355,15 +355,15 @@
 
     <string name="tb_tasker_action_title">Aktion auswählen</string>
     <string name="tb_tasker_condition_title">Bedingung auswählen</string>
-    <string name="tb_tasker_on">Taskbar an</string>
-    <string name="tb_tasker_off">Taskbar aus</string>
+    <string name="tb_tasker_on">Remotebar an</string>
+    <string name="tb_tasker_off">Remotebar aus</string>
     <string name="tb_on">An</string>
     <string name="tb_off">Aus</string>
 
     <string name="tb_pref_title_tasker_enabled">Integration von Drittanbieter-Apps zulassen</string>
     <string name="tb_pref_summary_tasker_enabled">(Deaktivierung erhöht die Sicherheit)</string>
 
-    <string name="tb_essential_phone_grip_rejection">Deaktivieren Sie beim Essential Phone zur Unterstützung beim Öffnen/Schließen von Taskbar die Griffabweisung (in den Entwickleroptionen)</string>
+    <string name="tb_essential_phone_grip_rejection">Deaktivieren Sie beim Essential Phone zur Unterstützung beim Öffnen/Schließen von Remotebar die Griffabweisung (in den Entwickleroptionen)</string>
 
     <string name="tb_toggle_start_menu">Startmenü umschalten</string>
     <string name="tb_toggle_dashboard">Dashboard umschalten</string>
@@ -391,10 +391,10 @@
 
     <string name="tb_pref_centered_icons">Icons im Leerraum zentrieren</string>
     <string name="tb_pref_title_sys_tray">Status-Icons und Uhr anzeigen</string>
-    <string name="tb_pref_description_sys_tray">(nur sichtbar, wenn Taskbar im Horizontal-Modus ist)</string>
+    <string name="tb_pref_description_sys_tray">(nur sichtbar, wenn Remotebar im Horizontal-Modus ist)</string>
 
     <string name="tb_settings">Einstellungen</string>
-    <string name="tb_powered_by_taskbar">Ermöglicht durch Taskbar</string>
+    <string name="tb_powered_by_taskbar">Ermöglicht durch Remotebar</string>
 
     <string name="tb_manage_app_data">App-Daten verwalten</string>
     <string name="tb_manage_app_data_description">(Sicherung, Wiederherstellung und Zurücksetzung von Einstellungen)</string>
@@ -417,7 +417,7 @@
 
     <string name="tb_pref_header_desktop_mode">Desktop-Modus</string>
     <string name="tb_primary_launcher">Standard-Launcher</string>
-    <string name="tb_set_launcher_default_title">Taskbar als Startbildschirm verwenden</string>
+    <string name="tb_set_launcher_default_title">Remotebar als Startbildschirm verwenden</string>
     <string name="tb_set_launcher_default_summary">Für den Desktop-Modus benötigt</string>
     <string name="tb_unable_to_set_default_home">Der Startbildschirm kann nicht eingestellt werden. Bitte erledigen Sie es manuell über die Einstellungen.</string>
     <string name="tb_display_density">Anzeigegröße</string>
@@ -426,7 +426,7 @@
 
     <string name="tb_hsl_no_launchers_found">Es wurde kein primärer Launcher gefunden. Bitte installieren Sie einen Launcher.</string>
     <string name="tb_hsl_launcher_uninstalled">%1$s wurde deinstalliert. Bitte wählen Sie einen anderen Launcher aus der Liste.</string>
-    <string name="tb_hsl_main_activity_text">Bitte wählen Sie ihren primären Launcher aus. Diese Auswahl kann jederzeit in Taskbars Desktop-Modus-Einstellungen geändert werden.</string>
+    <string name="tb_hsl_main_activity_text">Bitte wählen Sie ihren primären Launcher aus. Diese Auswahl kann jederzeit in Remotebars Desktop-Modus-Einstellungen geändert werden.</string>
 
     <string-array name="tb_pref_display_density_list">
         <item>Standard</item>
@@ -450,7 +450,7 @@
     <string name="tb_pref_description_enable_recents">(notwendig, um letzte Apps anzuzeigen)</string>
 
     <string name="tb_disable_home_setting">Bitte deaktivieren Sie »Startbildschirm ersetzen« unter »Erweiterte Optionen«, um den Desktop-Modus zu nutzen.</string>
-    <string name="tb_desktop_mode_setup_complete">Starten Sie Taskbar durch Klicken der Starttaste auf Ihrem externen Bildschirm.</string>
+    <string name="tb_desktop_mode_setup_complete">Starten Sie Remotebar durch Klicken der Starttaste auf Ihrem externen Bildschirm.</string>
 
     <string name="tb_hide_icon_labels">Beschriftungen der App-Icons ausblenden</string>
 
@@ -471,14 +471,14 @@
     <string name="tb_pref_notification_count_description">(erfordert Benachrichtigungszugriff)</string>
 
     <string name="tb_desktop_mode_dialog_title">Unterstützung für den Desktop-Modus aktivieren</string>
-    <string name="tb_desktop_mode_dialog_message">Um Ihr Gerät für den Desktop-Modus zu konfigurieren, folgen Sie bitte diesen Anweisungen:\n\n&#8226; Öffnen Sie die Entwickleroptionen\n\n&#8226; Scrollen Sie nach unten und aktivieren Sie »Freiform-Fenster zulassen« und »Desktop-Modus erzwingen«\n\n&#8226; Wählen sie Taskbar als Standard-Launcher aus\n\n&#8226; Starten Sie Ihr Gerät neu\n\nUm weitere Informationen und Schritte zur Fehlerbehebung zu erhalten, tippen Sie auf das (?)-Symbol oben rechts auf dem Bildschirm.</string>
+    <string name="tb_desktop_mode_dialog_message">Um Ihr Gerät für den Desktop-Modus zu konfigurieren, folgen Sie bitte diesen Anweisungen:\n\n&#8226; Öffnen Sie die Entwickleroptionen\n\n&#8226; Scrollen Sie nach unten und aktivieren Sie »Freiform-Fenster zulassen« und »Desktop-Modus erzwingen«\n\n&#8226; Wählen sie Remotebar als Standard-Launcher aus\n\n&#8226; Starten Sie Ihr Gerät neu\n\nUm weitere Informationen und Schritte zur Fehlerbehebung zu erhalten, tippen Sie auf das (?)-Symbol oben rechts auf dem Bildschirm.</string>
     <string name="tb_reboot_required_alt">Starten Sie ihr Gerät neu, um die Einrichtung des Desktop-Modus abzuschließen.</string>
-    <string name="tb_enable_additional_settings_message_1">Taskbar kann optional auch erweiterte Berechtigungen verwenden, um ihre Desktop-Erfahrung zu verbessern. Diese Berechtigungen werden durch einen adb-Shell-Befehl gewährt.\n\nWenn Sie fortfahren möchten, verbinden Sie ihr Gerät mit einem Computer, auf dem das Android-SDK installiert ist, und führen Sie diesen (einzeiligen) Befehl aus:</string>
+    <string name="tb_enable_additional_settings_message_1">Remotebar kann optional auch erweiterte Berechtigungen verwenden, um ihre Desktop-Erfahrung zu verbessern. Diese Berechtigungen werden durch einen adb-Shell-Befehl gewährt.\n\nWenn Sie fortfahren möchten, verbinden Sie ihr Gerät mit einem Computer, auf dem das Android-SDK installiert ist, und führen Sie diesen (einzeiligen) Befehl aus:</string>
     <string name="tb_enable_additional_settings_message_2">Einmal gewährt, werden die zusätzlichen Einstellungen aktiviert, wenn ein Display angeschlossen ist.</string>
-    <string name="tb_desktop_mode_pref_description">Taskbar verwenden, um Apps auf einem externen Bildschirm in Fenstern zu öffnen, ähnlich wie beim Samsung DeX und andere Lösungen.\n\nBenötigt entweder einen USB-zu-HDMI-Adapter oder ein Lapdock und ein Gerät, das Video-Ausgabe unterstützt.</string>
+    <string name="tb_desktop_mode_pref_description">Remotebar verwenden, um Apps auf einem externen Bildschirm in Fenstern zu öffnen, ähnlich wie beim Samsung DeX und andere Lösungen.\n\nBenötigt entweder einen USB-zu-HDMI-Adapter oder ein Lapdock und ein Gerät, das Video-Ausgabe unterstützt.</string>
     <string name="tb_enable_additional_settings_pref_description">Klicken Sie hier für Informationen zur Aktivierung</string>
 
-    <string name="tb_desktop_mode_help"><b>Über den Desktop-Modus</b>\n\nTaskbar unterstützt die eingebaute Desktop-Modus-Funktionalität ab Android 10. Sie können ein kompatibles Gerät ab Android 10 mit einem externen Bildschirm verbinden und Apps in Fenstern öffnen, während Taskbars Benutzeroberfläche auf dem externen Bildschirm läuft, und ihr Launcher weiterhin auf ihrem Smartphone.\n\nDer Desktop-Modus benötigt einen USB-zu-HDMI-Adapter oder ein Lapdock und ein Gerät, das Video-Ausgabe unterstützt. Zusätzlich benötigen einige Einstellungen spezielle über adb gewährte Berechtigungen.\n\nUm anzufangen, aktivieren sie die Checkbox für »Desktop-Modus«. Die App wird sie durch den einmaligen Einrichtungsvorgang führen, der folgendes beinhaltet:\n\n&#8226; Aktivierung der Entwickleroptionen »Freiform-Fenster zulassen« und »Desktop-Modus erzwingen«\n\n&#8226; Festlegung von Taskbar als Startbildschirm\n\n&#8226; Neustart Ihres Geräts\n\n<b>Wieso muss Taskbar mein Startbildschirm sein, um den Desktop-Modus zu verwenden?</b>\n\nAndroid erlaubt es nur dem Standard-Launcher, auch als Launcher auf dem externen Display verwendet zu werden. Wenn die aktuell festgelegte Startbildschirm-App nicht explizit den Desktop-Modus unterstützt, verwendet Android einen eigenen Desktop-Modus.\n\nTaskbar kann dies umgehen, indem die App als Verbindung zwischen dem System und Ihrem bevorzugten Launcher arbeitet. Wenn Taskbar als Standard-Launcher festgelegt ist, wird es direkt Ihren bevorzugten Launcher starten und sich dann selbst beenden. Dieser Launcher wird in Taskbars Desktop-Modus-Einstellungen mit der Option »Standard-Launcher« festgelegt.\n\nEs gibt einige Dinge zu beachten, wenn Sie Taskbar als Standard-Launcher verwenden:\n\n&#8226; Die meisten App-Verknüpfungen (wenn sie lange auf das App-Icon drücken) werden nicht mehr angezeigt. Dies liegt daran, dass Android nur dem Standard-Launcher erlaubt, auf dynamisch erzeugte App-Verknüpfungen zuzugreifen.\n\n&#8226; Einige Animationen, die erfolgen, wenn die Startbildschirm-Schaltfläche gedrückt wird, werden eventuell fehlerhaft dargestellt. Dies ist auf das erwähnte Verhalten zurückzuführen, bei dem die Taskbar als Verbindung dient, wenn die Startbildschirm-Schaltfläche gedrückt wird.\n\n<b>Woher weiß ich, ob mein Gerät Video-Ausgabe auf externen Displays unterstützt?</b>\n\nNexDock betreibt eine Liste von Smartphones ab Android 10, die USB-zu-HDMI-Videoausgabe unterstüzen (diese Liste schließt Samsung- und Huawai-Geräte aus). Diese Liste ist hier verfügbar: http://nexdock.com/lapdock-for-smartphones\n\nInsbesondere Pixel-Geräte von Google unterstüzen Video-Ausgabe nicht. Trotzdem kann Taskbar auf diesen Geräten weiterhin über übliches Screen-Mirroring verwendet werden, entweder über Chromecast oder einem DisplayLink-Dock mit der zugehörigen Presenter-App.\n\n<b>Sollte ich Taskbars Desktop-Modus statt dem eingebauten Modus meines Gerätes verwenden, wie zum Beispiel Samsung DeX?</b>\n\nEinige Hersteller, wie Samsung und Huawei, haben ihren eigenen Desktop-Modus auf Basis des von Google in Android 10 eingebauten Desktop-Modus entwickelt. Diese Lösungen haben eine bessere Systemintegration und sind generell ausgefeilter. Es ist nicht nötig, zu Taskbar zu wechseln, wenn Sie mit dem Desktop-Modus ihres Geräts zufrieden sind.\n\nTaskbars Desktop-Modus ist für Geräte gedacht, die außer der von Google in Android 10 eingebauten Lösung keinen eigenen Desktop-Modus haben.\n\n<b>Ich finde die Option »Desktop-Modus erzwingen« in den Entwickleroptionen nicht &#8211; kann ich den Desktop-Modus trotzdem verwenden?</b>\n\nEinige Geräte (wie das ASUS ROG Phone 2) haben die Einstellung »Desktop-Modus erzwingen« in den Entwickleroptionen nicht. In diesem Fall müssen Sie die Option manuell über adb aktivieren. Verbinden Sie ihr Gerät dazu mit einem Computer, auf dem das Android-SDK installiert ist, und führen sie folgenden (einzeiligen) Befehl aus:\n\nadb shell settings put global force_desktop_mode_on_external_displays 1\n\n<b>Was soll ich tun, falls etwas schiefgeht oder sich mein Launcher bzw. meine Apps komisch verhalten, wenn der Desktop-Modus aktiv ist?</b>\n\nBitte folgen Sie diesen Schritten, um den Desktop-Modus zu deaktivieren, falls etwas schiefgeht:\n\n&#8226; Ziehen Sie das Schnelleinstellungsmenü herunter, dann öffnen Sie die Einstellungen mit dem Zahnradsymbol\n\n&#8226; Öffen Sie die Entwickleroptionen und deaktivieren sie dort »Freiform-Fenster zulassen« und »Desktop-Modus erzwingen«\n\n&#8226; Starten Sie ihr Gerät neu</string>
+    <string name="tb_desktop_mode_help"><b>Über den Desktop-Modus</b>\n\nRemotebar unterstützt die eingebaute Desktop-Modus-Funktionalität ab Android 10. Sie können ein kompatibles Gerät ab Android 10 mit einem externen Bildschirm verbinden und Apps in Fenstern öffnen, während Remotebars Benutzeroberfläche auf dem externen Bildschirm läuft, und ihr Launcher weiterhin auf ihrem Smartphone.\n\nDer Desktop-Modus benötigt einen USB-zu-HDMI-Adapter oder ein Lapdock und ein Gerät, das Video-Ausgabe unterstützt. Zusätzlich benötigen einige Einstellungen spezielle über adb gewährte Berechtigungen.\n\nUm anzufangen, aktivieren sie die Checkbox für »Desktop-Modus«. Die App wird sie durch den einmaligen Einrichtungsvorgang führen, der folgendes beinhaltet:\n\n&#8226; Aktivierung der Entwickleroptionen »Freiform-Fenster zulassen« und »Desktop-Modus erzwingen«\n\n&#8226; Festlegung von Remotebar als Startbildschirm\n\n&#8226; Neustart Ihres Geräts\n\n<b>Wieso muss Remotebar mein Startbildschirm sein, um den Desktop-Modus zu verwenden?</b>\n\nAndroid erlaubt es nur dem Standard-Launcher, auch als Launcher auf dem externen Display verwendet zu werden. Wenn die aktuell festgelegte Startbildschirm-App nicht explizit den Desktop-Modus unterstützt, verwendet Android einen eigenen Desktop-Modus.\n\nRemotebar kann dies umgehen, indem die App als Verbindung zwischen dem System und Ihrem bevorzugten Launcher arbeitet. Wenn Remotebar als Standard-Launcher festgelegt ist, wird es direkt Ihren bevorzugten Launcher starten und sich dann selbst beenden. Dieser Launcher wird in Remotebars Desktop-Modus-Einstellungen mit der Option »Standard-Launcher« festgelegt.\n\nEs gibt einige Dinge zu beachten, wenn Sie Remotebar als Standard-Launcher verwenden:\n\n&#8226; Die meisten App-Verknüpfungen (wenn sie lange auf das App-Icon drücken) werden nicht mehr angezeigt. Dies liegt daran, dass Android nur dem Standard-Launcher erlaubt, auf dynamisch erzeugte App-Verknüpfungen zuzugreifen.\n\n&#8226; Einige Animationen, die erfolgen, wenn die Startbildschirm-Schaltfläche gedrückt wird, werden eventuell fehlerhaft dargestellt. Dies ist auf das erwähnte Verhalten zurückzuführen, bei dem die Remotebar als Verbindung dient, wenn die Startbildschirm-Schaltfläche gedrückt wird.\n\n<b>Woher weiß ich, ob mein Gerät Video-Ausgabe auf externen Displays unterstützt?</b>\n\nNexDock betreibt eine Liste von Smartphones ab Android 10, die USB-zu-HDMI-Videoausgabe unterstüzen (diese Liste schließt Samsung- und Huawai-Geräte aus). Diese Liste ist hier verfügbar: http://nexdock.com/lapdock-for-smartphones\n\nInsbesondere Pixel-Geräte von Google unterstüzen Video-Ausgabe nicht. Trotzdem kann Remotebar auf diesen Geräten weiterhin über übliches Screen-Mirroring verwendet werden, entweder über Chromecast oder einem DisplayLink-Dock mit der zugehörigen Presenter-App.\n\n<b>Sollte ich Remotebars Desktop-Modus statt dem eingebauten Modus meines Gerätes verwenden, wie zum Beispiel Samsung DeX?</b>\n\nEinige Hersteller, wie Samsung und Huawei, haben ihren eigenen Desktop-Modus auf Basis des von Google in Android 10 eingebauten Desktop-Modus entwickelt. Diese Lösungen haben eine bessere Systemintegration und sind generell ausgefeilter. Es ist nicht nötig, zu Remotebar zu wechseln, wenn Sie mit dem Desktop-Modus ihres Geräts zufrieden sind.\n\nRemotebars Desktop-Modus ist für Geräte gedacht, die außer der von Google in Android 10 eingebauten Lösung keinen eigenen Desktop-Modus haben.\n\n<b>Ich finde die Option »Desktop-Modus erzwingen« in den Entwickleroptionen nicht &#8211; kann ich den Desktop-Modus trotzdem verwenden?</b>\n\nEinige Geräte (wie das ASUS ROG Phone 2) haben die Einstellung »Desktop-Modus erzwingen« in den Entwickleroptionen nicht. In diesem Fall müssen Sie die Option manuell über adb aktivieren. Verbinden Sie ihr Gerät dazu mit einem Computer, auf dem das Android-SDK installiert ist, und führen sie folgenden (einzeiligen) Befehl aus:\n\nadb shell settings put global force_desktop_mode_on_external_displays 1\n\n<b>Was soll ich tun, falls etwas schiefgeht oder sich mein Launcher bzw. meine Apps komisch verhalten, wenn der Desktop-Modus aktiv ist?</b>\n\nBitte folgen Sie diesen Schritten, um den Desktop-Modus zu deaktivieren, falls etwas schiefgeht:\n\n&#8226; Ziehen Sie das Schnelleinstellungsmenü herunter, dann öffnen Sie die Einstellungen mit dem Zahnradsymbol\n\n&#8226; Öffen Sie die Entwickleroptionen und deaktivieren sie dort »Freiform-Fenster zulassen« und »Desktop-Modus erzwingen«\n\n&#8226; Starten Sie ihr Gerät neu</string>
 
     <string name="tb_see_whats_new">Was ist neu in dieser Version?</string>
     <string name="tb_action_view">Anzeigen</string>
@@ -487,7 +487,7 @@
 
     <string name="tb_desktop_mode_ime_fix">Fix für die Eingabemethode im Desktop-Modus</string>
     <string name="tb_desktop_mode_ime_fix_title">Fix für die Eingabemethode im Desktop-Modus aktivieren</string>
-    <string name="tb_desktop_mode_ime_fix_summary">Behebt Anzeigefehler, die durch Eingabemethoden ab Android 11 verursacht werden. Sie müssen dazu bei jedem Start des Desktop-Modus vorübergehend Taskbar als Eingabemethode festlegen.</string>
+    <string name="tb_desktop_mode_ime_fix_summary">Behebt Anzeigefehler, die durch Eingabemethoden ab Android 11 verursacht werden. Sie müssen dazu bei jedem Start des Desktop-Modus vorübergehend Remotebar als Eingabemethode festlegen.</string>
     <string name="tb_desktop_mode_ime_fix_toast">Öffnen Sie die Einstellungen für den Desktop-Modus, um einen Fix für Anzeigefehler zu aktivieren, die durch Eingabemethoden verursacht werden</string>
     <string name="tb_desktop_mode_ime_fix_toast_alt">Starten Sie zuerst den Desktop-Modus, bevor Sie den Eingabemethode-Fix aktivieren</string>
 

@@ -16,8 +16,8 @@
 
 <resources>
 
-    <style name="Taskbar.Dialog" parent="@android:style/Theme.Material.Light.Dialog" />
+    <style name="Remotebar.Dialog" parent="@android:style/Theme.Material.Light.Dialog" />
 
-    <style name="Taskbar.Dialog.Dark" parent="@android:style/Theme.Material.Dialog" />
+    <style name="Remotebar.Dialog.Dark" parent="@android:style/Theme.Material.Dialog" />
 
 </resources>

@@ -16,8 +16,8 @@
 
 <resources>
 
-  <string name="tb_pref_description_keyboard_shortcut">Iniciar/detener Taskbar: &#160; {fou_social-windows} + M &#160; {fou_magnifying-glass} + M\n\nBloquear dispositivo: &#160; {fou_social-windows} + L &#160; {fou_magnifying-glass} + L\n\nMostrar menú de inicio: &#160; {fou_social-windows} &#160; {fou_magnifying-glass}\n(requiere que Taskbar se establezca como la aplicación de asistencia en los Ajustes)</string>
-  <string name="tb_pref_description_keyboard_shortcut_alt">Iniciar/detener Taskbar\n&#8226; WinKey+M / Search+M\n\nBloquear dispositivo\n&#8226; WinKey+L / Search+L\n\nMostrar menú de inicio\n&#8226; WinKey / Search\n(requiere que Taskbar se establezca como la aplicación de asistencia en los Ajustes)</string>
+  <string name="tb_pref_description_keyboard_shortcut">Iniciar/detener Remotebar: &#160; {fou_social-windows} + M &#160; {fou_magnifying-glass} + M\n\nBloquear dispositivo: &#160; {fou_social-windows} + L &#160; {fou_magnifying-glass} + L\n\nMostrar menú de inicio: &#160; {fou_social-windows} &#160; {fou_magnifying-glass}\n(requiere que Remotebar se establezca como la aplicación de asistencia en los Ajustes)</string>
+  <string name="tb_pref_description_keyboard_shortcut_alt">Iniciar/detener Remotebar\n&#8226; WinKey+M / Search+M\n\nBloquear dispositivo\n&#8226; WinKey+L / Search+L\n\nMostrar menú de inicio\n&#8226; WinKey / Search\n(requiere que Remotebar se establezca como la aplicación de asistencia en los Ajustes)</string>
 
   <string-array name="tb_pref_theme_list">
       <item>Sistema</item>

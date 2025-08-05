@@ -16,13 +16,13 @@
 
 <resources>
 
-    <style name="Taskbar" parent="TaskbarBase">
+    <style name="Remotebar" parent="RemotebarBase">
         <item name="android:windowLightNavigationBar">true</item>
         <item name="android:navigationBarColor">@color/tb_navbar_color_light</item>
         <item name="android:navigationBarDividerColor">@color/tb_navbar_divider_color_light</item>
     </style>
 
-    <style name="Taskbar.Dark" parent="TaskbarBase.Dark">
+    <style name="Remotebar.Dark" parent="RemotebarBase.Dark">
         <item name="android:windowLightNavigationBar">false</item>
         <item name="android:navigationBarColor">@color/tb_navbar_color_dark</item>
         <item name="android:navigationBarDividerColor">@color/tb_navbar_divider_color_dark</item>

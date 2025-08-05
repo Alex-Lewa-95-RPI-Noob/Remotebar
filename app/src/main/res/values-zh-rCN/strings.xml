@@ -111,7 +111,7 @@
 
     <string name="tb_pref_title_keyboard_shortcut">启用键盘快捷方式</string>
     <string name="tb_pref_description_keyboard_shortcut">开始/停止 任务栏: &#160; {fou_social-windows} + M &#160; {fou_magnifying-glass} + M\n\n显示开始菜单: &#160; {fou_social-windows} &#160; {fou_magnifying-glass}\n(需要在设置中将任务栏设为辅助应用)</string>
-    <string name="tb_pref_description_keyboard_shortcut_alt">开始/停止 任务栏\n&#8226; WinKey+M / Search+M\n\n显示开始菜单\n&#8226; WinKey / Search\n(requires Taskbar to be set as the assist app in Settings)</string>
+    <string name="tb_pref_description_keyboard_shortcut_alt">开始/停止 任务栏\n&#8226; WinKey+M / Search+M\n\n显示开始菜单\n&#8226; WinKey / Search\n(requires Remotebar to be set as the assist app in Settings)</string>
     <string name="tb_loading_apps">正在载入应用&#8230;</string>
     <string name="tb_press_enter">未找到应用\n\n点按 Enter 使用 Google 搜索</string>
     <string name="tb_nothing_to_see_here">空空如也, 向前移动&#8230;</string>
@@ -220,7 +220,7 @@
     <string name="tb_add_shortcut">添加快捷方式到主屏幕</string>
     <string name="tb_shortcut_created">自由式模式快捷方式已创建</string>
 
-    <string name="tb_start_taskbar">开始/停止 任务栏 </string>
+    <string name="tb_start_remotebar">开始/停止 任务栏 </string>
     <string name="tb_no_freeform_support">自由式模式未在您的设备上启用 &#8211; 请先打开 任务栏 并启用</string>
     <string name="tb_enable_recent_apps">%1$s 可以选择在屏幕边缘显示最常用应用的图标。要做到这个，%1$s 需要使用情况访问权限。\n\n</string>
     <string name="tb_enable_recent_apps_instructions_phone">启用对最近应用的支持?</string>
@@ -487,7 +487,7 @@
 
     <string name="tb_desktop_mode_ime_fix">Desktop mode input method fix</string>
     <string name="tb_desktop_mode_ime_fix_title">Enable input method fix</string>
-    <string name="tb_desktop_mode_ime_fix_summary">Fixes visual glitches caused by input methods on Android 11+. Requires you to temporarily set Taskbar as your input method each time desktop mode starts.</string>
+    <string name="tb_desktop_mode_ime_fix_summary">Fixes visual glitches caused by input methods on Android 11+. Requires you to temporarily set Remotebar as your input method each time desktop mode starts.</string>
     <string name="tb_desktop_mode_ime_fix_toast">Open desktop mode settings to enable a fix for visual glitches caused by input methods</string>
     <string name="tb_desktop_mode_ime_fix_toast_alt">Start desktop mode first before enabling the input method fix</string>
 

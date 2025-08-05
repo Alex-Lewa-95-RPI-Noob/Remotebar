@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 
-<!-- Manifest used for library builds of Taskbar, with the following changes:
+<!-- Manifest used for library builds of Remotebar, with the following changes:
 
      * Certain permissions have been removed
      * Certain activities have either had their intent filters removed, or their
@@ -49,21 +49,21 @@
             android:documentLaunchMode="always"
             android:excludeFromRecents="true"
             android:launchMode="singleTask"
-            android:theme="@style/Taskbar.InvisibleActivity"/>
+            android:theme="@style/Remotebar.InvisibleActivity"/>
         <activity
             android:name=".activity.InvisibleActivityAlt"
             android:process=":libtaskbar"
             android:documentLaunchMode="always"
             android:excludeFromRecents="true"
             android:launchMode="singleTask"
-            android:theme="@style/Taskbar.Incognito"/>
+            android:theme="@style/Remotebar.Incognito"/>
         <activity
             android:name=".activity.dark.InvisibleActivityAltDark"
             android:process=":libtaskbar"
             android:documentLaunchMode="always"
             android:excludeFromRecents="true"
             android:launchMode="singleTask"
-            android:theme="@style/Taskbar.Incognito.Dark"/>
+            android:theme="@style/Remotebar.Incognito.Dark"/>
         <activity
             android:name=".activity.InvisibleActivityFreeform"
             android:process=":libtaskbar"
@@ -71,7 +71,7 @@
             android:excludeFromRecents="true"
             android:launchMode="singleInstance"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|screenSize|smallestScreenSize|layoutDirection"
-            android:theme="@style/Taskbar.InvisibleActivity"/>
+            android:theme="@style/Remotebar.InvisibleActivity"/>
         <activity
             android:name=".activity.SecondaryHomeActivity"
             android:process=":libtaskbar"
@@ -79,7 +79,7 @@
             android:enabled="true"
             android:excludeFromRecents="true"
             android:configChanges="screenSize|keyboard|keyboardHidden"
-            android:theme="@style/Taskbar.HomeActivity"
+            android:theme="@style/Remotebar.HomeActivity"
             android:exported="true">
             <intent-filter android:order="100">
                 <action android:name="android.intent.action.MAIN"/>
@@ -93,65 +93,65 @@
             android:process=":libtaskbar"
             android:documentLaunchMode="always"
             android:excludeFromRecents="true"
-            android:theme="@style/Taskbar.Dialog"/>
+            android:theme="@style/Remotebar.Dialog"/>
         <activity
             android:name=".activity.dark.ContextMenuActivityDark"
             android:process=":libtaskbar"
             android:documentLaunchMode="always"
             android:excludeFromRecents="true"
-            android:theme="@style/Taskbar.Dialog.Dark"/>
+            android:theme="@style/Remotebar.Dialog.Dark"/>
         <activity
             android:name=".activity.SelectAppActivity"
             android:process=":libtaskbar"
-            android:theme="@style/Taskbar.Dialog.Blacklist"/>
+            android:theme="@style/Remotebar.Dialog.Blacklist"/>
         <activity
             android:name=".activity.dark.SelectAppActivityDark"
             android:process=":libtaskbar"
-            android:theme="@style/Taskbar.Dialog.Blacklist.Dark"/>
+            android:theme="@style/Remotebar.Dialog.Blacklist.Dark"/>
         <activity
             android:name=".activity.DesktopIconSelectAppActivity"
             android:process=":libtaskbar"
-            android:theme="@style/Taskbar.Dialog.Blacklist"/>
+            android:theme="@style/Remotebar.Dialog.Blacklist"/>
         <activity
             android:name=".activity.dark.DesktopIconSelectAppActivityDark"
             android:process=":libtaskbar"
-            android:theme="@style/Taskbar.Dialog.Blacklist.Dark"/>
+            android:theme="@style/Remotebar.Dialog.Blacklist.Dark"/>
         <activity
             android:name=".activity.DummyActivity"
             android:process=":libtaskbar"
             android:documentLaunchMode="always"
             android:excludeFromRecents="true"
-            android:theme="@style/Taskbar.Incognito"/>
+            android:theme="@style/Remotebar.Incognito"/>
         <activity
             android:name=".activity.IconPackActivity"
             android:process=":libtaskbar"
-            android:theme="@style/Taskbar.Dialog.Blacklist"/>
+            android:theme="@style/Remotebar.Dialog.Blacklist"/>
         <activity
             android:name=".activity.dark.IconPackActivityDark"
             android:process=":libtaskbar"
-            android:theme="@style/Taskbar.Dialog.Blacklist.Dark"/>
+            android:theme="@style/Remotebar.Dialog.Blacklist.Dark"/>
         <activity
             android:name=".activity.ClearDataActivity"
             android:process=":libtaskbar"
-            android:theme="@style/Taskbar.Dialog.Blacklist"/>
+            android:theme="@style/Remotebar.Dialog.Blacklist"/>
         <activity
             android:name=".activity.dark.ClearDataActivityDark"
             android:process=":libtaskbar"
-            android:theme="@style/Taskbar.Dialog.Blacklist.Dark"/>
+            android:theme="@style/Remotebar.Dialog.Blacklist.Dark"/>
         <activity
             android:name=".activity.DashboardActivity"
             android:process=":libtaskbar"
             android:documentLaunchMode="always"
             android:excludeFromRecents="true"
             android:launchMode="singleTask"
-            android:theme="@style/Taskbar.Incognito"/>
+            android:theme="@style/Remotebar.Incognito"/>
         <activity
             android:name=".activity.dark.DashboardActivityDark"
             android:process=":libtaskbar"
             android:documentLaunchMode="always"
             android:excludeFromRecents="true"
             android:launchMode="singleTask"
-            android:theme="@style/Taskbar.Incognito.Dark"/>
+            android:theme="@style/Remotebar.Incognito.Dark"/>
         <activity
             android:name=".activity.TouchAbsorberActivity"
             android:process=":libtaskbar"
@@ -159,7 +159,7 @@
             android:excludeFromRecents="true"
             android:launchMode="singleTask"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|screenSize|smallestScreenSize|layoutDirection"
-            android:theme="@style/Taskbar.Incognito"/>
+            android:theme="@style/Remotebar.Incognito"/>
     </application>
 
 </manifest>

@@ -15,13 +15,13 @@
 -->
 
 <resources>
-<string name="tb_pref_description_keyboard_shortcut">"Taskbar başlat/durdur:   {fou_social-windows} + M   {fou_magnifying-glass} + M
+<string name="tb_pref_description_keyboard_shortcut">"Remotebar başlat/durdur:   {fou_social-windows} + M   {fou_magnifying-glass} + M
 
 Cihaz kilitlemr:   {fou_social-windows} + L   {fou_magnifying-glass} + L
 
 Başlat menüsünü gösterme:   {fou_social-windows}   {fou_magnifying-glass}
-(ayarlarda Taskbar yardımcı uygulaması olarak ayarlanmasını gerektirir)"</string>
-<string name="tb_pref_description_keyboard_shortcut_alt">"Taskbar başlat/durdur
+(ayarlarda Remotebar yardımcı uygulaması olarak ayarlanmasını gerektirir)"</string>
+<string name="tb_pref_description_keyboard_shortcut_alt">"Remotebar başlat/durdur
 • WinKey+M / Search+M
 
 Cihaz kilitle
@@ -29,7 +29,7 @@ Cihaz kilitle
 
 Başlat menüsü gösterme
 • WinKey / Search
-(ayarlarda Taskbar yardımcı uygulaması olarak ayarlanmasını gerektirir)"</string>
+(ayarlarda Remotebar yardımcı uygulaması olarak ayarlanmasını gerektirir)"</string>
 
     <string-array name="tb_pref_theme_list">
         <item>System</item>

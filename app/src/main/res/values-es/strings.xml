@@ -16,10 +16,10 @@
 
 <resources>
 
-    <string name="tb_app_name">Taskbar</string>
-    <string name="tb_app_name_debug">Taskbar (Debug)</string>
+    <string name="tb_app_name">Remotebar</string>
+    <string name="tb_app_name_debug">Remotebar (Debug)</string>
 
-    <string name="tb_taskbar_is_active">Taskbar está activa</string>
+    <string name="tb_taskbar_is_active">Remotebar está activa</string>
     <string name="tb_click_to_open_settings">Click para abrir los ajustes</string>
     <string name="tb_action_show">Mostrar barra de tareas</string>
     <string name="tb_action_hide">Ocultar la barra de tareas</string>
@@ -179,13 +179,13 @@
 
     <string name="tb_pref_title_anchor">Anclar Barra de tareas cuando la pantalla gira</string>
     <string name="tb_pref_title_donate">Donar</string>
-    <string name="tb_pref_summary_donate">Apoya el desarrollo de Taskbar con una pequeña donación actualizando a la Versión Donar</string>
-    <string name="tb_dialog_donate_message">Apoya el desarrollo de Taskbar actualizando a la Versión de Donación por %1$s!\n\nLa Versión de Donación es idéntica a la versión gratuita y tus preferencias se transferirán automáticamente sobre.\n\nTaskbar es y siempre será 100%% gratuita, de código abierto, sin ningún tipo de anuncios.  Sin embargo, su apoyo es muy apreciado!</string>
+    <string name="tb_pref_summary_donate">Apoya el desarrollo de Remotebar con una pequeña donación actualizando a la Versión Donar</string>
+    <string name="tb_dialog_donate_message">Apoya el desarrollo de Remotebar actualizando a la Versión de Donación por %1$s!\n\nLa Versión de Donación es idéntica a la versión gratuita y tus preferencias se transferirán automáticamente sobre.\n\nRemotebar es y siempre será 100%% gratuita, de código abierto, sin ningún tipo de anuncios.  Sin embargo, su apoyo es muy apreciado!</string>
     <string name="tb_action_no_thanks">No gracias</string>
 
     <string name="tb_importing_settings">Importando ajustes&#8230; por favor, espere.</string>
     <string name="tb_settings_imported_successfully">Ajustes importados con éxito</string>
-    <string name="tb_import_dialog_message">Gracias por comprar la Versión de Donación de Taskbar!\n\nSus ajustes han sido importados con éxito y ahora puede desinstalar la versión gratuita de la aplicación.</string>
+    <string name="tb_import_dialog_message">Gracias por comprar la Versión de Donación de Remotebar!\n\nSus ajustes han sido importados con éxito y ahora puede desinstalar la versión gratuita de la aplicación.</string>
     <string name="tb_action_uninstall">Desinstalar</string>
 
     <string name="tb_pref_title_hide_when_keyboard_shown">Colapsar automáticamente la Barra de tareas</string>
@@ -207,7 +207,7 @@
     <string name="tb_pref_title_use_mask">Utilizar máscaras para los iconos no tematizados</string>
     <string name="tb_pref_description_use_mask">Puede reducir el rendimiento cuando un paquete de iconos está configurado</string>
 
-    <string name="tb_pref_title_app_drawer_icon">Logo de Taskbar</string>
+    <string name="tb_pref_title_app_drawer_icon">Logo de Remotebar</string>
     <string name="tb_pref_title_app_drawer_icon_ag">%s logo</string>
 
     <string name="tb_already_blacklisted">No es posible seleccionar %1$s porque está en la lista de aplicaciones ocultas</string>
@@ -220,7 +220,7 @@
     <string name="tb_add_shortcut">Añadir atajo a la pantalla de inicio</string>
     <string name="tb_shortcut_created">Atajo de modo ventana libre creado</string>
 
-    <string name="tb_start_taskbar">Iniciar/detener Taskbar</string>
+    <string name="tb_start_remotebar">Iniciar/detener Remotebar</string>
     <string name="tb_no_freeform_support">El modo ventana libre no está activado en su dispositivo &#8211; abra la Barra de tareas y habilítela primero</string>
     <string name="tb_enable_recent_apps">%1$s puede mostrar opcionalmente iconos de las aplicaciones más recientes en el borde de la pantalla.  Para ello, %1$s requiere permisos de acceso de uso.</string>
     <string name="tb_enable_recent_apps_instructions_phone">¿Activar el soporte para aplicaciones recientes?</string>
@@ -259,7 +259,7 @@
 
     <string name="tb_enable_accessibility">@string/tb_accessibility_service_description</string>
     <string name="tb_accessibility_service_summary">Permite a la Barra de Tareas realizar acciones de pulsación de botón</string>
-    <string name="tb_accessibility_service_description">Taskbar necesita ser activada como un servicio de accesibilidad para realizar acciones de pulsación de botón como atrás, inicio, recientes y energía, así como para mostrar la bandeja de notificación.</string>
+    <string name="tb_accessibility_service_description">Remotebar necesita ser activada como un servicio de accesibilidad para realizar acciones de pulsación de botón como atrás, inicio, recientes y energía, así como para mostrar la bandeja de notificación.</string>
     
     <string name="tb_pref_title_force_new_window">Siempre abrir aplicaciones en nuevas ventanas</string>
     <string name="tb_pref_description_force_new_window">Obliga a una aplicación a abrir una nueva ventana cada vez que es seleccionada en el menú de inicio o en aplicaciones recientes (si una aplicación permite múltiples ventanas)</string>
@@ -326,11 +326,11 @@
     <string name="tb_freeform_off">Modo ventana libre desactivada</string>
 
     <string name="tb_auto_hide_navbar">Controlar automáticamente la barra de navegación del sistema</string>
-    <string name="tb_auto_hide_navbar_description">Oculta la barra de navegación cuando la Taskbar se activa, y vuelve a mostrar cuando esta deja de activarse</string>
+    <string name="tb_auto_hide_navbar_description">Oculta la barra de navegación cuando la Remotebar se activa, y vuelve a mostrar cuando esta deja de activarse</string>
 
     <string name="tb_press_enter_alt">Sin aplicaciones encontradas No apps found\n\nPress Enter to open in browser</string>
 
-    <string name="tb_freeform_dialog_message_alt">Para que la Taskbar pueda lanzar aplicaciones en modo ventana libre, por favor sigue estos pasos:\n\n&#8226; Ve a Opciones del desarrollador y habilita la depuración de USB\n\n&#8226; Conecte su dispositivo a una computadora con el SDK de Android instalado, y ejecute el siguiente comando (una línea):\n\nadb shell settings put global enable_freeform_support 1\n\n&#8226; Reinicie su equipo</string>
+    <string name="tb_freeform_dialog_message_alt">Para que la Remotebar pueda lanzar aplicaciones en modo ventana libre, por favor sigue estos pasos:\n\n&#8226; Ve a Opciones del desarrollador y habilita la depuración de USB\n\n&#8226; Conecte su dispositivo a una computadora con el SDK de Android instalado, y ejecute el siguiente comando (una línea):\n\nadb shell settings put global enable_freeform_support 1\n\n&#8226; Reinicie su equipo</string>
 
     <string name="tb_color_picker_alpha">Alfa</string>
     <string name="tb_color_picker_red">Rojo</string>
@@ -338,7 +338,7 @@
     <string name="tb_color_picker_blue">Azul</string>
 
     <string name="tb_pref_title_chrome_os_context_menu_fix">Solucionar compatibilidad del dock de Chrome OS</string>
-    <string name="tb_pref_description_chrome_os_context_menu_fix">Active esta opción si utiliza la Taskbar junto con el dock de Chrome OS</string>
+    <string name="tb_pref_description_chrome_os_context_menu_fix">Active esta opción si utiliza la Remotebar junto con el dock de Chrome OS</string>
 
     <string name="tb_pin_shortcut_not_supported">Su lanzador no soporta la adición de atajos desde otras aplicaciones.\n\nPor favor, añade manualmente el atajo desde el menú \"Widgets\" de su lanzador.</string>
 
@@ -355,15 +355,15 @@
 
     <string name="tb_tasker_action_title">Seleccionar acción</string>
     <string name="tb_tasker_condition_title">Seleccionar condición</string>
-    <string name="tb_tasker_on">Taskbar Activado</string>
-    <string name="tb_tasker_off">Taskbar Desactivado</string>
+    <string name="tb_tasker_on">Remotebar Activado</string>
+    <string name="tb_tasker_off">Remotebar Desactivado</string>
     <string name="tb_on">Activado</string>
     <string name="tb_off">Desactivado</string>
 
     <string name="tb_pref_title_tasker_enabled">Permitir la integración de aplicaciones de terceros</string>
     <string name="tb_pref_summary_tasker_enabled">Desactivar para mejorar la seguridad</string>
 
-    <string name="tb_essential_phone_grip_rejection">En el Teléfono Essential, desactiva el rechazo de agarre (en las opciones de desarrollo) para ayudar a abrir/cerrar Taskbar</string>
+    <string name="tb_essential_phone_grip_rejection">En el Teléfono Essential, desactiva el rechazo de agarre (en las opciones de desarrollo) para ayudar a abrir/cerrar Remotebar</string>
 
     <string name="tb_toggle_start_menu">Cambiar el Menú de inicio</string>
     <string name="tb_toggle_dashboard">Cambiar Dashboard</string>
@@ -394,7 +394,7 @@
     <string name="tb_pref_description_sys_tray">Sólo visible cuando la Barra de tareas es horizontal</string>
 
     <string name="tb_settings">Ajustes</string>
-    <string name="tb_powered_by_taskbar">Impulsado por Taskbar</string>
+    <string name="tb_powered_by_taskbar">Impulsado por Remotebar</string>
 
     <string name="tb_manage_app_data">Administrar datos de la aplicación</string>
     <string name="tb_manage_app_data_description">Ajustes de respaldo y restauración, o restablecer las preferencias por aplicación</string>
@@ -417,7 +417,7 @@
 
     <string name="tb_pref_header_desktop_mode">Modo escritorio</string>
     <string name="tb_primary_launcher">Lanzador primario</string>
-    <string name="tb_set_launcher_default_title">Establecer a Taskbar como aplicación de inicio</string>
+    <string name="tb_set_launcher_default_title">Establecer a Remotebar como aplicación de inicio</string>
     <string name="tb_set_launcher_default_summary">Requerido para que funcione el modo de escritorio</string>
     <string name="tb_unable_to_set_default_home">No se puede establecer como aplicación de inicio. Por favor, hazlo manualmente a través de la configuración del sistema.</string>
     <string name="tb_display_density">Densidad de pantalla</string>
@@ -426,7 +426,7 @@
 
     <string name="tb_hsl_no_launchers_found">No se encontraron lanzadores primarios. Por favor, descargue e instale uno, e intente de nuevo.</string>
     <string name="tb_hsl_launcher_uninstalled">%1$s fue desinstalado. Por favor, seleccione un lanzador diferente de la lista.</string>
-    <string name="tb_hsl_main_activity_text">Seleccione su lanzador principal de la lista que aparece a continuación. Puede cambiarlo en cualquier momento desde los ajustes del modo escritorio de Taskbar.</string>
+    <string name="tb_hsl_main_activity_text">Seleccione su lanzador principal de la lista que aparece a continuación. Puede cambiarlo en cualquier momento desde los ajustes del modo escritorio de Remotebar.</string>
 
     <string-array name="tb_pref_display_density_list">
         <item>Predeterminado</item>
@@ -450,7 +450,7 @@
     <string name="tb_pref_description_enable_recents">Requerido para aparecer las aplicaciones recientes</string>
 
     <string name="tb_disable_home_setting">Por favor, desactiva la opción \"Reemplazar pantalla de inicio\" en \"Características avanzadas\" para poder usar el modo de escritorio.</string>
-    <string name="tb_desktop_mode_setup_complete">Inicie Taskbar haciendo clic en el botón de inicio de su pantalla externa.</string>
+    <string name="tb_desktop_mode_setup_complete">Inicie Remotebar haciendo clic en el botón de inicio de su pantalla externa.</string>
 
     <string name="tb_hide_icon_labels">Ocultar etiquetas de iconos de aplicaciones</string>
 
@@ -471,14 +471,14 @@
     <string name="tb_pref_notification_count_description">Requiere acceso a la notificación</string>
 
     <string name="tb_desktop_mode_dialog_title">Habilitar el soporte del modo de escritorio</string>
-    <string name="tb_desktop_mode_dialog_message">Para configurar su dispositivo para el modo de escritorio, por favor siga estos pasos:\n\n&#8226; Ve a Opciones del desarrollador\n\n&#8226; Desplácese hacia la parte inferior y activa \"Habilitar ventanas de forma libre\" y \"Forzar el modo de escritorio\"; establezca Taskbar como su aplicación de inicio predeterminada\n\n&#8226; Reinicie su dispositivo\n\nPara obtener más información y pasos para solucionar problemas, haz clic en el icono (?) de la esquina superior derecha de la pantalla.</string>
+    <string name="tb_desktop_mode_dialog_message">Para configurar su dispositivo para el modo de escritorio, por favor siga estos pasos:\n\n&#8226; Ve a Opciones del desarrollador\n\n&#8226; Desplácese hacia la parte inferior y activa \"Habilitar ventanas de forma libre\" y \"Forzar el modo de escritorio\"; establezca Remotebar como su aplicación de inicio predeterminada\n\n&#8226; Reinicie su dispositivo\n\nPara obtener más información y pasos para solucionar problemas, haz clic en el icono (?) de la esquina superior derecha de la pantalla.</string>
     <string name="tb_reboot_required_alt">Reinicie su dispositivo para completar el modo de escritorio setup</string>
-    <string name="tb_enable_additional_settings_message_1">Taskbar puede usar opcionalmente permisos elevados para mejorar la experiencia del modo de escritorio. Estos permisos se conceden ejecutando un comando de adb shell.\n\nSi desea continuar, conecte su dispositivo a un ordenador con el SDK de Android instalado, y ejecute el siguiente comando (una línea):</string>
+    <string name="tb_enable_additional_settings_message_1">Remotebar puede usar opcionalmente permisos elevados para mejorar la experiencia del modo de escritorio. Estos permisos se conceden ejecutando un comando de adb shell.\n\nSi desea continuar, conecte su dispositivo a un ordenador con el SDK de Android instalado, y ejecute el siguiente comando (una línea):</string>
     <string name="tb_enable_additional_settings_message_2">Una vez concedido, los ajustes adicionales se activarán cuando se conecte una pantalla.</string>
     <string name="tb_desktop_mode_pref_description">Utilizar la barra de tareas para lanzar aplicaciones en ventana en una pantalla externa, similar a Samsung DeX y otras soluciones.\n\nRequiere un adaptador de USB a HDMI, o un lapdock, y un dispositivo que soporte la salida de video.</string>
     <string name="tb_enable_additional_settings_pref_description">Clic aquí para la información sobre cómo activar</string>
 
-    <string name="tb_desktop_mode_help"><b>Acerca del modo de escritorio</b>\n\nTaskbar es compatible con el modo de escritorio incorporado de Android 10. Puede conectar su dispositivocompatible con Android 10+ a una pantalla externa y ejecutar aplicaciones en ventanas redimensionables, con la interfaz de Taskbar ejecutándose en su pantalla externa y su lanzador existente todavía ejecutándose en su teléfono. El modo de escritorio requiere un adaptador de USB a HDMI (o un lapdock), y un dispositivo compatible que soporte la salida de video. Además, ciertos ajustes requieren la concesión de un permiso especial a través de adb.\n\nPara empezar, marque la casilla de \"Modo escritorio\". La aplicación le guiará a través del proceso de configuración de una sola vez, que implica:\n\n&#8226; Habilitar las opciones de desarrollo \"Habilitar modo ventana libre\" y \"Forzar el modo de escritorio\"\n\n&#8226; Establecer Taskbar como aplicación de inicio predeterminada\n\n&#8226; Reiniciar el dispositivo\n\n<b>¿Por qué es necesario establecer Taskbar como mi aplicación de inicio predeterminada para que funcione el modo de escritorio?</b>\n\nPor diseño, Android sólo permitirá que la aplicación de inicio predeterminada actúe como lanzador del modo de escritorio en las pantallas externas.  Si la aplicación predeterminada no declara específicamente el soporte para el modo de escritorio, Android volverá a usar una interfaz de modo de escritorio predefinida.\n\nTaskbar es capaz de trabajar alrededor de esta limitación actuando como un calce entre el sistema y su lanzador preferido.  Cuando la Barra de tareas se configura como su aplicación de inicio, al presionar el botón de inicio se iniciará inmediatamente el lanzador que prefieras usar en su teléfono, y luego saldrá de ella.  Este lanzador se configura en las preferencias del modo de escritorio de la Taskbar haciendo clic en la opción \"Lanzador principal\".\n\nHay un par de advertencias a tener en cuenta cuando Taskbar se establece como su aplicación de inicio:\n\n&#8226; La mayoría de accesos directos a las aplicaciones (que se ven al pulsar el icono de una aplicación) ya no estarán disponibles para su lanzador principal.  Esto se debe a una limitación del sistema Android, en el que sólo la aplicación de inicio predeterminada tiene acceso a los accesos directos de la aplicación que se crean dinámicamente.\n\n&#8226; Ciertas animaciones que ocurren al presionar el botón de inicio podrían lucirse inexactas.  Esto se debe al comportamiento mencionado anteriormente, en el que la Barra de tareas actúa como un calce cuando se presiona el botón de inicio.\n\n<b>¿Cómo sé si mi dispositivo admite la salida de vídeo a pantallas externas?</b>\n\nLos desarrolladores de NexDock mantienen una lista de teléfonos inteligentes compatibles con Android 10+ junto a la salida de video USB a HDMI (esta lista excluye los dispositivos Samsung y Huawei).  Puedes ver esta lista aquí: http://nexdock.com/lapdock-for-smartphones\n\nLos dispositivos de Google Pixel, en particular, no incluyen soporte para salida de video.  Sin embargo, puedes utilizar Taskbar con la duplicación de pantalla estándar en estos dispositivos, ya sea a través de Chromecast o mediante el uso de un acoplamiento DisplayLink junto con la aplicación DisplayLink Presenter.\n\n<b>¿Debo usar el modo escritorio de Taskbar sobre la solución de modo de escritorio incorporada en mi dispositivo, como el Samsung DeX?</b>\n\nAlgunos OEMs, como Samsung y Huawei, han implementado su propia versión del modo de escritorio, además de la implementación de Google en Android 10.  Estas soluciones tienen una mejor integración con el resto del sistema y son generalmente más pulidas en general.  No es necesario cambiar a Taskbar si está contento con la solución de modo de escritorio existente en su dispositivo.\n\nLa compatibilidad con el modo de escritorio de Taskbar está pensada hacia los dispositivos que no ofrecen una solución de modo de escritorio incorporada más allá de lo que Google ofrece en Android 10.\n\n<b>No encuentro la opción \"Forzar el modo de escritorio\" en las opciones de desarrollo &#8211; ¿puedo seguir usando el modo de escritorio?</b>\n\nAlgunos dispositivos (como el teléfono ASUS ROG 2) no tienen la opción de \"Forzar el modo de escritorio\" en las opciones de desarrollo. Necesitará habilitar esa opción manualmente a través de adb. Para ello, conecte su dispositivo a un ordenador con el SDK de Android instalado y ejecuta el siguiente comando (una línea):\n\nadb shell settings put global force_desktop_mode_on_external_displays 1\n\n<b>¿Qué debo hacer si algo sale mal o si mi lanzador o las aplicaciones se comportan de manera extraña cuando el modo de escritorio está activado?</b>\n\nPor favor, siga estos pasos para desactivar el modo de escritorio en caso de que algo vaya mal:\n\n&#8226; Tire hacia abajo del cajón de ajustes rápidos, y luego introduzca los ajustes del sistema a través del icono del engranaje\n\n&#8226; Navega a las opciones del desarrollador y desactive \"Activar soporte de ventana libre\" y \"Forzar el modo de escritorio\"\n\n&#8226; Reinicie su dispositivo</string>
+    <string name="tb_desktop_mode_help"><b>Acerca del modo de escritorio</b>\n\nRemotebar es compatible con el modo de escritorio incorporado de Android 10. Puede conectar su dispositivocompatible con Android 10+ a una pantalla externa y ejecutar aplicaciones en ventanas redimensionables, con la interfaz de Remotebar ejecutándose en su pantalla externa y su lanzador existente todavía ejecutándose en su teléfono. El modo de escritorio requiere un adaptador de USB a HDMI (o un lapdock), y un dispositivo compatible que soporte la salida de video. Además, ciertos ajustes requieren la concesión de un permiso especial a través de adb.\n\nPara empezar, marque la casilla de \"Modo escritorio\". La aplicación le guiará a través del proceso de configuración de una sola vez, que implica:\n\n&#8226; Habilitar las opciones de desarrollo \"Habilitar modo ventana libre\" y \"Forzar el modo de escritorio\"\n\n&#8226; Establecer Remotebar como aplicación de inicio predeterminada\n\n&#8226; Reiniciar el dispositivo\n\n<b>¿Por qué es necesario establecer Remotebar como mi aplicación de inicio predeterminada para que funcione el modo de escritorio?</b>\n\nPor diseño, Android sólo permitirá que la aplicación de inicio predeterminada actúe como lanzador del modo de escritorio en las pantallas externas.  Si la aplicación predeterminada no declara específicamente el soporte para el modo de escritorio, Android volverá a usar una interfaz de modo de escritorio predefinida.\n\nRemotebar es capaz de trabajar alrededor de esta limitación actuando como un calce entre el sistema y su lanzador preferido.  Cuando la Barra de tareas se configura como su aplicación de inicio, al presionar el botón de inicio se iniciará inmediatamente el lanzador que prefieras usar en su teléfono, y luego saldrá de ella.  Este lanzador se configura en las preferencias del modo de escritorio de la Remotebar haciendo clic en la opción \"Lanzador principal\".\n\nHay un par de advertencias a tener en cuenta cuando Remotebar se establece como su aplicación de inicio:\n\n&#8226; La mayoría de accesos directos a las aplicaciones (que se ven al pulsar el icono de una aplicación) ya no estarán disponibles para su lanzador principal.  Esto se debe a una limitación del sistema Android, en el que sólo la aplicación de inicio predeterminada tiene acceso a los accesos directos de la aplicación que se crean dinámicamente.\n\n&#8226; Ciertas animaciones que ocurren al presionar el botón de inicio podrían lucirse inexactas.  Esto se debe al comportamiento mencionado anteriormente, en el que la Barra de tareas actúa como un calce cuando se presiona el botón de inicio.\n\n<b>¿Cómo sé si mi dispositivo admite la salida de vídeo a pantallas externas?</b>\n\nLos desarrolladores de NexDock mantienen una lista de teléfonos inteligentes compatibles con Android 10+ junto a la salida de video USB a HDMI (esta lista excluye los dispositivos Samsung y Huawei).  Puedes ver esta lista aquí: http://nexdock.com/lapdock-for-smartphones\n\nLos dispositivos de Google Pixel, en particular, no incluyen soporte para salida de video.  Sin embargo, puedes utilizar Remotebar con la duplicación de pantalla estándar en estos dispositivos, ya sea a través de Chromecast o mediante el uso de un acoplamiento DisplayLink junto con la aplicación DisplayLink Presenter.\n\n<b>¿Debo usar el modo escritorio de Remotebar sobre la solución de modo de escritorio incorporada en mi dispositivo, como el Samsung DeX?</b>\n\nAlgunos OEMs, como Samsung y Huawei, han implementado su propia versión del modo de escritorio, además de la implementación de Google en Android 10.  Estas soluciones tienen una mejor integración con el resto del sistema y son generalmente más pulidas en general.  No es necesario cambiar a Remotebar si está contento con la solución de modo de escritorio existente en su dispositivo.\n\nLa compatibilidad con el modo de escritorio de Remotebar está pensada hacia los dispositivos que no ofrecen una solución de modo de escritorio incorporada más allá de lo que Google ofrece en Android 10.\n\n<b>No encuentro la opción \"Forzar el modo de escritorio\" en las opciones de desarrollo &#8211; ¿puedo seguir usando el modo de escritorio?</b>\n\nAlgunos dispositivos (como el teléfono ASUS ROG 2) no tienen la opción de \"Forzar el modo de escritorio\" en las opciones de desarrollo. Necesitará habilitar esa opción manualmente a través de adb. Para ello, conecte su dispositivo a un ordenador con el SDK de Android instalado y ejecuta el siguiente comando (una línea):\n\nadb shell settings put global force_desktop_mode_on_external_displays 1\n\n<b>¿Qué debo hacer si algo sale mal o si mi lanzador o las aplicaciones se comportan de manera extraña cuando el modo de escritorio está activado?</b>\n\nPor favor, siga estos pasos para desactivar el modo de escritorio en caso de que algo vaya mal:\n\n&#8226; Tire hacia abajo del cajón de ajustes rápidos, y luego introduzca los ajustes del sistema a través del icono del engranaje\n\n&#8226; Navega a las opciones del desarrollador y desactive \"Activar soporte de ventana libre\" y \"Forzar el modo de escritorio\"\n\n&#8226; Reinicie su dispositivo</string>
 
     <string name="tb_see_whats_new">Ver que hay de nuevo en este lanzamiento</string>
     <string name="tb_action_view">Ver</string>
@@ -487,7 +487,7 @@
 
     <string name="tb_desktop_mode_ime_fix">Desktop mode input method fix</string>
     <string name="tb_desktop_mode_ime_fix_title">Enable input method fix</string>
-    <string name="tb_desktop_mode_ime_fix_summary">Fixes visual glitches caused by input methods on Android 11+. Requires you to temporarily set Taskbar as your input method each time desktop mode starts.</string>
+    <string name="tb_desktop_mode_ime_fix_summary">Fixes visual glitches caused by input methods on Android 11+. Requires you to temporarily set Remotebar as your input method each time desktop mode starts.</string>
     <string name="tb_desktop_mode_ime_fix_toast">Open desktop mode settings to enable a fix for visual glitches caused by input methods</string>
     <string name="tb_desktop_mode_ime_fix_toast_alt">Start desktop mode first before enabling the input method fix</string>
 

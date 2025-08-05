@@ -15,16 +15,16 @@
 -->
 
 <resources>
-<string name="tb_pref_description_keyboard_shortcut">"Start/stop Taskbar: &#160; {fou_social-windows} + M &#160; {fou_magnifying-glass} + M
+<string name="tb_pref_description_keyboard_shortcut">"Start/stop Remotebar: &#160; {fou_social-windows} + M &#160; {fou_magnifying-glass} + M
 
 Pokaż menu Start: &#160; {fou_social-windows} &#160; {fou_magnifying-glass}
-(wymaga, aby Taskbar był ustawiony jako aplikacja pomocnicza w Ustawieniach)"</string>
-<string name="tb_pref_description_keyboard_shortcut_alt">"Start/stop Taskbar
+(wymaga, aby Remotebar był ustawiony jako aplikacja pomocnicza w Ustawieniach)"</string>
+<string name="tb_pref_description_keyboard_shortcut_alt">"Start/stop Remotebar
 • WinKey+M / Search+M
 
 Pokaż menu Start
 • WinKey / Search
-(wymaga, aby Taskbar był ustawiony jako aplikacja pomocnicza w Ustawieniach)"</string>
+(wymaga, aby Remotebar był ustawiony jako aplikacja pomocnicza w Ustawieniach)"</string>
 
     <string-array name="tb_pref_theme_list">
         <item>System</item>
