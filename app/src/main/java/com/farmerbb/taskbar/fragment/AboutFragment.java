@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.fragment;
+package com.openlewa.remotebar.fragment;
 
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
@@ -27,10 +27,10 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
-import com.farmerbb.taskbar.BuildConfig;
-import com.farmerbb.taskbar.R;
-import com.farmerbb.taskbar.activity.MainActivity;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.BuildConfig;
+import com.openlewa.remotebar.R;
+import com.openlewa.remotebar.activity.MainActivity;
+import com.openlewa.remotebar.util.U;
 
 import java.text.NumberFormat;
 import java.util.Calendar;
@@ -38,7 +38,7 @@ import java.util.Currency;
 import java.util.Locale;
 import java.util.TimeZone;
 
-import static com.farmerbb.taskbar.util.Constants.*;
+import static com.openlewa.remotebar.util.Constants.*;
 
 public class AboutFragment extends SettingsFragment {
 

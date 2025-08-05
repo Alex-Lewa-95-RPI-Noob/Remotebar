@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.adapter;
+package com.openlewa.remotebar.adapter;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -39,11 +39,11 @@ import android.widget.LinearLayout;
 import android.widget.SectionIndexer;
 import android.widget.TextView;
 
-import com.farmerbb.taskbar.R;
-import com.farmerbb.taskbar.util.AppEntry;
-import com.farmerbb.taskbar.helper.FreeformHackHelper;
-import com.farmerbb.taskbar.util.TopApps;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.R;
+import com.openlewa.remotebar.util.AppEntry;
+import com.openlewa.remotebar.helper.FreeformHackHelper;
+import com.openlewa.remotebar.util.TopApps;
+import com.openlewa.remotebar.util.U;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -51,7 +51,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static com.farmerbb.taskbar.util.Constants.*;
+import static com.openlewa.remotebar.util.Constants.*;
 
 public class StartMenuAdapter extends ArrayAdapter<AppEntry> implements SectionIndexer {
 

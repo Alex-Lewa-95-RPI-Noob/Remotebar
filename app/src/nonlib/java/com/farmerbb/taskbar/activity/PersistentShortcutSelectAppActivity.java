@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.activity;
+package com.openlewa.remotebar.activity;
 
 import android.annotation.TargetApi;
 import android.app.AlertDialog;
@@ -34,11 +34,11 @@ import android.widget.LinearLayout;
 import android.widget.SeekBar;
 import android.widget.Spinner;
 
-import com.farmerbb.taskbar.R;
-import com.farmerbb.taskbar.util.AppEntry;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.R;
+import com.openlewa.remotebar.util.AppEntry;
+import com.openlewa.remotebar.util.U;
 
-import static com.farmerbb.taskbar.util.Constants.*;
+import static com.openlewa.remotebar.util.Constants.*;
 
 public class PersistentShortcutSelectAppActivity extends AbstractSelectAppActivity {
 
@@ -190,7 +190,7 @@ public class PersistentShortcutSelectAppActivity extends AbstractSelectAppActivi
         editor.apply();
 
         try {
-            Class<?> clazz = Class.forName("com.farmerbb.taskbar.service.FavoriteApp" + num);
+            Class<?> clazz = Class.forName("com.openlewa.remotebar.service.FavoriteApp" + num);
             TileService.requestListeningState(this, new ComponentName(this, clazz));
         } catch (ClassNotFoundException ignored) {}
     }

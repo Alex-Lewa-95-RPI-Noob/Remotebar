@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.service;
+package com.openlewa.remotebar.service;
 
 import android.annotation.TargetApi;
 import android.content.res.Configuration;
@@ -23,8 +23,8 @@ import android.os.Build;
 import android.text.InputType;
 import android.view.inputmethod.EditorInfo;
 
-import com.farmerbb.taskbar.R;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.R;
+import com.openlewa.remotebar.util.U;
 
 public class DisableKeyboardService extends InputMethodService {
 

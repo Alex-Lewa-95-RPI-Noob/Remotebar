@@ -13,18 +13,18 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.activity;
+package com.openlewa.remotebar.activity;
 
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
 
-import com.farmerbb.taskbar.R;
-import com.farmerbb.taskbar.service.TaskbarService;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.R;
+import com.openlewa.remotebar.service.TaskbarService;
+import com.openlewa.remotebar.util.U;
 
-import static com.farmerbb.taskbar.util.Constants.*;
+import static com.openlewa.remotebar.util.Constants.*;
 
 public class NavigationBarButtonsActivity extends PreferenceActivity implements Preference.OnPreferenceClickListener {
 

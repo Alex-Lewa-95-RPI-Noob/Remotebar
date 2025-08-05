@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.util;
+package com.openlewa.remotebar.util;
 
 import android.content.Context;
 import android.content.Intent;
@@ -23,8 +23,8 @@ import android.os.Build;
 import androidx.browser.customtabs.CustomTabsIntent;
 import androidx.core.content.ContextCompat;
 
-import com.farmerbb.taskbar.R;
-import com.farmerbb.taskbar.activity.TaskerConditionActivity;
+import com.openlewa.remotebar.R;
+import com.openlewa.remotebar.activity.TaskerConditionActivity;
 import com.mikepenz.foundation_icons_typeface_library.FoundationIcons;
 import com.mikepenz.iconics.Iconics;
 

@@ -13,13 +13,13 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.activity;
+package com.openlewa.remotebar.activity;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.util.U;
 
 import java.util.Set;
 

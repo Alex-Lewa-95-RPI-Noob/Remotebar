@@ -13,18 +13,18 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.activity;
+package com.openlewa.remotebar.activity;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import com.farmerbb.taskbar.util.AppEntry;
-import com.farmerbb.taskbar.util.DesktopIconInfo;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.util.AppEntry;
+import com.openlewa.remotebar.util.DesktopIconInfo;
+import com.openlewa.remotebar.util.U;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 
-import static com.farmerbb.taskbar.util.Constants.*;
+import static com.openlewa.remotebar.util.Constants.*;
 
 public class DesktopIconSelectAppActivity extends AbstractSelectAppActivity {
 

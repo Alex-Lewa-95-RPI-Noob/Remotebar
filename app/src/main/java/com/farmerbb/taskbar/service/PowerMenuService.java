@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.service;
+package com.openlewa.remotebar.service;
 
 import android.accessibilityservice.AccessibilityService;
 import android.content.BroadcastReceiver;
@@ -21,10 +21,10 @@ import android.content.Context;
 import android.content.Intent;
 import android.view.accessibility.AccessibilityEvent;
 
-import com.farmerbb.taskbar.R;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.R;
+import com.openlewa.remotebar.util.U;
 
-import static com.farmerbb.taskbar.util.Constants.*;
+import static com.openlewa.remotebar.util.Constants.*;
 
 public class PowerMenuService extends AccessibilityService {
 

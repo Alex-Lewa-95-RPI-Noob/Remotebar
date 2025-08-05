@@ -13,8 +13,8 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.activity.dark;
+package com.openlewa.remotebar.activity.dark;
 
-import com.farmerbb.taskbar.activity.ClearDataActivity;
+import com.openlewa.remotebar.activity.ClearDataActivity;
 
 public class ClearDataActivityDark extends ClearDataActivity {}

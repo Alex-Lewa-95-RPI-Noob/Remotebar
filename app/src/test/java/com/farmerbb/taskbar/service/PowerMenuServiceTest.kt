@@ -1,8 +1,8 @@
-package com.farmerbb.taskbar.service
+package com.openlewa.remotebar.service
 
 import android.content.Intent
-import com.farmerbb.taskbar.util.Constants
-import com.farmerbb.taskbar.util.U
+import com.openlewa.remotebar.util.Constants
+import com.openlewa.remotebar.util.U
 import org.junit.Assert
 import org.junit.Test
 import org.junit.runner.RunWith

@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.adapter;
+package com.openlewa.remotebar.adapter;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
@@ -26,11 +26,11 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.farmerbb.taskbar.R;
-import com.farmerbb.taskbar.util.Blacklist;
-import com.farmerbb.taskbar.util.BlacklistEntry;
-import com.farmerbb.taskbar.util.TopApps;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.R;
+import com.openlewa.remotebar.util.Blacklist;
+import com.openlewa.remotebar.util.BlacklistEntry;
+import com.openlewa.remotebar.util.TopApps;
+import com.openlewa.remotebar.util.U;
 
 import java.util.List;
 

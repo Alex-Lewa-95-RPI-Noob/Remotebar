@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.activity;
+package com.openlewa.remotebar.activity;
 
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
@@ -25,13 +25,13 @@ import android.content.pm.ResolveInfo;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import com.farmerbb.taskbar.R;
-import com.farmerbb.taskbar.fragment.DesktopModeFragment;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.R;
+import com.openlewa.remotebar.fragment.DesktopModeFragment;
+import com.openlewa.remotebar.util.U;
 
 import java.util.List;
 
-import static com.farmerbb.taskbar.util.Constants.*;
+import static com.openlewa.remotebar.util.Constants.*;
 
 public class HSLActivity extends Activity {
 

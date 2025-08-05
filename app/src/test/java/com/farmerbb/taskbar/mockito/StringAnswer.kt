@@ -1,4 +1,4 @@
-package com.farmerbb.taskbar.mockito
+package com.openlewa.remotebar.mockito
 
 import org.mockito.invocation.InvocationOnMock
 import org.mockito.stubbing.Answer

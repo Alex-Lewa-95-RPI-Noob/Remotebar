@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.util;
+package com.openlewa.remotebar.util;
 
 import android.app.ActivityManager;
 import android.content.ComponentName;
@@ -26,7 +26,7 @@ import android.graphics.drawable.Drawable;
 import android.os.UserManager;
 import android.util.LruCache;
 
-import static com.farmerbb.taskbar.util.Constants.*;
+import static com.openlewa.remotebar.util.Constants.*;
 
 public class IconCache {
 

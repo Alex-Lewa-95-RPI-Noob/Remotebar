@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.fragment;
+package com.openlewa.remotebar.fragment;
 
 import android.annotation.TargetApi;
 import android.content.ActivityNotFoundException;
@@ -31,11 +31,11 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import android.widget.Toast;
 
-import com.farmerbb.taskbar.R;
-import com.farmerbb.taskbar.helper.FreeformHackHelper;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.R;
+import com.openlewa.remotebar.helper.FreeformHackHelper;
+import com.openlewa.remotebar.util.U;
 
-import static com.farmerbb.taskbar.util.Constants.*;
+import static com.openlewa.remotebar.util.Constants.*;
 
 public class FreeformModeFragment extends SettingsFragment {
 

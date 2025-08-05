@@ -1,4 +1,4 @@
-package com.farmerbb.taskbar.ui
+package com.openlewa.remotebar.ui
 
 import android.content.res.Configuration
 import org.junit.After

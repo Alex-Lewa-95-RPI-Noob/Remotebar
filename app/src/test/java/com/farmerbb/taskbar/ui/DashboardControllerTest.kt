@@ -1,4 +1,4 @@
-package com.farmerbb.taskbar.ui
+package com.openlewa.remotebar.ui
 
 import android.appwidget.AppWidgetManager
 import android.appwidget.AppWidgetProviderInfo
@@ -10,30 +10,30 @@ import android.os.Process
 import android.view.View
 import android.widget.LinearLayout
 import androidx.test.core.app.ApplicationProvider
-import com.farmerbb.taskbar.Constants.DEFAULT_TEST_CELL_ID
-import com.farmerbb.taskbar.Constants.TEST_LABEL
-import com.farmerbb.taskbar.Constants.TEST_NAME
-import com.farmerbb.taskbar.Constants.TEST_PACKAGE
-import com.farmerbb.taskbar.Constants.UNSUPPORTED
-import com.farmerbb.taskbar.R
-import com.farmerbb.taskbar.helper.LauncherHelper
-import com.farmerbb.taskbar.mockito.BooleanAnswer
-import com.farmerbb.taskbar.util.Constants.POSITION_BOTTOM_LEFT
-import com.farmerbb.taskbar.util.Constants.POSITION_BOTTOM_RIGHT
-import com.farmerbb.taskbar.util.Constants.POSITION_BOTTOM_VERTICAL_LEFT
-import com.farmerbb.taskbar.util.Constants.POSITION_BOTTOM_VERTICAL_RIGHT
-import com.farmerbb.taskbar.util.Constants.POSITION_TOP_LEFT
-import com.farmerbb.taskbar.util.Constants.POSITION_TOP_RIGHT
-import com.farmerbb.taskbar.util.Constants.POSITION_TOP_VERTICAL_LEFT
-import com.farmerbb.taskbar.util.Constants.POSITION_TOP_VERTICAL_RIGHT
-import com.farmerbb.taskbar.util.Constants.PREF_DASHBOARD_TUTORIAL_SHOWN
-import com.farmerbb.taskbar.util.Constants.PREF_DASHBOARD_WIDGET_PLACEHOLDER_SUFFIX
-import com.farmerbb.taskbar.util.Constants.PREF_DASHBOARD_WIDGET_PREFIX
-import com.farmerbb.taskbar.util.Constants.PREF_DASHBOARD_WIDGET_PROVIDER_SUFFIX
-import com.farmerbb.taskbar.util.Constants.PREF_DEFAULT_NULL
-import com.farmerbb.taskbar.util.Constants.PREF_DONT_STOP_DASHBOARD
-import com.farmerbb.taskbar.util.TaskbarPosition
-import com.farmerbb.taskbar.util.U
+import com.openlewa.remotebar.Constants.DEFAULT_TEST_CELL_ID
+import com.openlewa.remotebar.Constants.TEST_LABEL
+import com.openlewa.remotebar.Constants.TEST_NAME
+import com.openlewa.remotebar.Constants.TEST_PACKAGE
+import com.openlewa.remotebar.Constants.UNSUPPORTED
+import com.openlewa.remotebar.R
+import com.openlewa.remotebar.helper.LauncherHelper
+import com.openlewa.remotebar.mockito.BooleanAnswer
+import com.openlewa.remotebar.util.Constants.POSITION_BOTTOM_LEFT
+import com.openlewa.remotebar.util.Constants.POSITION_BOTTOM_RIGHT
+import com.openlewa.remotebar.util.Constants.POSITION_BOTTOM_VERTICAL_LEFT
+import com.openlewa.remotebar.util.Constants.POSITION_BOTTOM_VERTICAL_RIGHT
+import com.openlewa.remotebar.util.Constants.POSITION_TOP_LEFT
+import com.openlewa.remotebar.util.Constants.POSITION_TOP_RIGHT
+import com.openlewa.remotebar.util.Constants.POSITION_TOP_VERTICAL_LEFT
+import com.openlewa.remotebar.util.Constants.POSITION_TOP_VERTICAL_RIGHT
+import com.openlewa.remotebar.util.Constants.PREF_DASHBOARD_TUTORIAL_SHOWN
+import com.openlewa.remotebar.util.Constants.PREF_DASHBOARD_WIDGET_PLACEHOLDER_SUFFIX
+import com.openlewa.remotebar.util.Constants.PREF_DASHBOARD_WIDGET_PREFIX
+import com.openlewa.remotebar.util.Constants.PREF_DASHBOARD_WIDGET_PROVIDER_SUFFIX
+import com.openlewa.remotebar.util.Constants.PREF_DEFAULT_NULL
+import com.openlewa.remotebar.util.Constants.PREF_DONT_STOP_DASHBOARD
+import com.openlewa.remotebar.util.TaskbarPosition
+import com.openlewa.remotebar.util.U
 import org.junit.After
 import org.junit.Assert
 import org.junit.Before
@@ -51,7 +51,7 @@ import org.robolectric.shadows.ShadowToast
 
 @RunWith(RobolectricTestRunner::class)
 @PowerMockIgnore("org.mockito.*", "org.robolectric.*", "android.*", "androidx.*",
-        "com.farmerbb.taskbar.shadow.*")
+        "com.openlewa.remotebar.shadow.*")
 @PrepareForTest(value = [U::class, TaskbarPosition::class, DashboardController::class,
     LauncherHelper::class])
 class DashboardControllerTest {

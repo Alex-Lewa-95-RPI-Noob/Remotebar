@@ -13,6 +13,6 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.activity;
+package com.openlewa.remotebar.activity;
 
 public class TaskerConditionActivity extends TaskerActivityBase {}

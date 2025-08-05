@@ -13,14 +13,14 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.receiver;
+package com.openlewa.remotebar.receiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import com.farmerbb.taskbar.util.AppEntry;
-import com.farmerbb.taskbar.util.PinnedBlockedApps;
+import com.openlewa.remotebar.util.AppEntry;
+import com.openlewa.remotebar.util.PinnedBlockedApps;
 
 import java.util.ArrayList;
 import java.util.List;

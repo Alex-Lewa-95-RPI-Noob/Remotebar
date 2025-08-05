@@ -13,22 +13,22 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.ui;
+package com.openlewa.remotebar.ui;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.provider.Settings;
 import android.view.View;
 
-import com.farmerbb.taskbar.BuildConfig;
-import com.farmerbb.taskbar.R;
-import com.farmerbb.taskbar.activity.SecondaryHomeActivity;
-import com.farmerbb.taskbar.helper.LauncherHelper;
-import com.farmerbb.taskbar.util.CompatUtils;
-import com.farmerbb.taskbar.util.TaskbarPosition;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.BuildConfig;
+import com.openlewa.remotebar.R;
+import com.openlewa.remotebar.activity.SecondaryHomeActivity;
+import com.openlewa.remotebar.helper.LauncherHelper;
+import com.openlewa.remotebar.util.CompatUtils;
+import com.openlewa.remotebar.util.TaskbarPosition;
+import com.openlewa.remotebar.util.U;
 
-import static com.farmerbb.taskbar.util.Constants.*;
+import static com.openlewa.remotebar.util.Constants.*;
 
 public abstract class UIController {
     protected Context context;

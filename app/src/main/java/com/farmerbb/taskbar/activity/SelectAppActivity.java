@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.activity;
+package com.openlewa.remotebar.activity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -39,21 +39,21 @@ import android.view.WindowManager;
 import android.widget.FrameLayout;
 import android.widget.ProgressBar;
 
-import com.farmerbb.taskbar.BuildConfig;
-import com.farmerbb.taskbar.R;
-import com.farmerbb.taskbar.adapter.AppListAdapter;
-import com.farmerbb.taskbar.fragment.SelectAppFragment;
-import com.farmerbb.taskbar.util.Blacklist;
-import com.farmerbb.taskbar.util.BlacklistEntry;
-import com.farmerbb.taskbar.util.TopApps;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.BuildConfig;
+import com.openlewa.remotebar.R;
+import com.openlewa.remotebar.adapter.AppListAdapter;
+import com.openlewa.remotebar.fragment.SelectAppFragment;
+import com.openlewa.remotebar.util.Blacklist;
+import com.openlewa.remotebar.util.BlacklistEntry;
+import com.openlewa.remotebar.util.TopApps;
+import com.openlewa.remotebar.util.U;
 
 import java.text.Collator;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import static com.farmerbb.taskbar.util.Constants.*;
+import static com.openlewa.remotebar.util.Constants.*;
 
 public class SelectAppActivity extends AppCompatActivity {
 

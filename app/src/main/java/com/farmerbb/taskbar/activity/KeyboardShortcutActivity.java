@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.activity;
+package com.openlewa.remotebar.activity;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -22,13 +22,13 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Bundle;
-import com.farmerbb.taskbar.service.StartMenuService;
-import com.farmerbb.taskbar.helper.FreeformHackHelper;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.service.StartMenuService;
+import com.openlewa.remotebar.helper.FreeformHackHelper;
+import com.openlewa.remotebar.util.U;
 
 import java.util.Set;
 
-import static com.farmerbb.taskbar.util.Constants.*;
+import static com.openlewa.remotebar.util.Constants.*;
 
 public class KeyboardShortcutActivity extends Activity {
 

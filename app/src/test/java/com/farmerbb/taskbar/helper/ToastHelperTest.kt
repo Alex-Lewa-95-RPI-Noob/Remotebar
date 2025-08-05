@@ -1,6 +1,6 @@
-package com.farmerbb.taskbar.helper
+package com.openlewa.remotebar.helper
 
-import com.farmerbb.taskbar.util.ToastInterface
+import com.openlewa.remotebar.util.ToastInterface
 import com.google.common.truth.Truth.assertThat
 import org.junit.After
 import org.junit.Assert

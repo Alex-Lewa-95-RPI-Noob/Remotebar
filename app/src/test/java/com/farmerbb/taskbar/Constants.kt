@@ -1,4 +1,4 @@
-package com.farmerbb.taskbar
+package com.openlewa.remotebar
 
 object Constants {
     const val UNSUPPORTED = "unsupported"

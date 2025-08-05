@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.helper;
+package com.openlewa.remotebar.helper;
 
 public class DashboardHelper {
 

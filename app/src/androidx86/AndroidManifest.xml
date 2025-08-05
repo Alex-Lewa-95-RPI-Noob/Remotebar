@@ -23,15 +23,15 @@
           android:versionName="6.2.2"
           xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:tools="http://schemas.android.com/tools"
-          package="com.farmerbb.taskbar">
+          package="com.openlewa.remotebar">
 
-    <permission android:name="com.farmerbb.taskbar.androidx86.START_STOP_TASKBAR"
+    <permission android:name="com.openlewa.remotebar.androidx86.START_STOP_TASKBAR"
         android:protectionLevel="signature" />
 
     <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-    <uses-permission android:name="com.farmerbb.taskbar.androidx86.START_STOP_TASKBAR" />
+    <uses-permission android:name="com.openlewa.remotebar.androidx86.START_STOP_TASKBAR" />
     <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
     <uses-permission android:name="android.permission.GET_TASKS" />
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
@@ -395,28 +395,28 @@
 
         <receiver
             android:name=".receiver.ShowHideTaskbarReceiver"
-            android:permission="com.farmerbb.taskbar.androidx86.START_STOP_TASKBAR"
+            android:permission="com.openlewa.remotebar.androidx86.START_STOP_TASKBAR"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.farmerbb.taskbar.SHOW_HIDE_TASKBAR"/>
+                <action android:name="com.openlewa.remotebar.SHOW_HIDE_TASKBAR"/>
             </intent-filter>
         </receiver>
         <receiver
             android:name=".receiver.StartReceiver"
             android:enabled="true"
-            android:permission="com.farmerbb.taskbar.androidx86.START_STOP_TASKBAR"
+            android:permission="com.openlewa.remotebar.androidx86.START_STOP_TASKBAR"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.farmerbb.taskbar.START"/>
+                <action android:name="com.openlewa.remotebar.START"/>
             </intent-filter>
         </receiver>
         <receiver
             android:name=".receiver.QuitReceiver"
             android:enabled="true"
-            android:permission="com.farmerbb.taskbar.androidx86.START_STOP_TASKBAR"
+            android:permission="com.openlewa.remotebar.androidx86.START_STOP_TASKBAR"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.farmerbb.taskbar.QUIT"/>
+                <action android:name="com.openlewa.remotebar.QUIT"/>
             </intent-filter>
         </receiver>
         <receiver
@@ -446,16 +446,16 @@
         </receiver>
         <receiver
             android:name=".receiver.ToggleFreeformModeReceiver"
-            android:permission="com.farmerbb.taskbar.androidx86.START_STOP_TASKBAR"
+            android:permission="com.openlewa.remotebar.androidx86.START_STOP_TASKBAR"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.farmerbb.taskbar.TOGGLE_FREEFORM_MODE"/>
+                <action android:name="com.openlewa.remotebar.TOGGLE_FREEFORM_MODE"/>
             </intent-filter>
         </receiver>
 
         <provider
             android:name=".provider.Kustom5SecsProvider"
-            android:authorities="com.farmerbb.taskbar.androidx86.kustom5secsprovider"
+            android:authorities="com.openlewa.remotebar.androidx86.kustom5secsprovider"
             android:grantUriPermissions="true"
             android:exported="true"
             android:enabled="true"/>

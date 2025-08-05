@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.service;
+package com.openlewa.remotebar.service;
 
 import android.annotation.TargetApi;
 import android.app.Notification;
@@ -32,12 +32,12 @@ import android.os.IBinder;
 import android.service.quicksettings.TileService;
 import androidx.core.app.NotificationCompat;
 import androidx.core.content.ContextCompat;
-import com.farmerbb.taskbar.activity.MainActivity;
-import com.farmerbb.taskbar.R;
-import com.farmerbb.taskbar.util.DependencyUtils;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.activity.MainActivity;
+import com.openlewa.remotebar.R;
+import com.openlewa.remotebar.util.DependencyUtils;
+import com.openlewa.remotebar.util.U;
 
-import static com.farmerbb.taskbar.util.Constants.*;
+import static com.openlewa.remotebar.util.Constants.*;
 
 public class NotificationService extends Service {
 

@@ -1,12 +1,12 @@
-package com.farmerbb.taskbar.service
+package com.openlewa.remotebar.service
 
 import android.content.SharedPreferences
 import android.service.quicksettings.Tile
-import com.farmerbb.taskbar.Constants.UNSUPPORTED
-import com.farmerbb.taskbar.R
-import com.farmerbb.taskbar.mockito.BooleanAnswer
-import com.farmerbb.taskbar.util.Constants
-import com.farmerbb.taskbar.util.U
+import com.openlewa.remotebar.Constants.UNSUPPORTED
+import com.openlewa.remotebar.R
+import com.openlewa.remotebar.mockito.BooleanAnswer
+import com.openlewa.remotebar.util.Constants
+import com.openlewa.remotebar.util.U
 import org.junit.Assert
 import org.junit.Before
 import org.junit.Rule

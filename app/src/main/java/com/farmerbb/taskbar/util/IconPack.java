@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.util;
+package com.openlewa.remotebar.util;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -46,7 +46,7 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Random;
 
-import static com.farmerbb.taskbar.util.Constants.*;
+import static com.openlewa.remotebar.util.Constants.*;
 
 public class IconPack {
     private String packageName;

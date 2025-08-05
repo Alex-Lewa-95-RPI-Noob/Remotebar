@@ -1,4 +1,4 @@
-package com.farmerbb.taskbar.helper
+package com.openlewa.remotebar.helper
 
 import org.junit.Assert
 import org.junit.Test

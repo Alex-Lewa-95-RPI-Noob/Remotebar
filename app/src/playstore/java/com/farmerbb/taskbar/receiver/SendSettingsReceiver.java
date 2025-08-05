@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.receiver;
+package com.openlewa.remotebar.receiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -21,14 +21,14 @@ import android.content.Intent;
 import android.net.Uri;
 import androidx.core.content.FileProvider;
 
-import com.farmerbb.taskbar.BuildConfig;
-import com.farmerbb.taskbar.backup.BackupUtils;
-import com.farmerbb.taskbar.backup.IntentBackupAgent;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.BuildConfig;
+import com.openlewa.remotebar.backup.BackupUtils;
+import com.openlewa.remotebar.backup.IntentBackupAgent;
+import com.openlewa.remotebar.util.U;
 
 import java.io.File;
 
-import static com.farmerbb.taskbar.util.Constants.*;
+import static com.openlewa.remotebar.util.Constants.*;
 
 public class SendSettingsReceiver extends BroadcastReceiver {
     @Override

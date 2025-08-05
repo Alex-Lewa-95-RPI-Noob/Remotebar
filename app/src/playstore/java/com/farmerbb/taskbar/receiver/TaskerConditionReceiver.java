@@ -13,17 +13,17 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.receiver;
+package com.openlewa.remotebar.receiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.farmerbb.taskbar.service.NotificationService;
-import com.farmerbb.taskbar.util.BundleScrubber;
-import com.farmerbb.taskbar.util.PluginBundleManager;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.service.NotificationService;
+import com.openlewa.remotebar.util.BundleScrubber;
+import com.openlewa.remotebar.util.PluginBundleManager;
+import com.openlewa.remotebar.util.U;
 
 public final class TaskerConditionReceiver extends BroadcastReceiver {
     private Bundle lastbundle = null;

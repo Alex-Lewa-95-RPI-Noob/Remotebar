@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.fragment;
+package com.openlewa.remotebar.fragment;
 
 import android.content.ActivityNotFoundException;
 import android.content.Context;
@@ -32,17 +32,17 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.farmerbb.taskbar.R;
-import com.farmerbb.taskbar.activity.EnableAdditionalSettingsActivity;
-import com.farmerbb.taskbar.activity.HSLActivity;
-import com.farmerbb.taskbar.activity.HSLConfigActivity;
-import com.farmerbb.taskbar.activity.SecondaryHomeActivity;
-import com.farmerbb.taskbar.service.DisableKeyboardService;
-import com.farmerbb.taskbar.util.DisplayInfo;
-import com.farmerbb.taskbar.helper.LauncherHelper;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.R;
+import com.openlewa.remotebar.activity.EnableAdditionalSettingsActivity;
+import com.openlewa.remotebar.activity.HSLActivity;
+import com.openlewa.remotebar.activity.HSLConfigActivity;
+import com.openlewa.remotebar.activity.SecondaryHomeActivity;
+import com.openlewa.remotebar.service.DisableKeyboardService;
+import com.openlewa.remotebar.util.DisplayInfo;
+import com.openlewa.remotebar.helper.LauncherHelper;
+import com.openlewa.remotebar.util.U;
 
-import static com.farmerbb.taskbar.util.Constants.*;
+import static com.openlewa.remotebar.util.Constants.*;
 
 public class DesktopModeFragment extends SettingsFragment {
 

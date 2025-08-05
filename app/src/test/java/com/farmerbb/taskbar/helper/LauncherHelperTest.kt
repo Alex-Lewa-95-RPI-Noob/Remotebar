@@ -1,9 +1,9 @@
-package com.farmerbb.taskbar.helper
+package com.openlewa.remotebar.helper
 
 import android.content.Context
 import androidx.test.core.app.ApplicationProvider
-import com.farmerbb.taskbar.mockito.IntAnswer
-import com.farmerbb.taskbar.util.U
+import com.openlewa.remotebar.mockito.IntAnswer
+import com.openlewa.remotebar.util.U
 import org.junit.Assert
 import org.junit.Before
 import org.junit.Rule

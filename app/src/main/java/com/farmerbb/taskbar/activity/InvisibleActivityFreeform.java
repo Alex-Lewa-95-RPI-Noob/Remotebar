@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.activity;
+package com.openlewa.remotebar.activity;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -27,15 +27,15 @@ import android.os.Bundle;
 import android.provider.Settings;
 import android.view.WindowManager;
 
-import com.farmerbb.taskbar.service.DashboardService;
-import com.farmerbb.taskbar.service.NotificationService;
-import com.farmerbb.taskbar.service.StartMenuService;
-import com.farmerbb.taskbar.service.TaskbarService;
-import com.farmerbb.taskbar.helper.FreeformHackHelper;
-import com.farmerbb.taskbar.helper.LauncherHelper;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.service.DashboardService;
+import com.openlewa.remotebar.service.NotificationService;
+import com.openlewa.remotebar.service.StartMenuService;
+import com.openlewa.remotebar.service.TaskbarService;
+import com.openlewa.remotebar.helper.FreeformHackHelper;
+import com.openlewa.remotebar.helper.LauncherHelper;
+import com.openlewa.remotebar.util.U;
 
-import static com.farmerbb.taskbar.util.Constants.*;
+import static com.openlewa.remotebar.util.Constants.*;
 
 public class InvisibleActivityFreeform extends Activity {
 

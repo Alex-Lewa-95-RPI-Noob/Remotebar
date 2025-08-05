@@ -1,4 +1,4 @@
-package com.farmerbb.taskbar
+package com.openlewa.remotebar
 
 import android.content.Context
 import android.content.pm.ActivityInfo

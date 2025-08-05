@@ -13,8 +13,8 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.activity.dark;
+package com.openlewa.remotebar.activity.dark;
 
-import com.farmerbb.taskbar.activity.SelectAppActivity;
+import com.openlewa.remotebar.activity.SelectAppActivity;
 
 public class SelectAppActivityDark extends SelectAppActivity {}

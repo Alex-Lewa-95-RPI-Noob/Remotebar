@@ -1,4 +1,4 @@
-package com.farmerbb.taskbar.service
+package com.openlewa.remotebar.service
 
 import android.app.Application
 import android.content.Context
@@ -8,15 +8,15 @@ import android.os.Process
 import android.os.UserManager
 import android.service.quicksettings.Tile
 import androidx.test.core.app.ApplicationProvider
-import com.farmerbb.taskbar.Constants.TEST_COMPONENT
-import com.farmerbb.taskbar.Constants.TEST_LABEL
-import com.farmerbb.taskbar.Constants.TEST_PACKAGE
-import com.farmerbb.taskbar.Constants.TEST_WINDOW_SIZE
-import com.farmerbb.taskbar.R
-import com.farmerbb.taskbar.activity.PersistentShortcutLaunchActivity
-import com.farmerbb.taskbar.activity.PersistentShortcutSelectAppActivity
-import com.farmerbb.taskbar.util.Constants
-import com.farmerbb.taskbar.util.U
+import com.openlewa.remotebar.Constants.TEST_COMPONENT
+import com.openlewa.remotebar.Constants.TEST_LABEL
+import com.openlewa.remotebar.Constants.TEST_PACKAGE
+import com.openlewa.remotebar.Constants.TEST_WINDOW_SIZE
+import com.openlewa.remotebar.R
+import com.openlewa.remotebar.activity.PersistentShortcutLaunchActivity
+import com.openlewa.remotebar.activity.PersistentShortcutSelectAppActivity
+import com.openlewa.remotebar.util.Constants
+import com.openlewa.remotebar.util.U
 import org.junit.Assert
 import org.junit.Before
 import org.junit.Test

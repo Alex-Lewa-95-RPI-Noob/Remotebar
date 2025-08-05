@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.activity;
+package com.openlewa.remotebar.activity;
 
 import android.content.ActivityNotFoundException;
 import android.content.Context;
@@ -36,13 +36,13 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
-import com.farmerbb.taskbar.R;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.R;
+import com.openlewa.remotebar.util.U;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.farmerbb.taskbar.util.Constants.*;
+import static com.openlewa.remotebar.util.Constants.*;
 
 public class HSLConfigActivity extends AppCompatActivity {
 
@@ -129,7 +129,7 @@ public class HSLConfigActivity extends AppCompatActivity {
             if(!string.equals("com.android.settings")
                     && !string.equals("com.android.tv.settings")
                     && !string.equals("com.android.shell")
-                    && !string.startsWith("com.farmerbb.taskbar")) {
+                    && !string.startsWith("com.openlewa.remotebar")) {
                 if(string.equals("com.google.android.googlequicksearchbox")) {
                     // Only add the Google App onto the list if Google Now Launcher is installed
                     try {

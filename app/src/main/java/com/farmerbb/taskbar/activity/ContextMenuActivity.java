@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.activity;
+package com.openlewa.remotebar.activity;
 
 import android.accessibilityservice.AccessibilityService;
 import android.annotation.SuppressLint;
@@ -41,20 +41,20 @@ import android.view.Gravity;
 import android.view.View;
 import android.view.WindowManager;
 
-import com.farmerbb.taskbar.BuildConfig;
-import com.farmerbb.taskbar.R;
-import com.farmerbb.taskbar.util.TaskbarPosition;
-import com.farmerbb.taskbar.util.AppEntry;
-import com.farmerbb.taskbar.util.ApplicationType;
-import com.farmerbb.taskbar.util.DesktopIconInfo;
-import com.farmerbb.taskbar.util.DisplayInfo;
-import com.farmerbb.taskbar.helper.FreeformHackHelper;
-import com.farmerbb.taskbar.util.IconCache;
-import com.farmerbb.taskbar.helper.LauncherHelper;
-import com.farmerbb.taskbar.helper.MenuHelper;
-import com.farmerbb.taskbar.util.PinnedBlockedApps;
-import com.farmerbb.taskbar.util.SavedWindowSizes;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.BuildConfig;
+import com.openlewa.remotebar.R;
+import com.openlewa.remotebar.util.TaskbarPosition;
+import com.openlewa.remotebar.util.AppEntry;
+import com.openlewa.remotebar.util.ApplicationType;
+import com.openlewa.remotebar.util.DesktopIconInfo;
+import com.openlewa.remotebar.util.DisplayInfo;
+import com.openlewa.remotebar.helper.FreeformHackHelper;
+import com.openlewa.remotebar.util.IconCache;
+import com.openlewa.remotebar.helper.LauncherHelper;
+import com.openlewa.remotebar.helper.MenuHelper;
+import com.openlewa.remotebar.util.PinnedBlockedApps;
+import com.openlewa.remotebar.util.SavedWindowSizes;
+import com.openlewa.remotebar.util.U;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -62,7 +62,7 @@ import org.json.JSONException;
 import java.io.File;
 import java.util.List;
 
-import static com.farmerbb.taskbar.util.Constants.*;
+import static com.openlewa.remotebar.util.Constants.*;
 
 public class ContextMenuActivity extends PreferenceActivity implements Preference.OnPreferenceClickListener {
 

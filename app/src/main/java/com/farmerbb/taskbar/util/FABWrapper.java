@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.util;
+package com.openlewa.remotebar.util;
 
 import android.content.Context;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -21,8 +21,8 @@ import androidx.core.content.ContextCompat;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.farmerbb.taskbar.BuildConfig;
-import com.farmerbb.taskbar.R;
+import com.openlewa.remotebar.BuildConfig;
+import com.openlewa.remotebar.R;
 
 public class FABWrapper {
     public View view;

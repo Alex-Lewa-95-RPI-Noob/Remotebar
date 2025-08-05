@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.activity;
+package com.openlewa.remotebar.activity;
 
 import android.annotation.SuppressLint;
 import android.content.pm.PackageManager;
@@ -25,8 +25,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.IBinder;
 
-import com.farmerbb.taskbar.R;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.R;
+import com.openlewa.remotebar.util.U;
 
 import java.lang.reflect.Method;
 

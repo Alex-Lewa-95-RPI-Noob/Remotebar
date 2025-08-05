@@ -13,18 +13,18 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.receiver;
+package com.openlewa.remotebar.receiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 
-import com.farmerbb.taskbar.activity.DummyActivity;
-import com.farmerbb.taskbar.service.NotificationService;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.activity.DummyActivity;
+import com.openlewa.remotebar.service.NotificationService;
+import com.openlewa.remotebar.util.U;
 
-import static com.farmerbb.taskbar.util.Constants.*;
+import static com.openlewa.remotebar.util.Constants.*;
 
 public class StartReceiver extends BroadcastReceiver {
     @Override

@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.activity;
+package com.openlewa.remotebar.activity;
 
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
@@ -23,10 +23,10 @@ import android.os.Bundle;
 import android.os.Process;
 import android.os.UserManager;
 
-import com.farmerbb.taskbar.R;
-import com.farmerbb.taskbar.util.AppEntry;
-import com.farmerbb.taskbar.util.ApplicationType;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.R;
+import com.openlewa.remotebar.util.AppEntry;
+import com.openlewa.remotebar.util.ApplicationType;
+import com.openlewa.remotebar.util.U;
 
 public class PersistentShortcutLaunchActivity extends Activity {
 

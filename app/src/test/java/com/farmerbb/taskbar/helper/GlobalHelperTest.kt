@@ -1,4 +1,4 @@
-package com.farmerbb.taskbar.helper
+package com.openlewa.remotebar.helper
 
 import android.os.Build.VERSION_CODES.O_MR1
 import android.os.Build.VERSION_CODES.P

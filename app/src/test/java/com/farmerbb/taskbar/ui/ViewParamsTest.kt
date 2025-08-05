@@ -1,4 +1,4 @@
-package com.farmerbb.taskbar.ui
+package com.openlewa.remotebar.ui
 
 import android.graphics.PixelFormat
 import android.view.Gravity

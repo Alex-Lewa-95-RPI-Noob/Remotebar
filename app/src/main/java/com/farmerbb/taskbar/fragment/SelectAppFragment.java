@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.fragment;
+package com.openlewa.remotebar.fragment;
 
 import android.os.Bundle;
 
@@ -24,7 +24,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-import com.farmerbb.taskbar.activity.SelectAppActivity;
+import com.openlewa.remotebar.activity.SelectAppActivity;
 
 public class SelectAppFragment extends Fragment {
 

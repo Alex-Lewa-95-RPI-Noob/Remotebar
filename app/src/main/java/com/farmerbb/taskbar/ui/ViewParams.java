@@ -13,12 +13,12 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.ui;
+package com.openlewa.remotebar.ui;
 
 import android.graphics.PixelFormat;
 import android.view.WindowManager;
 
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.util.U;
 
 import java.lang.reflect.Field;
 

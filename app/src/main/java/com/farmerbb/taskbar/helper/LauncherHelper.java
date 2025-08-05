@@ -13,12 +13,12 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.helper;
+package com.openlewa.remotebar.helper;
 
 import android.content.Context;
 import android.view.Display;
 
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.util.U;
 
 public class LauncherHelper {
 

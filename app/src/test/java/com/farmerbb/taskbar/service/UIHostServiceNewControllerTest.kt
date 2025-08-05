@@ -1,8 +1,8 @@
-package com.farmerbb.taskbar.service
+package com.openlewa.remotebar.service
 
-import com.farmerbb.taskbar.ui.DashboardController
-import com.farmerbb.taskbar.ui.StartMenuController
-import com.farmerbb.taskbar.ui.TaskbarController
+import com.openlewa.remotebar.ui.DashboardController
+import com.openlewa.remotebar.ui.StartMenuController
+import com.openlewa.remotebar.ui.TaskbarController
 import org.junit.Assert
 import org.junit.Test
 import org.junit.runner.RunWith

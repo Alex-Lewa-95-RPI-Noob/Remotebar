@@ -13,6 +13,6 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.util;
+package com.openlewa.remotebar.util;
 
 public enum ApplicationType { APP_PORTRAIT, APP_LANDSCAPE, APP_FULLSCREEN, FREEFORM_HACK, CONTEXT_MENU }

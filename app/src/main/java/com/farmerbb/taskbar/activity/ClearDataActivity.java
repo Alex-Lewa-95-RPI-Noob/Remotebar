@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.activity;
+package com.openlewa.remotebar.activity;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -23,15 +23,15 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 
-import com.farmerbb.taskbar.R;
-import com.farmerbb.taskbar.util.ShortcutUtils;
-import com.farmerbb.taskbar.util.Blacklist;
-import com.farmerbb.taskbar.util.PinnedBlockedApps;
-import com.farmerbb.taskbar.util.SavedWindowSizes;
-import com.farmerbb.taskbar.util.TopApps;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.R;
+import com.openlewa.remotebar.util.ShortcutUtils;
+import com.openlewa.remotebar.util.Blacklist;
+import com.openlewa.remotebar.util.PinnedBlockedApps;
+import com.openlewa.remotebar.util.SavedWindowSizes;
+import com.openlewa.remotebar.util.TopApps;
+import com.openlewa.remotebar.util.U;
 
-import static com.farmerbb.taskbar.util.Constants.*;
+import static com.openlewa.remotebar.util.Constants.*;
 
 public class ClearDataActivity extends AppCompatActivity {
 

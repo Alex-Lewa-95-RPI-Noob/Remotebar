@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.util;
+package com.openlewa.remotebar.util;
 
 public class Constants {
 
@@ -21,56 +21,56 @@ public class Constants {
 
     // Intent actions
 
-    public static final String ACTION_ACCESSIBILITY_ACTION = "com.farmerbb.taskbar.ACCESSIBILITY_ACTION";
-    public static final String ACTION_ADD_WIDGET_COMPLETED = "com.farmerbb.taskbar.ADD_WIDGET_COMPLETED";
-    public static final String ACTION_ADD_WIDGET_REQUESTED = "com.farmerbb.taskbar.ADD_WIDGET_REQUESTED";
-    public static final String ACTION_CONTEXT_MENU_APPEARING = "com.farmerbb.taskbar.CONTEXT_MENU_APPEARING";
-    public static final String ACTION_CONTEXT_MENU_DISAPPEARING = "com.farmerbb.taskbar.CONTEXT_MENU_DISAPPEARING";
-    public static final String ACTION_DASHBOARD_APPEARING = "com.farmerbb.taskbar.DASHBOARD_APPEARING";
-    public static final String ACTION_DASHBOARD_DISAPPEARING = "com.farmerbb.taskbar.DASHBOARD_DISAPPEARING";
-    public static final String ACTION_ENTER_ICON_ARRANGE_MODE = "com.farmerbb.taskbar.ENTER_ICON_ARRANGE_MODE";
-    public static final String ACTION_FINISH_DIM_SCREEN_ACTIVITY = "com.farmerbb.taskbar.FINISH_DIM_SCREEN_ACTIVITY";
-    public static final String ACTION_FINISH_FREEFORM_ACTIVITY = "com.farmerbb.taskbar.FINISH_FREEFORM_ACTIVITY";
-    public static final String ACTION_FORCE_TASKBAR_RESTART = "com.farmerbb.taskbar.FORCE_TASKBAR_RESTART";
-    public static final String ACTION_FREEFORM_PREF_CHANGED = "com.farmerbb.taskbar.FREEFORM_PREF_CHANGED";
-    public static final String ACTION_HIDE_CONTEXT_MENU = "com.farmerbb.taskbar.HIDE_CONTEXT_MENU";
-    public static final String ACTION_HIDE_DASHBOARD = "com.farmerbb.taskbar.HIDE_DASHBOARD";
-    public static final String ACTION_HIDE_START_MENU = "com.farmerbb.taskbar.HIDE_START_MENU";
-    public static final String ACTION_HIDE_START_MENU_NO_RESET = "com.farmerbb.taskbar.HIDE_START_MENU_NO_RESET";
-    public static final String ACTION_HIDE_START_MENU_SPACE = "com.farmerbb.taskbar.HIDE_START_MENU_SPACE";
-    public static final String ACTION_HIDE_TASKBAR = "com.farmerbb.taskbar.HIDE_TASKBAR";
-    public static final String ACTION_IMPORT_FINISHED = "com.farmerbb.taskbar.IMPORT_FINISHED";
-    public static final String ACTION_KILL_HOME_ACTIVITY = "com.farmerbb.taskbar.KILL_HOME_ACTIVITY";
-    public static final String ACTION_LAUNCHER_PREF_CHANGED = "com.farmerbb.taskbar.LAUNCHER_PREF_CHANGED";
-    public static final String ACTION_NOTIFICATION_COUNT_CHANGED = "com.farmerbb.taskbar.NOTIFICATION_COUNT_CHANGED";
-    public static final String ACTION_QUIT = "com.farmerbb.taskbar.QUIT";
-    public static final String ACTION_RECEIVE_SETTINGS = "com.farmerbb.taskbar.RECEIVE_SETTINGS";
-    public static final String ACTION_REFRESH_DESKTOP_ICONS = "com.farmerbb.taskbar.REFRESH_DESKTOP_ICONS";
-    public static final String ACTION_REMOVE_DESKTOP_WALLPAPER = "com.farmerbb.taskbar.REMOVE_DESKTOP_WALLPAPER";
-    public static final String ACTION_REMOVE_WIDGET_COMPLETED = "com.farmerbb.taskbar.REMOVE_WIDGET_COMPLETED";
-    public static final String ACTION_REMOVE_WIDGET_REQUESTED = "com.farmerbb.taskbar.REMOVE_WIDGET_REQUESTED";
-    public static final String ACTION_REQUEST_NOTIFICATION_COUNT = "com.farmerbb.taskbar.REQUEST_NOTIFICATION_COUNT";
-    public static final String ACTION_RESET_START_MENU = "com.farmerbb.taskbar.RESET_START_MENU";
-    public static final String ACTION_RESTART = "com.farmerbb.taskbar.RESTART";
-    public static final String ACTION_SEND_SETTINGS = "com.farmerbb.taskbar.SEND_SETTINGS";
-    public static final String ACTION_SHOW_HIDE_TASKBAR = "com.farmerbb.taskbar.SHOW_HIDE_TASKBAR";
-    public static final String ACTION_SHOW_START_MENU_SPACE = "com.farmerbb.taskbar.SHOW_START_MENU_SPACE";
-    public static final String ACTION_SHOW_TASKBAR = "com.farmerbb.taskbar.SHOW_TASKBAR";
-    public static final String ACTION_SORT_DESKTOP_ICONS = "com.farmerbb.taskbar.SORT_DESKTOP_ICONS";
-    public static final String ACTION_START = "com.farmerbb.taskbar.START";
-    public static final String ACTION_START_MENU_APPEARING = "com.farmerbb.taskbar.START_MENU_APPEARING";
-    public static final String ACTION_START_MENU_DISAPPEARING = "com.farmerbb.taskbar.START_MENU_DISAPPEARING";
-    public static final String ACTION_TEMP_HIDE_TASKBAR = "com.farmerbb.taskbar.TEMP_HIDE_TASKBAR";
-    public static final String ACTION_TEMP_SHOW_TASKBAR = "com.farmerbb.taskbar.TEMP_SHOW_TASKBAR";
-    public static final String ACTION_TOGGLE_DASHBOARD = "com.farmerbb.taskbar.TOGGLE_DASHBOARD";
-    public static final String ACTION_TOGGLE_FREEFORM_MODE = "com.farmerbb.taskbar.TOGGLE_FREEFORM_MODE";
-    public static final String ACTION_TOGGLE_START_MENU = "com.farmerbb.taskbar.TOGGLE_START_MENU";
-    public static final String ACTION_TOUCH_ABSORBER_STATE_CHANGED = "com.farmerbb.taskbar.TOUCH_ABSORBER_STATE_CHANGED";
-    public static final String ACTION_UNDIM_SCREEN = "com.farmerbb.taskbar.ACTION_UNDIM_SCREEN";
-    public static final String ACTION_UPDATE_FREEFORM_CHECKBOX = "com.farmerbb.taskbar.UPDATE_FREEFORM_CHECKBOX";
-    public static final String ACTION_UPDATE_HOME_SCREEN_MARGINS = "com.farmerbb.taskbar.UPDATE_HOME_SCREEN_MARGINS";
-    public static final String ACTION_UPDATE_SWITCH = "com.farmerbb.taskbar.UPDATE_SWITCH";
-    public static final String ACTION_WALLPAPER_CHANGE_REQUESTED = "com.farmerbb.taskbar.WALLPAPER_CHANGE_REQUESTED";
+    public static final String ACTION_ACCESSIBILITY_ACTION = "com.openlewa.remotebar.ACCESSIBILITY_ACTION";
+    public static final String ACTION_ADD_WIDGET_COMPLETED = "com.openlewa.remotebar.ADD_WIDGET_COMPLETED";
+    public static final String ACTION_ADD_WIDGET_REQUESTED = "com.openlewa.remotebar.ADD_WIDGET_REQUESTED";
+    public static final String ACTION_CONTEXT_MENU_APPEARING = "com.openlewa.remotebar.CONTEXT_MENU_APPEARING";
+    public static final String ACTION_CONTEXT_MENU_DISAPPEARING = "com.openlewa.remotebar.CONTEXT_MENU_DISAPPEARING";
+    public static final String ACTION_DASHBOARD_APPEARING = "com.openlewa.remotebar.DASHBOARD_APPEARING";
+    public static final String ACTION_DASHBOARD_DISAPPEARING = "com.openlewa.remotebar.DASHBOARD_DISAPPEARING";
+    public static final String ACTION_ENTER_ICON_ARRANGE_MODE = "com.openlewa.remotebar.ENTER_ICON_ARRANGE_MODE";
+    public static final String ACTION_FINISH_DIM_SCREEN_ACTIVITY = "com.openlewa.remotebar.FINISH_DIM_SCREEN_ACTIVITY";
+    public static final String ACTION_FINISH_FREEFORM_ACTIVITY = "com.openlewa.remotebar.FINISH_FREEFORM_ACTIVITY";
+    public static final String ACTION_FORCE_TASKBAR_RESTART = "com.openlewa.remotebar.FORCE_TASKBAR_RESTART";
+    public static final String ACTION_FREEFORM_PREF_CHANGED = "com.openlewa.remotebar.FREEFORM_PREF_CHANGED";
+    public static final String ACTION_HIDE_CONTEXT_MENU = "com.openlewa.remotebar.HIDE_CONTEXT_MENU";
+    public static final String ACTION_HIDE_DASHBOARD = "com.openlewa.remotebar.HIDE_DASHBOARD";
+    public static final String ACTION_HIDE_START_MENU = "com.openlewa.remotebar.HIDE_START_MENU";
+    public static final String ACTION_HIDE_START_MENU_NO_RESET = "com.openlewa.remotebar.HIDE_START_MENU_NO_RESET";
+    public static final String ACTION_HIDE_START_MENU_SPACE = "com.openlewa.remotebar.HIDE_START_MENU_SPACE";
+    public static final String ACTION_HIDE_TASKBAR = "com.openlewa.remotebar.HIDE_TASKBAR";
+    public static final String ACTION_IMPORT_FINISHED = "com.openlewa.remotebar.IMPORT_FINISHED";
+    public static final String ACTION_KILL_HOME_ACTIVITY = "com.openlewa.remotebar.KILL_HOME_ACTIVITY";
+    public static final String ACTION_LAUNCHER_PREF_CHANGED = "com.openlewa.remotebar.LAUNCHER_PREF_CHANGED";
+    public static final String ACTION_NOTIFICATION_COUNT_CHANGED = "com.openlewa.remotebar.NOTIFICATION_COUNT_CHANGED";
+    public static final String ACTION_QUIT = "com.openlewa.remotebar.QUIT";
+    public static final String ACTION_RECEIVE_SETTINGS = "com.openlewa.remotebar.RECEIVE_SETTINGS";
+    public static final String ACTION_REFRESH_DESKTOP_ICONS = "com.openlewa.remotebar.REFRESH_DESKTOP_ICONS";
+    public static final String ACTION_REMOVE_DESKTOP_WALLPAPER = "com.openlewa.remotebar.REMOVE_DESKTOP_WALLPAPER";
+    public static final String ACTION_REMOVE_WIDGET_COMPLETED = "com.openlewa.remotebar.REMOVE_WIDGET_COMPLETED";
+    public static final String ACTION_REMOVE_WIDGET_REQUESTED = "com.openlewa.remotebar.REMOVE_WIDGET_REQUESTED";
+    public static final String ACTION_REQUEST_NOTIFICATION_COUNT = "com.openlewa.remotebar.REQUEST_NOTIFICATION_COUNT";
+    public static final String ACTION_RESET_START_MENU = "com.openlewa.remotebar.RESET_START_MENU";
+    public static final String ACTION_RESTART = "com.openlewa.remotebar.RESTART";
+    public static final String ACTION_SEND_SETTINGS = "com.openlewa.remotebar.SEND_SETTINGS";
+    public static final String ACTION_SHOW_HIDE_TASKBAR = "com.openlewa.remotebar.SHOW_HIDE_TASKBAR";
+    public static final String ACTION_SHOW_START_MENU_SPACE = "com.openlewa.remotebar.SHOW_START_MENU_SPACE";
+    public static final String ACTION_SHOW_TASKBAR = "com.openlewa.remotebar.SHOW_TASKBAR";
+    public static final String ACTION_SORT_DESKTOP_ICONS = "com.openlewa.remotebar.SORT_DESKTOP_ICONS";
+    public static final String ACTION_START = "com.openlewa.remotebar.START";
+    public static final String ACTION_START_MENU_APPEARING = "com.openlewa.remotebar.START_MENU_APPEARING";
+    public static final String ACTION_START_MENU_DISAPPEARING = "com.openlewa.remotebar.START_MENU_DISAPPEARING";
+    public static final String ACTION_TEMP_HIDE_TASKBAR = "com.openlewa.remotebar.TEMP_HIDE_TASKBAR";
+    public static final String ACTION_TEMP_SHOW_TASKBAR = "com.openlewa.remotebar.TEMP_SHOW_TASKBAR";
+    public static final String ACTION_TOGGLE_DASHBOARD = "com.openlewa.remotebar.TOGGLE_DASHBOARD";
+    public static final String ACTION_TOGGLE_FREEFORM_MODE = "com.openlewa.remotebar.TOGGLE_FREEFORM_MODE";
+    public static final String ACTION_TOGGLE_START_MENU = "com.openlewa.remotebar.TOGGLE_START_MENU";
+    public static final String ACTION_TOUCH_ABSORBER_STATE_CHANGED = "com.openlewa.remotebar.TOUCH_ABSORBER_STATE_CHANGED";
+    public static final String ACTION_UNDIM_SCREEN = "com.openlewa.remotebar.ACTION_UNDIM_SCREEN";
+    public static final String ACTION_UPDATE_FREEFORM_CHECKBOX = "com.openlewa.remotebar.UPDATE_FREEFORM_CHECKBOX";
+    public static final String ACTION_UPDATE_HOME_SCREEN_MARGINS = "com.openlewa.remotebar.UPDATE_HOME_SCREEN_MARGINS";
+    public static final String ACTION_UPDATE_SWITCH = "com.openlewa.remotebar.UPDATE_SWITCH";
+    public static final String ACTION_WALLPAPER_CHANGE_REQUESTED = "com.openlewa.remotebar.WALLPAPER_CHANGE_REQUESTED";
 
     // SharedPreference keys
 

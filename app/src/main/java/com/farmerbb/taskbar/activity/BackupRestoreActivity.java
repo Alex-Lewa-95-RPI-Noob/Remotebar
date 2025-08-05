@@ -13,16 +13,16 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.activity;
+package com.openlewa.remotebar.activity;
 
 import android.net.Uri;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.farmerbb.taskbar.R;
-import com.farmerbb.taskbar.backup.BackupUtils;
-import com.farmerbb.taskbar.backup.JSONBackupAgent;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.R;
+import com.openlewa.remotebar.backup.BackupUtils;
+import com.openlewa.remotebar.backup.JSONBackupAgent;
+import com.openlewa.remotebar.util.U;
 
 import org.json.JSONObject;
 

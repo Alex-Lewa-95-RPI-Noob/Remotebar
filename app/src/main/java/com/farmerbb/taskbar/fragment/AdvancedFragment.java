@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.fragment;
+package com.openlewa.remotebar.fragment;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -38,16 +38,16 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 
-import com.farmerbb.taskbar.BuildConfig;
-import com.farmerbb.taskbar.R;
-import com.farmerbb.taskbar.activity.KeyboardShortcutActivityLockDevice;
-import com.farmerbb.taskbar.activity.NavigationBarButtonsActivity;
-import com.farmerbb.taskbar.activity.HomeActivity;
-import com.farmerbb.taskbar.activity.KeyboardShortcutActivity;
-import com.farmerbb.taskbar.util.DependencyUtils;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.BuildConfig;
+import com.openlewa.remotebar.R;
+import com.openlewa.remotebar.activity.KeyboardShortcutActivityLockDevice;
+import com.openlewa.remotebar.activity.NavigationBarButtonsActivity;
+import com.openlewa.remotebar.activity.HomeActivity;
+import com.openlewa.remotebar.activity.KeyboardShortcutActivity;
+import com.openlewa.remotebar.util.DependencyUtils;
+import com.openlewa.remotebar.util.U;
 
-import static com.farmerbb.taskbar.util.Constants.*;
+import static com.openlewa.remotebar.util.Constants.*;
 
 public class AdvancedFragment extends SettingsFragment {
 

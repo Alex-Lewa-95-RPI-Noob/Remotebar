@@ -13,13 +13,13 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.activity;
+package com.openlewa.remotebar.activity;
 
 import android.Manifest;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.farmerbb.taskbar.R;
+import com.openlewa.remotebar.R;
 
 public class EnableAdditionalSettingsActivity extends EnableAdditionalSettingsActivityBase {
 

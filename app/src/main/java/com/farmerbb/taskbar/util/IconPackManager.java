@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.util;
+package com.openlewa.remotebar.util;
 
 import android.content.Context;
 import android.content.Intent;

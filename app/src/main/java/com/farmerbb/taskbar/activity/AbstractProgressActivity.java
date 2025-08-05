@@ -13,12 +13,12 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.activity;
+package com.openlewa.remotebar.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
 
-import com.farmerbb.taskbar.R;
+import com.openlewa.remotebar.R;
 
 public abstract class AbstractProgressActivity extends Activity {
 

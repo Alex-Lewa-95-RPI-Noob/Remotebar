@@ -1,10 +1,10 @@
-package com.farmerbb.taskbar.util
+package com.openlewa.remotebar.util
 
 import android.content.Context
 import android.view.Gravity
 import android.widget.Toast
 import androidx.test.core.app.ApplicationProvider
-import com.farmerbb.taskbar.R
+import com.openlewa.remotebar.R
 import org.junit.Assert
 import org.junit.Before
 import org.junit.Test

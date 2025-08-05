@@ -1,4 +1,4 @@
-package com.farmerbb.taskbar.shadow
+package com.openlewa.remotebar.shadow
 
 import android.widget.ScrollView
 import org.robolectric.annotation.Implementation

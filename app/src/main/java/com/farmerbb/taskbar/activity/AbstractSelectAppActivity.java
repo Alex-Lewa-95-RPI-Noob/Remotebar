@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.activity;
+package com.openlewa.remotebar.activity;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -31,18 +31,18 @@ import android.view.WindowManager;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 
-import com.farmerbb.taskbar.R;
-import com.farmerbb.taskbar.adapter.DesktopIconAppListAdapter;
-import com.farmerbb.taskbar.util.AppEntry;
-import com.farmerbb.taskbar.util.IconCache;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.R;
+import com.openlewa.remotebar.adapter.DesktopIconAppListAdapter;
+import com.openlewa.remotebar.util.AppEntry;
+import com.openlewa.remotebar.util.IconCache;
+import com.openlewa.remotebar.util.U;
 
 import java.text.Collator;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import static com.farmerbb.taskbar.util.Constants.*;
+import static com.openlewa.remotebar.util.Constants.*;
 
 public abstract class AbstractSelectAppActivity extends AppCompatActivity {
 

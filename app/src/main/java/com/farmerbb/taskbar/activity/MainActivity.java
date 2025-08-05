@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.activity;
+package com.openlewa.remotebar.activity;
 
 import android.annotation.TargetApi;
 import android.app.AlertDialog;
@@ -41,32 +41,32 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SwitchCompat;
 
-import com.farmerbb.taskbar.BuildConfig;
-import com.farmerbb.taskbar.R;
-import com.farmerbb.taskbar.fragment.AboutFragment;
-import com.farmerbb.taskbar.fragment.AdvancedFragment;
-import com.farmerbb.taskbar.fragment.AppearanceFragment;
-import com.farmerbb.taskbar.fragment.DesktopModeFragment;
-import com.farmerbb.taskbar.fragment.FreeformModeFragment;
-import com.farmerbb.taskbar.fragment.ManageAppDataFragment;
-import com.farmerbb.taskbar.fragment.SettingsFragment;
-import com.farmerbb.taskbar.service.DashboardService;
-import com.farmerbb.taskbar.service.NotificationService;
-import com.farmerbb.taskbar.service.StartMenuService;
-import com.farmerbb.taskbar.service.TaskbarService;
-import com.farmerbb.taskbar.helper.GlobalHelper;
-import com.farmerbb.taskbar.helper.FreeformHackHelper;
-import com.farmerbb.taskbar.util.CompatUtils;
-import com.farmerbb.taskbar.util.DependencyUtils;
-import com.farmerbb.taskbar.helper.LauncherHelper;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.BuildConfig;
+import com.openlewa.remotebar.R;
+import com.openlewa.remotebar.fragment.AboutFragment;
+import com.openlewa.remotebar.fragment.AdvancedFragment;
+import com.openlewa.remotebar.fragment.AppearanceFragment;
+import com.openlewa.remotebar.fragment.DesktopModeFragment;
+import com.openlewa.remotebar.fragment.FreeformModeFragment;
+import com.openlewa.remotebar.fragment.ManageAppDataFragment;
+import com.openlewa.remotebar.fragment.SettingsFragment;
+import com.openlewa.remotebar.service.DashboardService;
+import com.openlewa.remotebar.service.NotificationService;
+import com.openlewa.remotebar.service.StartMenuService;
+import com.openlewa.remotebar.service.TaskbarService;
+import com.openlewa.remotebar.helper.GlobalHelper;
+import com.openlewa.remotebar.helper.FreeformHackHelper;
+import com.openlewa.remotebar.util.CompatUtils;
+import com.openlewa.remotebar.util.DependencyUtils;
+import com.openlewa.remotebar.helper.LauncherHelper;
+import com.openlewa.remotebar.util.U;
 import com.google.android.material.snackbar.Snackbar;
 
 import java.io.File;
 import java.util.Arrays;
 import java.util.Collections;
 
-import static com.farmerbb.taskbar.util.Constants.*;
+import static com.openlewa.remotebar.util.Constants.*;
 
 public class MainActivity extends AppCompatActivity {
 

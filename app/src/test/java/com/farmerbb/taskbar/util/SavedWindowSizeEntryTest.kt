@@ -1,4 +1,4 @@
-package com.farmerbb.taskbar.util
+package com.openlewa.remotebar.util
 
 import org.apache.commons.lang3.SerializationUtils
 import org.junit.Assert

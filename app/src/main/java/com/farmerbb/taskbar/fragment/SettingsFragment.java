@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.fragment;
+package com.openlewa.remotebar.fragment;
 
 import android.annotation.SuppressLint;
 import android.app.FragmentTransaction;
@@ -32,18 +32,18 @@ import android.widget.ListView;
 
 import androidx.annotation.XmlRes;
 
-import com.farmerbb.taskbar.BuildConfig;
-import com.farmerbb.taskbar.R;
-import com.farmerbb.taskbar.activity.ClearDataActivity;
-import com.farmerbb.taskbar.activity.MainActivity;
-import com.farmerbb.taskbar.helper.FreeformHackHelper;
-import com.farmerbb.taskbar.helper.LauncherHelper;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.BuildConfig;
+import com.openlewa.remotebar.R;
+import com.openlewa.remotebar.activity.ClearDataActivity;
+import com.openlewa.remotebar.activity.MainActivity;
+import com.openlewa.remotebar.helper.FreeformHackHelper;
+import com.openlewa.remotebar.helper.LauncherHelper;
+import com.openlewa.remotebar.util.U;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.farmerbb.taskbar.util.Constants.*;
+import static com.openlewa.remotebar.util.Constants.*;
 
 public abstract class SettingsFragment extends PreferenceFragment implements Preference.OnPreferenceClickListener {
 

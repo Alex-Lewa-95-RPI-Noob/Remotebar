@@ -13,8 +13,8 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.activity.dark;
+package com.openlewa.remotebar.activity.dark;
 
-import com.farmerbb.taskbar.activity.NavigationBarButtonsActivity;
+import com.openlewa.remotebar.activity.NavigationBarButtonsActivity;
 
 public class NavigationBarButtonsActivityDark extends NavigationBarButtonsActivity {}

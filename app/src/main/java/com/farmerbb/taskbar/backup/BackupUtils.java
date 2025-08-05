@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.backup;
+package com.openlewa.remotebar.backup;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -22,15 +22,15 @@ import android.content.pm.LauncherApps;
 import android.os.Process;
 import android.os.UserManager;
 
-import com.farmerbb.taskbar.util.AppEntry;
-import com.farmerbb.taskbar.util.Blacklist;
-import com.farmerbb.taskbar.util.BlacklistEntry;
-import com.farmerbb.taskbar.util.IconCache;
-import com.farmerbb.taskbar.util.PinnedBlockedApps;
-import com.farmerbb.taskbar.util.SavedWindowSizes;
-import com.farmerbb.taskbar.util.SavedWindowSizesEntry;
-import com.farmerbb.taskbar.util.TopApps;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.util.AppEntry;
+import com.openlewa.remotebar.util.Blacklist;
+import com.openlewa.remotebar.util.BlacklistEntry;
+import com.openlewa.remotebar.util.IconCache;
+import com.openlewa.remotebar.util.PinnedBlockedApps;
+import com.openlewa.remotebar.util.SavedWindowSizes;
+import com.openlewa.remotebar.util.SavedWindowSizesEntry;
+import com.openlewa.remotebar.util.TopApps;
+import com.openlewa.remotebar.util.U;
 
 import java.io.BufferedReader;
 import java.io.File;

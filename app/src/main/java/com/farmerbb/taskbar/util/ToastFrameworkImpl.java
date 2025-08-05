@@ -13,14 +13,14 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.util;
+package com.openlewa.remotebar.util;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.view.Gravity;
 import android.widget.Toast;
 
-import com.farmerbb.taskbar.R;
+import com.openlewa.remotebar.R;
 
 class ToastFrameworkImpl implements ToastInterface {
     private final Toast toast;

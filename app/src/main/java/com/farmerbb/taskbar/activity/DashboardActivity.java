@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.activity;
+package com.openlewa.remotebar.activity;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -36,13 +36,13 @@ import android.view.WindowManager;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 
-import com.farmerbb.taskbar.R;
-import com.farmerbb.taskbar.helper.DashboardHelper;
-import com.farmerbb.taskbar.util.DisplayInfo;
-import com.farmerbb.taskbar.helper.LauncherHelper;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.R;
+import com.openlewa.remotebar.helper.DashboardHelper;
+import com.openlewa.remotebar.util.DisplayInfo;
+import com.openlewa.remotebar.helper.LauncherHelper;
+import com.openlewa.remotebar.util.U;
 
-import static com.farmerbb.taskbar.util.Constants.*;
+import static com.openlewa.remotebar.util.Constants.*;
 
 public class DashboardActivity extends Activity {
 

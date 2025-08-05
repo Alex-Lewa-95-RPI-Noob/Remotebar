@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.activity;
+package com.openlewa.remotebar.activity;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -53,28 +53,28 @@ import android.widget.GridLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.farmerbb.taskbar.R;
-import com.farmerbb.taskbar.helper.DisplayHelper;
-import com.farmerbb.taskbar.helper.GlobalHelper;
-import com.farmerbb.taskbar.util.Callbacks;
-import com.farmerbb.taskbar.util.TaskbarPosition;
-import com.farmerbb.taskbar.service.DashboardService;
-import com.farmerbb.taskbar.service.NotificationService;
-import com.farmerbb.taskbar.service.StartMenuService;
-import com.farmerbb.taskbar.service.TaskbarService;
-import com.farmerbb.taskbar.ui.DashboardController;
-import com.farmerbb.taskbar.ui.UIHost;
-import com.farmerbb.taskbar.ui.ViewParams;
-import com.farmerbb.taskbar.ui.StartMenuController;
-import com.farmerbb.taskbar.ui.TaskbarController;
-import com.farmerbb.taskbar.util.AppEntry;
-import com.farmerbb.taskbar.util.DesktopIconInfo;
-import com.farmerbb.taskbar.util.DisplayInfo;
-import com.farmerbb.taskbar.util.FABWrapper;
-import com.farmerbb.taskbar.helper.FreeformHackHelper;
-import com.farmerbb.taskbar.helper.LauncherHelper;
-import com.farmerbb.taskbar.helper.MenuHelper;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.R;
+import com.openlewa.remotebar.helper.DisplayHelper;
+import com.openlewa.remotebar.helper.GlobalHelper;
+import com.openlewa.remotebar.util.Callbacks;
+import com.openlewa.remotebar.util.TaskbarPosition;
+import com.openlewa.remotebar.service.DashboardService;
+import com.openlewa.remotebar.service.NotificationService;
+import com.openlewa.remotebar.service.StartMenuService;
+import com.openlewa.remotebar.service.TaskbarService;
+import com.openlewa.remotebar.ui.DashboardController;
+import com.openlewa.remotebar.ui.UIHost;
+import com.openlewa.remotebar.ui.ViewParams;
+import com.openlewa.remotebar.ui.StartMenuController;
+import com.openlewa.remotebar.ui.TaskbarController;
+import com.openlewa.remotebar.util.AppEntry;
+import com.openlewa.remotebar.util.DesktopIconInfo;
+import com.openlewa.remotebar.util.DisplayInfo;
+import com.openlewa.remotebar.util.FABWrapper;
+import com.openlewa.remotebar.helper.FreeformHackHelper;
+import com.openlewa.remotebar.helper.LauncherHelper;
+import com.openlewa.remotebar.helper.MenuHelper;
+import com.openlewa.remotebar.util.U;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -85,7 +85,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import static com.farmerbb.taskbar.util.Constants.*;
+import static com.openlewa.remotebar.util.Constants.*;
 
 public class HomeActivityDelegate extends AppCompatActivity implements UIHost {
     private TaskbarController taskbarController;

@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.ui;
+package com.openlewa.remotebar.ui;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -55,20 +55,20 @@ import android.widget.LinearLayout;
 import android.widget.ListAdapter;
 import android.widget.TextView;
 
-import com.farmerbb.taskbar.R;
-import com.farmerbb.taskbar.activity.InvisibleActivity;
-import com.farmerbb.taskbar.activity.InvisibleActivityAlt;
-import com.farmerbb.taskbar.adapter.StartMenuAdapter;
-import com.farmerbb.taskbar.util.TaskbarPosition;
-import com.farmerbb.taskbar.util.AppEntry;
-import com.farmerbb.taskbar.util.Blacklist;
-import com.farmerbb.taskbar.helper.FreeformHackHelper;
-import com.farmerbb.taskbar.util.IconCache;
-import com.farmerbb.taskbar.helper.LauncherHelper;
-import com.farmerbb.taskbar.helper.MenuHelper;
-import com.farmerbb.taskbar.util.TopApps;
-import com.farmerbb.taskbar.util.U;
-import com.farmerbb.taskbar.widget.StartMenuLayout;
+import com.openlewa.remotebar.R;
+import com.openlewa.remotebar.activity.InvisibleActivity;
+import com.openlewa.remotebar.activity.InvisibleActivityAlt;
+import com.openlewa.remotebar.adapter.StartMenuAdapter;
+import com.openlewa.remotebar.util.TaskbarPosition;
+import com.openlewa.remotebar.util.AppEntry;
+import com.openlewa.remotebar.util.Blacklist;
+import com.openlewa.remotebar.helper.FreeformHackHelper;
+import com.openlewa.remotebar.util.IconCache;
+import com.openlewa.remotebar.helper.LauncherHelper;
+import com.openlewa.remotebar.helper.MenuHelper;
+import com.openlewa.remotebar.util.TopApps;
+import com.openlewa.remotebar.util.U;
+import com.openlewa.remotebar.widget.StartMenuLayout;
 
 import java.text.Collator;
 import java.util.ArrayList;
@@ -76,7 +76,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import static com.farmerbb.taskbar.util.Constants.*;
+import static com.openlewa.remotebar.util.Constants.*;
 
 public class StartMenuController extends UIController {
 

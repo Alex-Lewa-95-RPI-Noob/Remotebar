@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.ui;
+package com.openlewa.remotebar.ui;
 
 import android.accessibilityservice.AccessibilityService;
 import android.annotation.SuppressLint;
@@ -87,24 +87,24 @@ import android.widget.LinearLayout;
 import android.widget.Space;
 import android.widget.TextView;
 
-import com.farmerbb.taskbar.BuildConfig;
-import com.farmerbb.taskbar.activity.HomeActivityDelegate;
-import com.farmerbb.taskbar.activity.MainActivity;
-import com.farmerbb.taskbar.R;
-import com.farmerbb.taskbar.activity.HomeActivity;
-import com.farmerbb.taskbar.activity.InvisibleActivityFreeform;
-import com.farmerbb.taskbar.activity.SecondaryHomeActivity;
-import com.farmerbb.taskbar.util.TaskbarPosition;
-import com.farmerbb.taskbar.util.AppEntry;
-import com.farmerbb.taskbar.util.DisplayInfo;
-import com.farmerbb.taskbar.helper.FreeformHackHelper;
-import com.farmerbb.taskbar.util.IconCache;
-import com.farmerbb.taskbar.helper.LauncherHelper;
-import com.farmerbb.taskbar.util.PinnedBlockedApps;
-import com.farmerbb.taskbar.helper.MenuHelper;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.BuildConfig;
+import com.openlewa.remotebar.activity.HomeActivityDelegate;
+import com.openlewa.remotebar.activity.MainActivity;
+import com.openlewa.remotebar.R;
+import com.openlewa.remotebar.activity.HomeActivity;
+import com.openlewa.remotebar.activity.InvisibleActivityFreeform;
+import com.openlewa.remotebar.activity.SecondaryHomeActivity;
+import com.openlewa.remotebar.util.TaskbarPosition;
+import com.openlewa.remotebar.util.AppEntry;
+import com.openlewa.remotebar.util.DisplayInfo;
+import com.openlewa.remotebar.helper.FreeformHackHelper;
+import com.openlewa.remotebar.util.IconCache;
+import com.openlewa.remotebar.helper.LauncherHelper;
+import com.openlewa.remotebar.util.PinnedBlockedApps;
+import com.openlewa.remotebar.helper.MenuHelper;
+import com.openlewa.remotebar.util.U;
 
-import static com.farmerbb.taskbar.util.Constants.*;
+import static com.openlewa.remotebar.util.Constants.*;
 
 public class TaskbarController extends UIController {
 

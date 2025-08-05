@@ -51,7 +51,7 @@
     <uses-permission-sdk-23 android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
     <uses-permission-sdk-23 android:name="android.permission.POST_NOTIFICATIONS" />
 
-    <uses-permission-sdk-23 android:name="com.farmerbb.taskbar.support.USE_SUPPORT_LIBRARY" />
+    <uses-permission-sdk-23 android:name="com.openlewa.remotebar.support.USE_SUPPORT_LIBRARY" />
 
     <uses-sdk
         tools:overrideLibrary="rikka.shizuku.provider,rikka.shizuku.api,rikka.shizuku.shared,rikka.shizuku.aidl"/>
@@ -239,7 +239,7 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
-                <action android:name="com.farmerbb.taskbar.APPLY_ICON_PACK"/>
+                <action android:name="com.openlewa.remotebar.APPLY_ICON_PACK"/>
 
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
@@ -512,7 +512,7 @@
             android:permission="${applicationId}.START_STOP_TASKBAR"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.farmerbb.taskbar.SHOW_HIDE_TASKBAR"/>
+                <action android:name="com.openlewa.remotebar.SHOW_HIDE_TASKBAR"/>
             </intent-filter>
         </receiver>
         <receiver
@@ -521,7 +521,7 @@
             android:permission="${applicationId}.START_STOP_TASKBAR"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.farmerbb.taskbar.START"/>
+                <action android:name="com.openlewa.remotebar.START"/>
             </intent-filter>
         </receiver>
         <receiver
@@ -530,7 +530,7 @@
             android:permission="${applicationId}.START_STOP_TASKBAR"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.farmerbb.taskbar.QUIT"/>
+                <action android:name="com.openlewa.remotebar.QUIT"/>
             </intent-filter>
         </receiver>
         <receiver
@@ -552,19 +552,19 @@
         <receiver
             android:name=".receiver.SendSettingsReceiver"
             android:enabled="true"
-            android:permission="com.farmerbb.taskbar.paid.SEND_RECEIVE_SETTINGS"
+            android:permission="com.openlewa.remotebar.paid.SEND_RECEIVE_SETTINGS"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.farmerbb.taskbar.RECEIVE_SETTINGS"/>
+                <action android:name="com.openlewa.remotebar.RECEIVE_SETTINGS"/>
             </intent-filter>
         </receiver>
         <receiver
             android:name=".receiver.ReceiveSettingsReceiver"
             android:enabled="true"
-            android:permission="com.farmerbb.taskbar.SEND_RECEIVE_SETTINGS"
+            android:permission="com.openlewa.remotebar.SEND_RECEIVE_SETTINGS"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.farmerbb.taskbar.SEND_SETTINGS"/>
+                <action android:name="com.openlewa.remotebar.SEND_SETTINGS"/>
             </intent-filter>
         </receiver>
         <receiver
@@ -582,7 +582,7 @@
             android:permission="${applicationId}.ENABLE_DISABLE_HOME"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.farmerbb.taskbar.ENABLE_HOME"/>
+                <action android:name="com.openlewa.remotebar.ENABLE_HOME"/>
             </intent-filter>
         </receiver>
         <receiver
@@ -591,7 +591,7 @@
             android:permission="${applicationId}.ENABLE_DISABLE_HOME"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.farmerbb.taskbar.DISABLE_HOME"/>
+                <action android:name="com.openlewa.remotebar.DISABLE_HOME"/>
             </intent-filter>
         </receiver>
         <receiver
@@ -599,7 +599,7 @@
             android:permission="${applicationId}.START_STOP_TASKBAR"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.farmerbb.taskbar.TOGGLE_FREEFORM_MODE"/>
+                <action android:name="com.openlewa.remotebar.TOGGLE_FREEFORM_MODE"/>
             </intent-filter>
         </receiver>
         <receiver
@@ -608,7 +608,7 @@
             android:permission="${applicationId}.ENABLE_DISABLE_FREEFORM"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.farmerbb.taskbar.ENABLE_FREEFORM_MODE"/>
+                <action android:name="com.openlewa.remotebar.ENABLE_FREEFORM_MODE"/>
             </intent-filter>
         </receiver>
         <receiver
@@ -617,7 +617,7 @@
             android:permission="${applicationId}.ENABLE_DISABLE_FREEFORM"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.farmerbb.taskbar.DISABLE_FREEFORM_MODE"/>
+                <action android:name="com.openlewa.remotebar.DISABLE_FREEFORM_MODE"/>
             </intent-filter>
         </receiver>
         <receiver

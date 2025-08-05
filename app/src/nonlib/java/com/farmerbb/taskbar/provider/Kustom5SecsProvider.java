@@ -1,6 +1,6 @@
 // From https://gist.github.com/frmz/669eeca0b20b943b7091b9078eb3247e
 
-package com.farmerbb.taskbar.provider;
+package com.openlewa.remotebar.provider;
 
 import android.content.ContentProvider;
 import android.content.ContentValues;
@@ -11,7 +11,7 @@ import android.net.Uri;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.farmerbb.taskbar.activity.DummyActivity;
+import com.openlewa.remotebar.activity.DummyActivity;
 
 public class Kustom5SecsProvider extends ContentProvider {
   

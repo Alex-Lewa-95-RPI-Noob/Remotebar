@@ -1,4 +1,4 @@
-package com.farmerbb.taskbar.service
+package com.openlewa.remotebar.service
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -7,7 +7,7 @@ import android.content.IntentFilter
 import android.os.Looper
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import androidx.test.core.app.ApplicationProvider
-import com.farmerbb.taskbar.util.Constants
+import com.openlewa.remotebar.util.Constants
 import org.junit.After
 import org.junit.Assert
 import org.junit.Before

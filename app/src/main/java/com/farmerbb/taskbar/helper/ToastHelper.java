@@ -13,9 +13,9 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.helper;
+package com.openlewa.remotebar.helper;
 
-import com.farmerbb.taskbar.util.ToastInterface;
+import com.openlewa.remotebar.util.ToastInterface;
 
 public class ToastHelper {
 

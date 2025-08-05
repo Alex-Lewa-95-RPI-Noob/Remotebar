@@ -21,7 +21,7 @@ package org.lsposed.hiddenapibypass;
 import android.os.Build;
 import android.util.Log;
 
-import com.farmerbb.taskbar.BuildConfig;
+import com.openlewa.remotebar.BuildConfig;
 
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandleInfo;

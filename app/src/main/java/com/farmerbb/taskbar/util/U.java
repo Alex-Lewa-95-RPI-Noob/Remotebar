@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.util;
+package com.openlewa.remotebar.util;
 
 import android.Manifest;
 import android.accessibilityservice.AccessibilityService;
@@ -72,24 +72,24 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.farmerbb.taskbar.BuildConfig;
-import com.farmerbb.taskbar.R;
-import com.farmerbb.taskbar.activity.ContextMenuActivity;
-import com.farmerbb.taskbar.activity.DummyActivity;
-import com.farmerbb.taskbar.activity.InvisibleActivityFreeform;
-import com.farmerbb.taskbar.activity.MainActivity;
-import com.farmerbb.taskbar.activity.TouchAbsorberActivity;
-import com.farmerbb.taskbar.helper.DisplayHelper;
-import com.farmerbb.taskbar.helper.GlobalHelper;
-import com.farmerbb.taskbar.helper.FreeformHackHelper;
-import com.farmerbb.taskbar.helper.LauncherHelper;
-import com.farmerbb.taskbar.helper.MenuHelper;
-import com.farmerbb.taskbar.helper.ToastHelper;
-import com.farmerbb.taskbar.service.DashboardService;
-import com.farmerbb.taskbar.service.NotificationService;
-import com.farmerbb.taskbar.service.PowerMenuService;
-import com.farmerbb.taskbar.service.StartMenuService;
-import com.farmerbb.taskbar.service.TaskbarService;
+import com.openlewa.remotebar.BuildConfig;
+import com.openlewa.remotebar.R;
+import com.openlewa.remotebar.activity.ContextMenuActivity;
+import com.openlewa.remotebar.activity.DummyActivity;
+import com.openlewa.remotebar.activity.InvisibleActivityFreeform;
+import com.openlewa.remotebar.activity.MainActivity;
+import com.openlewa.remotebar.activity.TouchAbsorberActivity;
+import com.openlewa.remotebar.helper.DisplayHelper;
+import com.openlewa.remotebar.helper.GlobalHelper;
+import com.openlewa.remotebar.helper.FreeformHackHelper;
+import com.openlewa.remotebar.helper.LauncherHelper;
+import com.openlewa.remotebar.helper.MenuHelper;
+import com.openlewa.remotebar.helper.ToastHelper;
+import com.openlewa.remotebar.service.DashboardService;
+import com.openlewa.remotebar.service.NotificationService;
+import com.openlewa.remotebar.service.PowerMenuService;
+import com.openlewa.remotebar.service.StartMenuService;
+import com.openlewa.remotebar.service.TaskbarService;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
@@ -106,7 +106,7 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static com.farmerbb.taskbar.util.Constants.*;
+import static com.openlewa.remotebar.util.Constants.*;
 
 import org.lsposed.hiddenapibypass.HiddenApiBypass;
 

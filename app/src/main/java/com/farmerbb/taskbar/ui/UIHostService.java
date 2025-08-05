@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.ui;
+package com.openlewa.remotebar.ui;
 
 import android.app.Service;
 import android.content.Intent;
@@ -22,7 +22,7 @@ import android.os.IBinder;
 import android.view.View;
 import android.view.WindowManager;
 
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.util.U;
 
 public abstract class UIHostService extends Service implements UIHost {
 

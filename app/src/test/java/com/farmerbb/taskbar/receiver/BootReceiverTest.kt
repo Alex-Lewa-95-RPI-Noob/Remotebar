@@ -1,13 +1,13 @@
-package com.farmerbb.taskbar.receiver
+package com.openlewa.remotebar.receiver
 
 import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
 import androidx.test.core.app.ApplicationProvider
-import com.farmerbb.taskbar.mockito.BooleanAnswer
-import com.farmerbb.taskbar.service.NotificationService
-import com.farmerbb.taskbar.util.Constants
-import com.farmerbb.taskbar.util.U
+import com.openlewa.remotebar.mockito.BooleanAnswer
+import com.openlewa.remotebar.service.NotificationService
+import com.openlewa.remotebar.util.Constants
+import com.openlewa.remotebar.util.U
 import org.junit.After
 import org.junit.Assert
 import org.junit.Before

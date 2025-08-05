@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.activity;
+package com.openlewa.remotebar.activity;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -30,13 +30,13 @@ import android.provider.Settings;
 import android.view.View;
 import android.widget.Toast;
 
-import com.farmerbb.taskbar.R;
-import com.farmerbb.taskbar.util.ApplicationType;
-import com.farmerbb.taskbar.util.Callbacks;
-import com.farmerbb.taskbar.helper.FreeformHackHelper;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.R;
+import com.openlewa.remotebar.util.ApplicationType;
+import com.openlewa.remotebar.util.Callbacks;
+import com.openlewa.remotebar.helper.FreeformHackHelper;
+import com.openlewa.remotebar.util.U;
 
-import static com.farmerbb.taskbar.util.Constants.*;
+import static com.openlewa.remotebar.util.Constants.*;
 
 public class DummyActivity extends Activity {
 

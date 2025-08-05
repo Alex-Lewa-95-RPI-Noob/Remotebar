@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.lib;
+package com.openlewa.remotebar.lib;
 
 import android.app.Activity;
 import android.content.Context;
@@ -23,9 +23,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.StyleRes;
 
-import com.farmerbb.taskbar.activity.MainActivity;
-import com.farmerbb.taskbar.activity.SecondaryHomeActivity;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.activity.MainActivity;
+import com.openlewa.remotebar.activity.SecondaryHomeActivity;
+import com.openlewa.remotebar.util.U;
 
 @Keep public class Taskbar {
 

@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.widget;
+package com.openlewa.remotebar.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;

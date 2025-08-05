@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.service;
+package com.openlewa.remotebar.service;
 
 import android.annotation.TargetApi;
 import android.content.Intent;
@@ -25,11 +25,11 @@ import android.service.quicksettings.TileService;
 
 import androidx.annotation.VisibleForTesting;
 
-import com.farmerbb.taskbar.BuildConfig;
-import com.farmerbb.taskbar.R;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.BuildConfig;
+import com.openlewa.remotebar.R;
+import com.openlewa.remotebar.util.U;
 
-import static com.farmerbb.taskbar.util.Constants.*;
+import static com.openlewa.remotebar.util.Constants.*;
 
 @TargetApi(Build.VERSION_CODES.N)
 public class QuickSettingsTileService extends TileService {

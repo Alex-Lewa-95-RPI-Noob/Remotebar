@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.fragment;
+package com.openlewa.remotebar.fragment;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -26,15 +26,15 @@ import android.preference.Preference;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.farmerbb.taskbar.R;
-import com.farmerbb.taskbar.activity.BackupRestoreActivity;
-import com.farmerbb.taskbar.util.U;
+import com.openlewa.remotebar.R;
+import com.openlewa.remotebar.activity.BackupRestoreActivity;
+import com.openlewa.remotebar.util.U;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-import static com.farmerbb.taskbar.util.Constants.*;
+import static com.openlewa.remotebar.util.Constants.*;
 
 public class ManageAppDataFragment extends SettingsFragment {
 

@@ -10,7 +10,7 @@
  * See the License for the specific language governing permissions and limitations under the License.
  */
 
-package com.farmerbb.taskbar.util;
+package com.openlewa.remotebar.util;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -27,7 +27,7 @@ public final class PluginBundleManager
      * <p>
      * String message to display in a Toast message.
      */
-    public static final String BUNDLE_EXTRA_STRING_MESSAGE = "com.farmerbb.taskbar.STRING_MESSAGE"; //$NON-NLS-1$
+    public static final String BUNDLE_EXTRA_STRING_MESSAGE = "com.openlewa.remotebar.STRING_MESSAGE"; //$NON-NLS-1$
 
     /**
      * Method to verify the content of the bundle are correct.

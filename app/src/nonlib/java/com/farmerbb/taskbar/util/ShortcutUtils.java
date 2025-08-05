@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.util;
+package com.openlewa.remotebar.util;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -21,16 +21,16 @@ import android.content.Intent;
 import android.os.Build;
 import android.service.quicksettings.TileService;
 
-import com.farmerbb.taskbar.R;
-import com.farmerbb.taskbar.activity.ShortcutActivity;
-import com.farmerbb.taskbar.activity.StartTaskbarActivity;
-import com.farmerbb.taskbar.service.FavoriteApp1;
-import com.farmerbb.taskbar.service.FavoriteApp2;
-import com.farmerbb.taskbar.service.FavoriteApp3;
-import com.farmerbb.taskbar.service.FavoriteApp4;
-import com.farmerbb.taskbar.service.FavoriteApp5;
+import com.openlewa.remotebar.R;
+import com.openlewa.remotebar.activity.ShortcutActivity;
+import com.openlewa.remotebar.activity.StartTaskbarActivity;
+import com.openlewa.remotebar.service.FavoriteApp1;
+import com.openlewa.remotebar.service.FavoriteApp2;
+import com.openlewa.remotebar.service.FavoriteApp3;
+import com.openlewa.remotebar.service.FavoriteApp4;
+import com.openlewa.remotebar.service.FavoriteApp5;
 
-import static com.farmerbb.taskbar.util.Constants.*;
+import static com.openlewa.remotebar.util.Constants.*;
 
 public class ShortcutUtils {
 

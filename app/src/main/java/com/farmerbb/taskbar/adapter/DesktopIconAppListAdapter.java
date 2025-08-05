@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.adapter;
+package com.openlewa.remotebar.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -24,9 +24,9 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.farmerbb.taskbar.R;
-import com.farmerbb.taskbar.activity.AbstractSelectAppActivity;
-import com.farmerbb.taskbar.util.AppEntry;
+import com.openlewa.remotebar.R;
+import com.openlewa.remotebar.activity.AbstractSelectAppActivity;
+import com.openlewa.remotebar.util.AppEntry;
 
 import java.util.List;
 

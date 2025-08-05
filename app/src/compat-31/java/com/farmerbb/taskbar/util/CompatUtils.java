@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.util;
+package com.openlewa.remotebar.util;
 
 // Utility class meant for compatibility between the Android-x86 version of Taskbar (compiled with SDK 28)
 // and the Play Store version of Taskbar (compiled with SDK 34).

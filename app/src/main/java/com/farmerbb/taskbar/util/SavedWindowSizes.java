@@ -13,11 +13,11 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.util;
+package com.openlewa.remotebar.util;
 
 import android.content.Context;
 
-import com.farmerbb.taskbar.R;
+import com.openlewa.remotebar.R;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -28,7 +28,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.farmerbb.taskbar.util.Constants.*;
+import static com.openlewa.remotebar.util.Constants.*;
 
 public class SavedWindowSizes implements Serializable {
     static final long serialVersionUID = 7111185146180868281L;

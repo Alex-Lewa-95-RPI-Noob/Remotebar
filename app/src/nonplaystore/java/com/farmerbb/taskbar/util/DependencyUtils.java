@@ -13,12 +13,12 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.util;
+package com.openlewa.remotebar.util;
 
 import android.content.Context;
 import android.net.Uri;
 
-import com.farmerbb.taskbar.R;
+import com.openlewa.remotebar.R;
 
 public class DependencyUtils {
 

@@ -1,11 +1,11 @@
-package com.farmerbb.taskbar.ui
+package com.openlewa.remotebar.ui
 
 import android.content.Context
 import androidx.test.core.app.ApplicationProvider
-import com.farmerbb.taskbar.helper.LauncherHelper
-import com.farmerbb.taskbar.mockito.BooleanAnswer
-import com.farmerbb.taskbar.util.Constants
-import com.farmerbb.taskbar.util.U
+import com.openlewa.remotebar.helper.LauncherHelper
+import com.openlewa.remotebar.mockito.BooleanAnswer
+import com.openlewa.remotebar.util.Constants
+import com.openlewa.remotebar.util.U
 import org.junit.After
 import org.junit.Assert
 import org.junit.Before

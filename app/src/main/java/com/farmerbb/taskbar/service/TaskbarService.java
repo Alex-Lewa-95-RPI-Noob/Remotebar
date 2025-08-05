@@ -13,11 +13,11 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.service;
+package com.openlewa.remotebar.service;
 
-import com.farmerbb.taskbar.ui.UIHostService;
-import com.farmerbb.taskbar.ui.UIController;
-import com.farmerbb.taskbar.ui.TaskbarController;
+import com.openlewa.remotebar.ui.UIHostService;
+import com.openlewa.remotebar.ui.UIController;
+import com.openlewa.remotebar.ui.TaskbarController;
 
 public class TaskbarService extends UIHostService {
     @Override

@@ -1,4 +1,4 @@
-package com.farmerbb.taskbar.util
+package com.openlewa.remotebar.util
 
 import android.Manifest
 import android.accessibilityservice.AccessibilityService
@@ -18,11 +18,11 @@ import android.widget.Toast
 import androidx.appcompat.view.ContextThemeWrapper
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import androidx.test.core.app.ApplicationProvider
-import com.farmerbb.taskbar.R
-import com.farmerbb.taskbar.helper.FreeformHackHelper
-import com.farmerbb.taskbar.mockito.BooleanAnswer
-import com.farmerbb.taskbar.mockito.IntAnswer
-import com.farmerbb.taskbar.service.PowerMenuService
+import com.openlewa.remotebar.R
+import com.openlewa.remotebar.helper.FreeformHackHelper
+import com.openlewa.remotebar.mockito.BooleanAnswer
+import com.openlewa.remotebar.mockito.IntAnswer
+import com.openlewa.remotebar.service.PowerMenuService
 import org.junit.Assert
 import org.junit.Before
 import org.junit.Rule

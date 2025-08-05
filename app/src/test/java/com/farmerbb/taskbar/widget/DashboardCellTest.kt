@@ -1,11 +1,11 @@
-package com.farmerbb.taskbar.widget
+package com.openlewa.remotebar.widget
 
 import android.content.Context
 import android.os.SystemClock
 import android.view.MotionEvent
 import android.view.ViewConfiguration
 import androidx.test.core.app.ApplicationProvider
-import com.farmerbb.taskbar.widget.DashboardCell.OnInterceptedLongPressListener
+import com.openlewa.remotebar.widget.DashboardCell.OnInterceptedLongPressListener
 import org.junit.Assert
 import org.junit.Before
 import org.junit.Test

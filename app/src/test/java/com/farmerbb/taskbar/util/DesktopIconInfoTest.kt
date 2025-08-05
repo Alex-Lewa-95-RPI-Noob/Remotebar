@@ -1,10 +1,10 @@
-package com.farmerbb.taskbar.util
+package com.openlewa.remotebar.util
 
 import android.content.ComponentName
 import android.content.Context
 import androidx.test.core.app.ApplicationProvider
-import com.farmerbb.taskbar.R
-import com.farmerbb.taskbar.activity.MainActivity
+import com.openlewa.remotebar.R
+import com.openlewa.remotebar.activity.MainActivity
 import org.apache.commons.lang3.SerializationUtils
 import org.junit.Assert
 import org.junit.Before

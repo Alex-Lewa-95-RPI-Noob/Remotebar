@@ -13,8 +13,8 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.activity.dark;
+package com.openlewa.remotebar.activity.dark;
 
-import com.farmerbb.taskbar.activity.DashboardActivity;
+import com.openlewa.remotebar.activity.DashboardActivity;
 
 public class DashboardActivityDark extends DashboardActivity {}

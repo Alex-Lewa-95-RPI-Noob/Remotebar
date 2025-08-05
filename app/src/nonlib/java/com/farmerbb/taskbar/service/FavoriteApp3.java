@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.farmerbb.taskbar.service;
+package com.openlewa.remotebar.service;
 
 public class FavoriteApp3 extends FavoriteAppTileService {
     @Override
