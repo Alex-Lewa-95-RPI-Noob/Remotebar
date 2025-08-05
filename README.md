@@ -8,7 +8,6 @@ Remotebar supports Android 10's Desktop Mode, allowing you to connect your compa
 * Collapsible and hideable - show it when you need it, hide it when you don't
 * Many different configuration options - customize Remotebar however you want
 * Pin favorite apps or block the ones you don't want to see
-* Designed with keyboard and mouse in mind
 * 100% free, open source, and no ads
 
 #### Desktop mode (Android 10+, requires external display)
@@ -48,12 +47,12 @@ Taskbar uses [Robolectric](https://github.com/robolectric/robolectric) as its un
 #### Android 10 Desktop Mode support via libtaskbar
 The original Taskbar can be included as a library inside any third-party launcher, to quickly and easily add Android 10 Desktop Mode support into your existing launcher with no additional setup.
 
-For more information on including Remotebar inside your application, see the [libtaskbar documentation](https://github.com/farmerbb/libtaskbar/blob/master/README.md).
+For more information on including Taskbar inside your application, see the [libtaskbar documentation](https://github.com/farmerbb/libtaskbar/blob/master/README.md).
 
 #### Icon Pack Support
 Taskbar includes support for ADW-style icon packs.  If you are an icon pack developer and would like to include support for applying the icon pack from within your app, simply use the following code:
 
-    Intent intent = new Intent("Alex-Lewa-95-RPI-Noob.remotebar.APPLY_ICON_PACK");
+    Intent intent = new Intent("openlewa.remotebar.APPLY_ICON_PACK");
     intent.putExtra("android.intent.extra.PACKAGE_NAME", "com.iconpack.name");
     startActivity(intent);
 
