@@ -1,6 +1,6 @@
 ## Remotebar Privacy Policy
 
-This is an open source Android app and its entire [source code](https://github.com/Alex-Lewa-95-RPI-Noob/Remotebar) is available on GitHub under the [Apache 2.0](https://github.com/Alex-Lewa-95-RPI-Noob/Remotebar/blob/master/LICENSE) license.
+This is an open source Android app and its entire [source code](https://github.com/openlewa/Remotebar) is available on GitHub under the [Apache 2.0](https://github.com/openlewa/Remotebar/blob/master/LICENSE) license.
 
 **This app does not connect to the internet in any way** - in fact, the Android operating system explicitly disallows internet access for this app in particular as it does not request the `android.permission.INTERNET` permission.
 
