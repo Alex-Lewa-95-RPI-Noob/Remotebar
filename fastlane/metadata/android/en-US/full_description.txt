@@ -1,4 +1,4 @@
-Remotebar is a customizable remote control interface for Android devices, specifically designed for use with the Haptique Fernbedienung RS90 remote control.
+Remotebar is a customizable remote control interface for Android devices, specifically redesigned for use with the Haptique RS90 remote control.
 
 Features:
 • Optimized for 3.1 inch LCD displays (480 x 800 pixels)
@@ -16,4 +16,4 @@ Perfect for:
 • Users who prefer hardware remote controls over touchscreens
 • Anyone looking for a clean, minimal launcher interface
 
-This app is a fork of the original Taskbar project, modified specifically for remote control usage with the Haptique Fernbedienung RS90.
+This app is a fork of the original Taskbar project, modified specifically for remote control usage with the Haptique RS90.
