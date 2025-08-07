@@ -99,6 +99,6 @@ public abstract class UIController {
 
     protected boolean isImeFixDisabled() {
         String ime = Settings.Secure.getString(context.getContentResolver(), Settings.Secure.DEFAULT_INPUT_METHOD);
-        return !ime.startsWith(BuildConfig.BASE_APPLICATION_ID) && !ime.startsWith("com.openlewa.secondscreen");
+        return !ime.startsWith(BuildConfig.BASE_APPLICATION_ID) && !ime.startsWith("com.farmerbb.secondscreen");
     }
 }
