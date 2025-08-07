@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.openlewa.remotebar.ui;
+package com.farmerbb.taskbar.ui;
 
 import android.view.View;
 
