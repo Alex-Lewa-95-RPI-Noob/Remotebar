@@ -19,7 +19,7 @@
     <string name="tb_app_name">Remotebar</string>
     <string name="tb_app_name_debug">Remotebar (Debug)</string>
 
-    <string name="tb_taskbar_is_active">Remotebar ist aktiv</string>
+    <string name="rb_remotebar_is_active">Remotebar ist aktiv</string>
     <string name="tb_click_to_open_settings">Hier klicken, um die Einstellungen zu öffnen.</string>
     <string name="tb_action_show">Remotebar anzeigen</string>
     <string name="tb_action_hide">Remotebar ausblenden</string>
@@ -31,9 +31,8 @@
 
     <string name="tb_permission_dialog_title">Berechtigung notwendig</string>
     <string name="tb_permission_dialog_message">%s benötigt die Berechtigung, über anderen Apps einzublenden, um zu starten.\n\n</string>
-    <string name="tb_permission_dialog_instructions_phone">Bitte wählen Sie »Berechtigung gewähren« und stellen Sie sicher, dass »Einblendung über anderen Apps zulassen« aktiviert ist.</string>
-    <string name="tb_permission_dialog_instructions_tv">Bitte wählen Sie »Einstellungen öffnen«, um das Android TV-Einstellungsmenü zu öffnen. Wählen Sie »Spezieller App-Zugriff«, dann »Über anderen Apps einblenden« und stellen Sie sicher, dass Remotebar aktiviert ist.</string>
-
+    <string name="tb_permission_dialog_instructions_rs90">Bitte wählen Sie »Berechtigung gewähren« und stellen Sie sicher, dass »Einblendung über anderen Apps zulassen« aktiviert ist.</string>
+    
     <string name="tb_pref_header_general">Allgemeine Einstellungen</string>
     <string name="tb_pref_title_start_menu_layout">Startmenü-Anordnung</string>
     <string name="tb_pref_title_background_tint">Hintergrundfärbung</string>
@@ -98,10 +97,12 @@
         <item>Unten links (vertikal)</item>
         <item>Unten rechts (horizontal)</item>
         <item>Unten rechts (vertikal)</item>
+        <item>Unten Mitte (vertikal)</item>
         <item>Oben links (horizontal)</item>
         <item>Oben links (vertikal)</item>
         <item>Oben rechts (horizontal)</item>
         <item>Oben rechts (vertikal)</item>
+        <item>Oben Mitte (vertikal)</item>
     </string-array>
 
     <string name="tb_app_info">Infos zur App</string>
